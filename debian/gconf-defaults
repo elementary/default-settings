@@ -1,0 +1,33 @@
+/apps/compiz/general/screen0/options/hsize 2
+/apps/compiz/general/screen0/options/vsize 2
+/apps/compiz/plugins/place/screen0/options/mode 1
+/apps/compiz/plugins/expo/allscreens/options/hide_docks TRUE
+/apps/compiz/plugins/expo/allscreens/options/reflection FALSE
+/apps/compiz/plugins/expo/allscreens/options/vp_distance 0.7500
+/desktop/gnome/interface/gtk_theme elementary
+/desktop/gnome/interface/icon_theme elementary-mono-dark
+/apps/metacity/general/theme elementary
+/desktop/gnome/background/picture_options zoom
+/desktop/gnome/background/primary_color "#545454"
+/desktop/gnome/background/secondary_color "#545454"
+/desktop/gnome/background/picture_filename /usr/share/backgrounds/16.jpg
+/desktop/gnome/peripherals/mouse/cursor_theme DMZ-Black
+/desktop/gnome/interface/font_name "Droid Sans 9"
+/desktop/gnome/interface/document_font_name "Droid Sans 10"
+/desktop/gnome/interface/monospace_font_name "Droid Sans Mono 10"
+/apps/nautilus/preferences/desktop_font "Droid Sans 10"
+/apps/metacity/general/titlebar_font "Droid Sans Bold 9"
+/system/indicator/me/display --type int 0
+/desktop/gnome/interface/toolbar_style icons
+/apps/metacity/general/num_workspaces 4
+/apps/metacity/general/compositing_manager TRUE
+/apps/metacity/general/button_layout close,minimize,maximize:
+/desktop/gnome/peripherals/touchpad/scroll_method 2
+/desktop/gnome/peripherals/touchpad/horiz_scroll_enabled TRUE
+/apps/nautilus/preferences/rgba_colormap FALSE
+/apps/nautilus/desktop/volumes_visible FALSE
+/apps/nautilus/preferences/sidebar_show_places_menu FALSE
+/apps/nautilus/preferences/start_with_menubar FALSE
+/apps/nautilus/preferences/pathbar_like_breadcrumbs TRUE
+/desktop/gnome/applications/media/exec beatbox
+/apps/gnome-power-manager/ui/icon_policy present
