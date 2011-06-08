@@ -28,7 +28,7 @@
 /apps/metacity/general/titlebar_font "Droid Sans Bold 9"
 
 # Indicators
-/system/indicator/me/display --type int 0
+/system/indicator/me/display 0
 
 # Interface
 /desktop/gnome/interface/toolbar_style icons
