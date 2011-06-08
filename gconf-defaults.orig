@@ -49,8 +49,11 @@
 /apps/nautilus/preferences/start_with_menubar FALSE
 /apps/nautilus/preferences/pathbar_like_breadcrumbs TRUE
 
-#Set BeatBox as default music player
+# Set BeatBox as default music player
 /desktop/gnome/applications/media/exec beatbox
+
+# Set Midori as defaiult browser
+/desktop/gnome/applications/browser/exec midori
 
 # GPM
 /apps/gnome-power-manager/ui/icon_policy present

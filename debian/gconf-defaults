@@ -30,4 +30,5 @@
 /apps/nautilus/preferences/start_with_menubar FALSE
 /apps/nautilus/preferences/pathbar_like_breadcrumbs TRUE
 /desktop/gnome/applications/media/exec beatbox
+/desktop/gnome/applications/browser/exec midori
 /apps/gnome-power-manager/ui/icon_policy present
