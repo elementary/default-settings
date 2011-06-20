@@ -52,7 +52,7 @@
 # Set BeatBox as default music player
 /desktop/gnome/applications/media/exec beatbox
 
-# Set Midori as defaiult browser
+# Set Midori as default browser
 /desktop/gnome/applications/browser/exec midori
 
 # GPM
