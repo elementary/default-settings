@@ -1,14 +1,14 @@
-Source: elementary-default-settings
+Source: elementary-gconf-defaults
 Section: gnome
 Priority: optional
 Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.8.4
 
-Package: elementary-default-settings
+Package: elementary-gconf-defaults
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: plank-items-elementary
+Suggests: plank-items-elementary
 Description: elementary default settings
  This package contains GConf defaults for elementary OS.
  They won't affect existing users.
