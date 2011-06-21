@@ -57,3 +57,7 @@
 
 # GPM
 /apps/gnome-power-manager/ui/icon_policy present
+
+# Don't show Input Method and Unicode Control Character entries in context menu
+/desktop/gnome/interface/show_input_method_menu FALSE
+/desktop/gnome/interface/show_unicode_menu FALSE

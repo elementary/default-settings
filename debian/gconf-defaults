@@ -32,3 +32,5 @@
 /desktop/gnome/applications/media/exec beatbox
 /desktop/gnome/applications/browser/exec midori
 /apps/gnome-power-manager/ui/icon_policy present
+/desktop/gnome/interface/show_input_method_menu FALSE
+/desktop/gnome/interface/show_unicode_menu FALSE
