@@ -1,10 +1,16 @@
-elementary-gconf-defaults (0.2) lucid; urgency=low
+elementary-gconf-defaults (0.2.1) natty; urgency=low
+
+  * Moved Nautilus defaults related to desktop from eBuild
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Thu, 23 Jun 2011 20:53:57 +0400
+
+elementary-gconf-defaults (0.2) natty; urgency=low
 
   * Automated generation of the non-commented file
 
  -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Wed, 22 Jun 2011 21:59:05 +0400
 
-elementary-gconf-defaults (0.1) lucid; urgency=low
+elementary-gconf-defaults (0.1) natty; urgency=low
 
   * Initial release
 

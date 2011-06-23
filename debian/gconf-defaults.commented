@@ -47,6 +47,9 @@
 /apps/nautilus/preferences/sidebar_show_places_menu FALSE
 /apps/nautilus/preferences/start_with_menubar FALSE
 /apps/nautilus/preferences/pathbar_like_breadcrumbs TRUE
+# sweep remains of desktop
+/apps/nautilus/preferences/show_desktop FALSE
+/apps/nautilus/preferences/desktop_is_home_dir TRUE
 
 # Set BeatBox as default music player
 /desktop/gnome/applications/media/exec beatbox
