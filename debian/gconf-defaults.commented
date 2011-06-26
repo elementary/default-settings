@@ -5,8 +5,8 @@
 /apps/compiz/general/screen0/options/hsize 2
 /apps/compiz/general/screen0/options/vsize 2
 /apps/compiz/plugins/place/screen0/options/mode 1
-/apps/compiz/plugins/expo/allscreens/options/hide_docks TRUE
-/apps/compiz/plugins/expo/allscreens/options/reflection FALSE
+/apps/compiz/plugins/expo/allscreens/options/hide_docks true
+/apps/compiz/plugins/expo/allscreens/options/reflection false
 /apps/compiz/plugins/expo/allscreens/options/vp_distance 0.7500
 
 # Desktop Theme
@@ -34,22 +34,22 @@
 
 # Metacity
 /apps/metacity/general/num_workspaces 4
-/apps/metacity/general/compositing_manager TRUE
+/apps/metacity/general/compositing_manager true
 /apps/metacity/general/button_layout close,minimize,maximize:
 
 # Mouse & Trackpad
 /desktop/gnome/peripherals/touchpad/scroll_method 2
-/desktop/gnome/peripherals/touchpad/horiz_scroll_enabled TRUE
+/desktop/gnome/peripherals/touchpad/horiz_scroll_enabled true
 
 # Nautilus
-/apps/nautilus/preferences/rgba_colormap FALSE
-/apps/nautilus/desktop/volumes_visible FALSE
-/apps/nautilus/preferences/sidebar_show_places_menu FALSE
-/apps/nautilus/preferences/start_with_menubar FALSE
-/apps/nautilus/preferences/pathbar_like_breadcrumbs TRUE
+/apps/nautilus/preferences/rgba_colormap false
+/apps/nautilus/desktop/volumes_visible false
+/apps/nautilus/preferences/sidebar_show_places_menu false
+/apps/nautilus/preferences/start_with_menubar false
+/apps/nautilus/preferences/pathbar_like_breadcrumbs true
 # sweep remains of desktop
-/apps/nautilus/preferences/show_desktop FALSE
-/apps/nautilus/preferences/desktop_is_home_dir TRUE
+/apps/nautilus/preferences/show_desktop false
+/apps/nautilus/preferences/desktop_is_home_dir true
 
 # Set BeatBox as default music player
 /desktop/gnome/applications/media/exec beatbox
@@ -61,5 +61,5 @@
 /apps/gnome-power-manager/ui/icon_policy present
 
 # Don't show Input Method and Unicode Control Character entries in context menu
-/desktop/gnome/interface/show_input_method_menu FALSE
-/desktop/gnome/interface/show_unicode_menu FALSE
+/desktop/gnome/interface/show_input_method_menu false
+/desktop/gnome/interface/show_unicode_menu false

@@ -1,3 +1,9 @@
+elementary-gconf-defaults (0.2.2) natty; urgency=low
+
+  * Converted default values from strings like "TRUE" too booleans (LP: #798039)
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sun, 26 Jun 2011 11:43:06 +0400
+
 elementary-gconf-defaults (0.2.1) natty; urgency=low
 
   * Moved Nautilus defaults related to desktop from eBuild
