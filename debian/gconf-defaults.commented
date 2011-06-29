@@ -57,6 +57,9 @@
 # Set Midori as default browser
 /desktop/gnome/applications/browser/exec midori
 
+# Set Postler as default mail client
+/desktop/gnome/url-handlers/mailto/command postler
+
 # GPM
 /apps/gnome-power-manager/ui/icon_policy present
 
