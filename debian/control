@@ -1,14 +1,14 @@
-Source: elementary-gconf-defaults
+Source: elementary-default-settings
 Section: gnome
 Priority: optional
 Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 
-Package: elementary-gconf-defaults
+Package: elementary-default-settings
 Architecture: all
 Depends: ${misc:Depends}
-Suggests: plank-items-elementary
 Description: elementary default settings
- This package contains GConf defaults for elementary OS.
- They won't affect existing users.
+ This package contains various system defaults for elementary OS.
+ Currently it provides default settings for gconf, GSettings, Midori and Plank.
+ Installing this package won't affect existing users.
