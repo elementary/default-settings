@@ -8,6 +8,8 @@ Standards-Version: 3.9.1
 Package: elementary-default-settings
 Architecture: all
 Depends: ${misc:Depends}
+Replaces: midori
+Enhances: midori, plank
 Description: elementary default settings
  This package contains various system defaults for elementary OS.
  Currently it provides default settings for gconf, GSettings, Midori and Plank.

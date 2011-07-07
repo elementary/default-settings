@@ -1,28 +1,35 @@
-elementary-default-settings (0.3) natty; urgency=low
+elementary-default-settings (0.4) oneiric; urgency=low
+
+  * Fixed Midori package conflict
+  * Bumped package version
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Thu, 07 Jul 2011 14:15:24 +0400
+
+elementary-default-settings (0.3) oneiric; urgency=low
 
   * Collected gconf, GSettings, Midori defaults and Plank items in one package
 
  -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Wed, 06 Jul 2011 15:17:46 +0400
 
-elementary-default-settings (0.2.2) natty; urgency=low
+elementary-default-settings (0.2.2) oneiric; urgency=low
 
   * Converted default values from strings like "TRUE" too booleans (LP: #798039)
 
  -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Sun, 26 Jun 2011 11:43:06 +0400
 
-elementary-default-settings (0.2.1) natty; urgency=low
+elementary-default-settings (0.2.1) oneiric; urgency=low
 
   * Moved Nautilus defaults related to desktop from eBuild
 
  -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Thu, 23 Jun 2011 20:53:57 +0400
 
-elementary-default-settings (0.2) natty; urgency=low
+elementary-default-settings (0.2) oneiric; urgency=low
 
   * Automated generation of the non-commented file
 
  -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Wed, 22 Jun 2011 21:59:05 +0400
 
-elementary-default-settings (0.1) natty; urgency=low
+elementary-default-settings (0.1) oneiric; urgency=low
 
   * Initial release
 
