@@ -1,3 +1,9 @@
+elementary-default-settings (0.4.1) oneiric; urgency=low
+
+  * Added dimming backlight on battery power
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Thu, 07 Jul 2011 17:24:12 +0400
+
 elementary-default-settings (0.4) oneiric; urgency=low
 
   * Fixed Midori package conflict
