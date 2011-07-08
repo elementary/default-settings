@@ -1,3 +1,9 @@
+elementary-default-settings (0.4.3) oneiric; urgency=low
+
+  * Set pantheon-terminal as default terminal
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 08 Jul 2011 11:27:59 +0400
+
 elementary-default-settings (0.4.2) oneiric; urgency=low
 
   * Fixed a bug with dconf defaults not being installed
