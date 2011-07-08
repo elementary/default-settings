@@ -1,3 +1,9 @@
+elementary-default-settings (0.4.2) oneiric; urgency=low
+
+  * Fixed a bug with dconf defaults not being installed
+
+ -- Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>  Fri, 08 Jul 2011 11:16:07 +0400
+
 elementary-default-settings (0.4.1) oneiric; urgency=low
 
   * Added dimming backlight on battery power
