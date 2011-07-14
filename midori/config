@@ -1,0 +1,10 @@
+[settings]
+default-font-family=Droid Sans
+homepage=http://elementaryos.org/
+text-editor=gedit %U
+show-statusbar=false
+close-buttons-left=true
+toolbar-items=Back,Forward,ReloadStop,BookmarkAdd,Location,TabNew,CompactMenu,
+
+[extensions]
+libformhistory.so=true

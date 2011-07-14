@@ -1,0 +1,40 @@
+[org.gnome.nautilus.desktop]
+computer-icon-visible=false
+home-icon-visible=false
+trash-icon-visible=false
+volumes-visible=false
+font='Droid Sans 10'
+
+[org.gnome.desktop.background]
+draw-background=false
+picture-opacity=100
+picture-options='zoom'
+primary-color='#545454'
+secondary-color='#545454'
+picture-filename='file:///usr/share/backgrounds/16.jpg'
+show-desktop-icons=false
+
+[org.gnome.nautilus.preferences]
+desktop-is-home-dir=true
+
+[com.canonical.indicator.me]
+display=0
+
+[org.gnome.power-manager]
+backlight-battery-reduce=true
+brightness-dim-battery=60
+
+[org.gnome.desktop.interface]
+cursor-theme='DMZ-Black'
+gtk-theme='elementary'
+icon-theme='elementary-mono-dark'
+font-name='Droid Sans 9'
+document-font-name='Droid Sans 10'
+monospace-font-name='Droid Sans Mono 10'
+show-input-method-menu=false
+show-unicode-menu=false
+toolbar-style='icons'
+
+[org.gnome.desktop.default-applications.terminal]
+exec=pantheon-terminal
+exec-arg=''
