@@ -13,8 +13,7 @@
 /apps/metacity/general/theme elementary
 /apps/metacity/general/titlebar_font "Droid Sans Bold 9"
 /apps/metacity/general/num_workspaces 4
-/apps/metacity/general/compositing_manager true
-/apps/metacity/general/button_layout close,minimize,maximize:
+/apps/metacity/general/button_layout close:maximize
 
 # Mouse & Trackpad
 /desktop/gnome/peripherals/touchpad/scroll_method 2
