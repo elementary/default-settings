@@ -27,7 +27,7 @@ brightness-dim-battery=60
 [org.gnome.desktop.interface]
 cursor-theme='DMZ-Black'
 gtk-theme='elementary'
-icon-theme='elementary-mono-dark'
+icon-theme='elementary'
 font-name='Droid Sans 9'
 document-font-name='Droid Sans 10'
 monospace-font-name='Droid Sans Mono 10'
