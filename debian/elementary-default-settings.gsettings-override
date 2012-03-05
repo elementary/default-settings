@@ -10,5 +10,8 @@ show-unicode-menu=false
 toolbar-style='icons'
 
 [org.gnome.desktop.default-applications.terminal]
-exec=pantheon-terminal
-exec-arg=' '
+exec='pantheon-terminal'
+exec-arg=''
+
+[desktop.Wallpaper]
+picture-path='/usr/share/backgrounds/Water Lilly.jpg'
