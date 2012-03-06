@@ -8,7 +8,7 @@ Standards-Version: 3.9.1
 Package: elementary-default-settings
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: midori, pantheon-terminal, postler, beatbox
+Recommends: midori, pantheon-terminal, postler, beatbox, plank-theme-pantheon
 Replaces: midori
 Enhances: midori, plank
 Description: elementary default settings
