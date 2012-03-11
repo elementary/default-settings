@@ -15,3 +15,20 @@ exec-arg=''
 
 [desktop.Wallpaper]
 picture-path='/usr/share/backgrounds/Water Lilly.jpg'
+
+[com.canonical.indicator.datetime]
+show-calendar=true
+show-clock=true
+show-date=true
+show-day=true
+show-events=false
+
+[org.elementary.PantheonTerminal.Settings]
+background-transparent=false
+
+[org.gnome.gnome-screenshot]
+delay=3
+
+[org.gnome.settings-daemon.peripherals.touchpad]
+scroll-method='two-finger-scrolling'
+horiz-scroll-enabled=true
