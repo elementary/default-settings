@@ -14,7 +14,7 @@ exec='pantheon-terminal'
 exec-arg=''
 
 [desktop.Wallpaper]
-picture-path='/usr/share/backgrounds/Water Lilly.jpg'
+picture-path='/usr/share/backgrounds/luna-prerelease.png'
 
 [com.canonical.indicator.datetime]
 show-calendar=true
