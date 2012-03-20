@@ -1,7 +1,7 @@
 [settings]
 default-font-family=Droid Sans
 homepage=http://elementaryos.org/
-text-editor=scratch %U
+text-editor=gnome-text-editor %F
 show-statusbar=false
 close-buttons-left=true
 toolbar-items=Back,Forward,ReloadStop,BookmarkAdd,Location,TabNew,CompactMenu,
