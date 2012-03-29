@@ -16,15 +16,18 @@ exec-arg=''
 [desktop.Wallpaper]
 picture-path='/usr/share/backgrounds/luna-prerelease.png'
 
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/luna-prerelease.png'
+picture-options='zoom'
+draw-background='true'
+show-desktop-icons=false
+
 [com.canonical.indicator.datetime]
 show-calendar=true
 show-clock=true
 show-date=true
 show-day=true
 show-events=false
-
-[org.elementary.PantheonTerminal.Settings]
-background-transparent=false
 
 [org.gnome.gnome-screenshot]
 delay=3
