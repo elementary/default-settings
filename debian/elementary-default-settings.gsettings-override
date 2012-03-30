@@ -19,7 +19,7 @@ picture-path='/usr/share/backgrounds/luna-prerelease.png'
 [org.gnome.desktop.background]
 picture-uri='file:///usr/share/backgrounds/luna-prerelease.png'
 picture-options='zoom'
-draw-background='true'
+draw-background=true
 show-desktop-icons=false
 
 [com.canonical.indicator.datetime]
