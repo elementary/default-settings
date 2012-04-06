@@ -38,3 +38,6 @@ horiz-scroll-enabled=true
 
 [org.gnome.marlin]
 dateformatmode='informal'
+
+[org.gnome.marlin.preferences]
+previewer-path='/usr/bin/gloobus-preview'

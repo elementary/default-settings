@@ -7,8 +7,8 @@ Standards-Version: 3.9.2
 
 Package: elementary-default-settings
 Architecture: all
-Depends: ${misc:Depends}, dmz-cursor-theme, plank-theme-pantheon
-Recommends: midori, pantheon-terminal, postler, beatbox
+Depends: ${misc:Depends}, dmz-cursor-theme
+Recommends: midori, pantheon-terminal, postler, beatbox, plank-theme-pantheon, gloobus-preview
 Replaces: midori
 Enhances: midori, plank
 Description: elementary default settings
