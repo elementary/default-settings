@@ -3,15 +3,14 @@ Section: gnome
 Priority: optional
 Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.9.1
+Standards-Version: 3.9.2
 
 Package: elementary-default-settings
 Architecture: all
-Depends: ${misc:Depends}
-Recommends: midori, pantheon-terminal, postler, beatbox, plank-theme-pantheon
+Depends: ${misc:Depends}, dmz-cursor-theme, plank-theme-pantheon
+Recommends: midori, pantheon-terminal, postler, beatbox
 Replaces: midori
 Enhances: midori, plank
 Description: elementary default settings
  This package contains various system defaults for elementary OS.
- Currently it provides default settings for gconf, GSettings, Midori and Plank.
- Installing this package won't affect existing users.
+ Installing this package won't affect existing users on your system.
