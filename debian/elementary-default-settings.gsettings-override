@@ -41,3 +41,4 @@ dateformatmode='informal'
 
 [org.gnome.marlin.preferences]
 previewer-path='/usr/bin/gloobus-preview'
+toolbar-items=['Back', 'Forward', 'ViewSwitcher', 'LocationEntry']
