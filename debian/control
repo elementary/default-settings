@@ -2,7 +2,7 @@ Source: elementary-default-settings
 Section: gnome
 Priority: optional
 Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~)
+Build-Depends: debhelper (>= 8.1.3~)
 Standards-Version: 3.9.2
 
 Package: elementary-default-settings
