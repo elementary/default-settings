@@ -1,14 +1,6 @@
 # This is a commented version of debian/gconf-defaults
 # Edit only this file, the one usual one is automatically generated from this one
 
-# Compiz (compizconfig-backend-gsettings is not ready yet)
-/apps/compiz/general/screen0/options/hsize 2
-/apps/compiz/general/screen0/options/vsize 2
-/apps/compiz/plugins/place/screen0/options/mode 1
-/apps/compiz/plugins/expo/allscreens/options/hide_docks true
-/apps/compiz/plugins/expo/allscreens/options/reflection false
-/apps/compiz/plugins/expo/allscreens/options/vp_distance 0.7500
-
 # Metacity
 /apps/metacity/general/theme elementary
 /apps/metacity/general/titlebar_font "Droid Sans Bold 9"
@@ -20,10 +12,7 @@
 /desktop/gnome/peripherals/touchpad/horiz_scroll_enabled true
 
 # Set BeatBox as default music player
-/desktop/gnome/applications/media/exec beatbox
+/desktop/gnome/applications/media/exec noise
 
 # Set Midori as default browser
 /desktop/gnome/applications/browser/exec midori
-
-# Set Postler as default mail client
-/desktop/gnome/url-handlers/mailto/command postler
