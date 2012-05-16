@@ -36,11 +36,5 @@ delay=3
 scroll-method='two-finger-scrolling'
 horiz-scroll-enabled=true
 
-[org.gnome.marlin]
-dateformatmode='informal'
-
-[org.gnome.marlin.preferences]
-toolbar-items=['Back', 'Forward', 'ViewSwitcher', 'LocationEntry']
-
 [org.gnome.Empathy.ui]
 show-offline=false
