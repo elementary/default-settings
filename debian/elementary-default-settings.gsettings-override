@@ -9,6 +9,12 @@ show-input-method-menu=false
 show-unicode-menu=false
 toolbar-style='icons'
 
+[org.gnome.desktop.wm.preferences]
+button-layout='close:maximize'
+theme='elementary'
+titlebar-font='Droid Sans Bold 9'
+titlebar-uses-system-font=false
+
 [org.gnome.desktop.default-applications.terminal]
 exec='pantheon-terminal'
 exec-arg=''
