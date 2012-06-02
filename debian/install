@@ -1,2 +1,2 @@
 midori/config /etc/xdg/midori/
-launchers /etc/skel/.config/plank/dock1/
+plank/dock1 /etc/skel/.config/plank/

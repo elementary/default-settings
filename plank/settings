@@ -1,0 +1,15 @@
+[PlankDockPreferences]
+#The size of dock icons (in pixels).
+IconSize=48
+#If 0, the dock won't hide.  If 1, the dock intelligently hides.  If 2, the dock auto-hides. If 3, the dock elementary-hides.
+HideMode=3
+#Time (in ms) to wait before unhiding the dock.
+UnhideDelay=0
+#The monitor number for the dock.
+Monitor=0
+#List of *.dockitem files on this dock. DO NOT MODIFY
+DockItems=
+#The position for the dock on the monitor.
+Position=3
+#The dock's position offset from center (in percent).
+Offset=0
