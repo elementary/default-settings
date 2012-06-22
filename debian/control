@@ -9,8 +9,8 @@ Package: elementary-default-settings
 Architecture: all
 Depends: ${misc:Depends}, dmz-cursor-theme
 Recommends: midori, pantheon-terminal, noise, plank-theme-pantheon
-Replaces: midori
-Enhances: midori, plank
+Replaces: midori, midori-gtk3, midori-granite
+Enhances: midori, midori-gtk3, midori-granite, plank
 Description: elementary default settings
  This package contains various system defaults for elementary OS.
  Installing this package won't affect existing users on your system.
