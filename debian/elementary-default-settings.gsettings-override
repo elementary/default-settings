@@ -30,6 +30,10 @@ switch-windows-backward=['<Alt><Shift>Tab']
 exec='pantheon-terminal'
 exec-arg=''
 
+[org.gnome.desktop.default-applications.office.calendar]
+exec='maya'
+needs-term=false
+
 [desktop.Wallpaper]
 picture-path='/usr/share/backgrounds/luna-prerelease.png'
 
