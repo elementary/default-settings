@@ -26,6 +26,9 @@ move-to-workspace-right=['<Super><Alt>Right','<Super><Shift>Right']
 switch-windows=['<Alt>Tab']
 switch-windows-backward=['<Alt><Shift>Tab']
 
+[org.gnome.mutter]
+overlay-key=''
+
 [org.gnome.desktop.default-applications.terminal]
 exec='pantheon-terminal'
 exec-arg=''
