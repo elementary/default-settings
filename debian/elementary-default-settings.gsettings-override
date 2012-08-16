@@ -25,6 +25,8 @@ move-to-workspace-left=['<Super><Alt>Left','<Super><Shift>Left']
 move-to-workspace-right=['<Super><Alt>Right','<Super><Shift>Right']
 switch-windows=['<Alt>Tab']
 switch-windows-backward=['<Alt><Shift>Tab']
+resize-with-right-button=true
+mouse-button-modifier=['<Super>']
 
 [org.gnome.mutter]
 overlay-key=''
