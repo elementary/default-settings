@@ -47,6 +47,7 @@ picture-uri='file:///usr/share/backgrounds/luna-prerelease.png'
 picture-options='zoom'
 draw-background=true
 show-desktop-icons=false
+primary-color='#000000'
 
 [com.canonical.indicator.datetime]
 show-calendar=true
