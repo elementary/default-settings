@@ -2,5 +2,5 @@
 #2011-03-19T14:17:44+0000
 
 [PlankItemsDockItemPreferences]
-Launcher=/usr/share/applications/dexter-contacts.desktop
-Sort=1
+Launcher=/usr/share/applications/pantheon-files.desktop
+Sort=3
