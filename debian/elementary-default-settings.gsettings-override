@@ -15,7 +15,7 @@ theme='elementary'
 titlebar-font='Droid Sans Bold 9'
 titlebar-uses-system-font=false
 resize-with-right-button=true
-mouse-button-modifier=['<Super>']
+mouse-button-modifier='<Super>'
 
 [org.gnome.desktop.wm.keybindings]
 panel-main-menu=['<Super>space','<Alt>F2']
