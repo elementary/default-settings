@@ -2,9 +2,6 @@
 
 if [ "$1" = "configure" ]; then
     update-alternatives --set x-cursor-theme /usr/share/icons/DMZ-Black/cursor.theme
-    if [ -d /usr/share/plank/themes/Pantheon ]; then
-        ln --force --symbolic --no-target-directory /usr/share/plank/themes/Pantheon /etc/skel/.config/plank/theme
-    fi
 fi
 
 #DEBHELPER#
