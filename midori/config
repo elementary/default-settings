@@ -4,7 +4,7 @@ homepage=http://elementaryos.org/
 text-editor=gnome-text-editor %F
 show-statusbar=false
 close-buttons-left=true
-toolbar-items=Back,Forward,ReloadStop,BookmarkAdd,Location,TabNew,CompactMenu,
+toolbar-items=Back,Forward,ReloadStop,BookmarkAdd,Location,CompactMenu,
 
 [extensions]
 libformhistory.so=true
