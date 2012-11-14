@@ -5,8 +5,8 @@ IconSize=48
 HideMode=3
 #Time (in ms) to wait before unhiding the dock.
 UnhideDelay=0
-#The monitor number for the dock.
-Monitor=0
+#The monitor number for the dock. If -1, the dock will follow the primary display.
+Monitor=-1
 #List of *.dockitem files on this dock. DO NOT MODIFY
 DockItems=
 #The position for the dock on the monitor.
