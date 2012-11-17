@@ -16,3 +16,6 @@
 
 # Set Midori as default browser
 /desktop/gnome/applications/browser/exec midori
+
+# Setting theme via GConf is still needed for Qt apps to look decent
+/desktop/gnome/interface/gtk_theme elementary
