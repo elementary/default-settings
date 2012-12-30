@@ -39,7 +39,7 @@ overlay-key=''
 
 [org.gnome.desktop.default-applications.terminal]
 exec='pantheon-terminal'
-exec-arg=''
+exec-arg='-e'
 
 [org.gnome.desktop.default-applications.office.calendar]
 exec='maya'
