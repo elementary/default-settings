@@ -20,7 +20,7 @@ mouse-button-modifier='<Super>'
 [org.gnome.desktop.wm.keybindings]
 panel-main-menu=['<Super>space','<Alt>F2']
 panel-run-dialog=[]
-show-desktop=['<Super>s']
+show-desktop=['<Super>Down','<Super>s']
 switch-to-workspace-left=['<Super>Left']
 switch-to-workspace-right=['<Super>Right']
 switch-to-workspace-1=['<Super>1']
