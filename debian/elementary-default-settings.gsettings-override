@@ -62,7 +62,7 @@ exec='pantheon-terminal'
 exec-arg='-e'
 
 [org.gnome.desktop.default-applications.office.calendar]
-exec='maya'
+exec='maya-calendar'
 needs-term=false
 
 [desktop.Wallpaper]
