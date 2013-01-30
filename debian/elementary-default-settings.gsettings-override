@@ -21,6 +21,7 @@ mouse-button-modifier='<Super>'
 panel-main-menu=['<Super>space','<Alt>F2']
 panel-run-dialog=[]
 show-desktop=['<Super>Down','<Super>s']
+unmaximize=['<Alt>F5']
 switch-to-workspace-left=['<Super>Left']
 switch-to-workspace-right=['<Super>Right']
 switch-to-workspace-1=['<Super>1']
