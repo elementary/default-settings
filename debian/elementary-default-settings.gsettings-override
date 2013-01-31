@@ -20,7 +20,9 @@ mouse-button-modifier='<Super>'
 [org.gnome.desktop.wm.keybindings]
 panel-main-menu=['<Super>space','<Alt>F2']
 panel-run-dialog=[]
+# Gala shows workspaces overview instead of desktop
 show-desktop=['<Super>Down','<Super>s']
+# defaults to <Super>Down used above, so we need to override it
 unmaximize=['<Alt>F5']
 switch-to-workspace-left=['<Super>Left']
 switch-to-workspace-right=['<Super>Right']
@@ -46,6 +48,10 @@ move-to-workspace-8=['<Super><Shift>8','<Super><Alt>8']
 move-to-workspace-9=['<Super><Shift>9','<Super><Alt>9']
 switch-windows=['<Alt>Tab']
 switch-windows-backward=['<Alt><Shift>Tab']
+
+[org.gnome.mutter.keybindings]
+toggle-tiled-left=['<Control><Super>Left']
+toggle-tiled-right=['<Control><Super>Right']
 
 [org.gnome.settings-daemon.plugins.media-keys]
 screensaver='<Super>l'
