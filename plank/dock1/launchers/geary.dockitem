@@ -1,4 +1,4 @@
 [PlankItemsDockItemPreferences]
-Launcher=/usr/share/applications/geary.desktop
+Launcher=file:///usr/share/applications/geary.desktop
 
 

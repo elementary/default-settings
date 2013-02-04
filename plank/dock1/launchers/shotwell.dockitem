@@ -1,3 +1,3 @@
 [PlankItemsDockItemPreferences]
-Launcher=/usr/share/applications/shotwell.desktop
+Launcher=file:///usr/share/applications/shotwell.desktop
 

@@ -1,4 +1,4 @@
 [PlankItemsDockItemPreferences]
-Launcher=/usr/share/applications/midori.desktop
+Launcher=file:///usr/share/applications/midori.desktop
 
 
