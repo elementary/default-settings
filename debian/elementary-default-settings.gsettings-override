@@ -71,10 +71,10 @@ exec='maya-calendar'
 needs-term=false
 
 [desktop.Wallpaper]
-picture-path='/usr/share/backgrounds/luna-prerelease.png'
+picture-path='/usr/share/backgrounds/elementaryos-default'
 
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/luna-prerelease.png'
+picture-uri='file:///usr/share/backgrounds/elementaryos-default'
 picture-options='zoom'
 draw-background=true
 show-desktop-icons=false
