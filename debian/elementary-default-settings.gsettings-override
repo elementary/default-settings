@@ -99,6 +99,7 @@ horiz-scroll-enabled=true
 
 [org.gnome.Empathy.ui]
 show-offline=false
+events-notify-area=false
 
 [com.canonical.indicator.session]
 show-real-name-on-panel=false
