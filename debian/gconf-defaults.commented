@@ -19,3 +19,6 @@
 
 # Setting theme via GConf is still needed for Qt apps to look decent
 /desktop/gnome/interface/gtk_theme elementary
+
+# Unset minimize keybinding because Mutter displays it incorrectly in right-click menu
+/apps/metacity/window_keybindings/minimize []
