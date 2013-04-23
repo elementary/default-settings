@@ -8,3 +8,4 @@ toolbar-items=Back,Forward,ReloadStop,BookmarkAdd,Location,CompactMenu,
 
 [extensions]
 libformhistory.so=true
+libtransfers.so=true
