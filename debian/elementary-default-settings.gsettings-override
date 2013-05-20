@@ -54,7 +54,7 @@ toggle-tiled-left=['<Control><Super>Left']
 toggle-tiled-right=['<Control><Super>Right']
 
 [org.gnome.settings-daemon.peripherals.keyboard]
-numlock-state=off
+numlock-state='off'
 
 [org.gnome.settings-daemon.plugins.media-keys]
 screensaver='<Super>l'
