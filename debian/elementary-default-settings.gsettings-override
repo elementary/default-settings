@@ -104,6 +104,9 @@ events-notify-area=false
 [com.canonical.indicator.session]
 show-real-name-on-panel=false
 
+[org.pantheon.cerbere]
+monitored-processes=['wingpanel', 'plank', 'slingshot-launcher --silent', 'pantheon-wallpaper']
+
 [org.pantheon.noise.settings]
 copy-imported-music=true
 update-folder-hierarchy=true
