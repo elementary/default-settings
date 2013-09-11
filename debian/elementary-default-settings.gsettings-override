@@ -1,29 +1,65 @@
+[com.canonical.indicator.datetime]
+show-calendar=true
+show-clock=true
+show-date=true
+show-day=true
+show-events=false
+
+# Start disabled by Cody
+#[com.canonical.indicator.session]
+#show-real-name-on-panel=false
+
+#[desktop.Wallpaper]
+#picture-path='/usr/share/backgrounds/elementaryos-default'
+# End disabled by Cody
+
+[org.gnome.desktop.background]
+draw-background=true
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/elementaryos-default'
+primary-color='#000000'
+show-desktop-icons=false
+
+# Start disabled by Cody
+#[org.gnome.desktop.default-applications.office.calendar]
+#exec='maya-calendar'
+#needs-term=false
+
+#[org.gnome.desktop.default-applications.terminal]
+#exec='pantheon-terminal'
+#exec-arg='-e'
+# End disabled by Cody
+
 [org.gnome.desktop.interface]
 cursor-theme='DMZ-Black'
+document-font-name='Open Sans 10'
+font-name='Droid Sans 9'
 gtk-theme='elementary'
 icon-theme='elementary'
-font-name='Droid Sans 9'
-document-font-name='Open Sans 10'
 monospace-font-name='Droid Sans Mono 10'
 show-input-method-menu=false
 show-unicode-menu=false
 toolbar-style='icons'
 
-[org.gnome.desktop.wm.preferences]
-button-layout='close:maximize'
-theme='elementary'
-titlebar-font='Droid Sans Bold 9'
-titlebar-uses-system-font=false
-resize-with-right-button=true
-mouse-button-modifier='<Super>'
+[org.gnome.desktop.screensaver]
+lock-enabled=false
 
 [org.gnome.desktop.wm.keybindings]
+move-to-workspace-1=['<Super><Shift>1','<Super><Alt>1']
+move-to-workspace-2=['<Super><Shift>2','<Super><Alt>2']
+move-to-workspace-3=['<Super><Shift>3','<Super><Alt>3']
+move-to-workspace-4=['<Super><Shift>4','<Super><Alt>4']
+move-to-workspace-5=['<Super><Shift>5','<Super><Alt>5']
+move-to-workspace-6=['<Super><Shift>6','<Super><Alt>6']
+move-to-workspace-7=['<Super><Shift>7','<Super><Alt>7']
+move-to-workspace-8=['<Super><Shift>8','<Super><Alt>8']
+move-to-workspace-9=['<Super><Shift>9','<Super><Alt>9']
+move-to-workspace-left=['<Super><Shift>Left','<Super><Alt>Left']
+move-to-workspace-right=['<Super><Shift>Right','<Super><Alt>Right']
 panel-main-menu=['<Super>space','<Alt>F2']
 panel-run-dialog=[]
 # Gala shows workspaces overview instead of desktop
 show-desktop=['<Super>Down','<Super>s']
-# defaults to <Super>Down used above, so we need to override it
-unmaximize=['<Alt>F5']
 switch-to-workspace-left=['<Super>Left']
 switch-to-workspace-right=['<Super>Right']
 switch-to-workspace-1=['<Super>1']
@@ -35,19 +71,28 @@ switch-to-workspace-6=['<Super>6']
 switch-to-workspace-7=['<Super>7']
 switch-to-workspace-8=['<Super>8']
 switch-to-workspace-9=['<Super>9']
-move-to-workspace-left=['<Super><Shift>Left','<Super><Alt>Left']
-move-to-workspace-right=['<Super><Shift>Right','<Super><Alt>Right']
-move-to-workspace-1=['<Super><Shift>1','<Super><Alt>1']
-move-to-workspace-2=['<Super><Shift>2','<Super><Alt>2']
-move-to-workspace-3=['<Super><Shift>3','<Super><Alt>3']
-move-to-workspace-4=['<Super><Shift>4','<Super><Alt>4']
-move-to-workspace-5=['<Super><Shift>5','<Super><Alt>5']
-move-to-workspace-6=['<Super><Shift>6','<Super><Alt>6']
-move-to-workspace-7=['<Super><Shift>7','<Super><Alt>7']
-move-to-workspace-8=['<Super><Shift>8','<Super><Alt>8']
-move-to-workspace-9=['<Super><Shift>9','<Super><Alt>9']
 switch-windows=['<Alt>Tab']
 switch-windows-backward=['<Alt><Shift>Tab']
+# defaults to <Super>Down used above, so we need to override it
+unmaximize=['<Alt>F5']
+
+[org.gnome.desktop.wm.preferences]
+button-layout='close:maximize'
+mouse-button-modifier='<Super>'
+resize-with-right-button=true
+theme='elementary'
+titlebar-font='Droid Sans Bold 9'
+titlebar-uses-system-font=false
+
+[org.gnome.Empathy.ui]
+show-offline=false
+events-notify-area=false
+
+[org.gnome.gnome-screenshot]
+delay=3
+
+[org.gnome.mutter]
+overlay-key=''
 
 [org.gnome.mutter.keybindings]
 toggle-tiled-left=['<Control><Super>Left']
@@ -56,57 +101,19 @@ toggle-tiled-right=['<Control><Super>Right']
 [org.gnome.settings-daemon.peripherals.keyboard]
 numlock-state='off'
 
+[org.gnome.settings-daemon.peripherals.touchpad]
+horiz-scroll-enabled=true
+natural-scroll=true
+scroll-method='two-finger-scrolling'
+
 [org.gnome.settings-daemon.plugins.media-keys]
 screensaver='<Super>l'
 
-[org.gnome.desktop.screensaver]
-lock-enabled=false
-
-[org.gnome.mutter]
-overlay-key=''
-
-[org.gnome.desktop.default-applications.terminal]
-exec='pantheon-terminal'
-exec-arg='-e'
-
-[org.gnome.desktop.default-applications.office.calendar]
-exec='maya-calendar'
-needs-term=false
-
-[desktop.Wallpaper]
-picture-path='/usr/share/backgrounds/elementaryos-default'
-
-[org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/elementaryos-default'
-picture-options='zoom'
-draw-background=true
-show-desktop-icons=false
-primary-color='#000000'
-
-[com.canonical.indicator.datetime]
-show-calendar=true
-show-clock=true
-show-date=true
-show-day=true
-show-events=false
-
-[org.gnome.gnome-screenshot]
-delay=3
-
-[org.gnome.settings-daemon.peripherals.touchpad]
-scroll-method='two-finger-scrolling'
-horiz-scroll-enabled=true
-natural-scroll=true
-
-[org.gnome.Empathy.ui]
-show-offline=false
-events-notify-area=false
-
-[com.canonical.indicator.session]
-show-real-name-on-panel=false
-
-[org.pantheon.cerbere]
-monitored-processes=['wingpanel', 'plank', 'slingshot-launcher --silent', 'pantheon-wallpaper']
+# Start disabled by Cody
+# Special note: THIS BREAKS GALA AUTOSTART OMFG
+#[org.pantheon.cerbere]
+#monitored-processes=['wingpanel', 'plank', 'slingshot-launcher --silent', 'pantheon-wallpaper']
+# End disabled by Cody
 
 [org.pantheon.noise.settings]
 copy-imported-music=true
