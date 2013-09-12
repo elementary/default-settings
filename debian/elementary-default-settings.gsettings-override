@@ -37,7 +37,9 @@ font-name='Droid Sans 9'
 gtk-theme='elementary'
 icon-theme='elementary'
 monospace-font-name='Droid Sans Mono 10'
-show-input-method-menu=false
+# Start disabled by Cody
+#show-input-method-menu=false
+# End disabled by Cody
 show-unicode-menu=false
 toolbar-style='icons'
 
