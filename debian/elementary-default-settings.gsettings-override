@@ -121,3 +121,6 @@ screensaver='<Super>l'
 copy-imported-music=true
 update-folder-hierarchy=true
 write-metadata-to-file=true
+
+[org.pantheon.scratch.settings]
+style-scheme='solarizedlight'
