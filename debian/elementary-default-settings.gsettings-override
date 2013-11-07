@@ -108,6 +108,10 @@ horiz-scroll-enabled=true
 natural-scroll=true
 scroll-method='two-finger-scrolling'
 
+[org.gnome.settings-daemon.plugins.cursor]
+# Workaround upstream gnome-settings-daemon bug (https://bugzilla.gnome.org/show_bug.cgi?id=694758) as tracked by elementary (https://bugs.launchpad.net/elementaryos/+bug/1248747)
+active=false
+
 [org.gnome.settings-daemon.plugins.media-keys]
 screensaver='<Super>l'
 
