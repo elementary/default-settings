@@ -20,16 +20,6 @@ picture-uri='file:///usr/share/backgrounds/elementaryos-default'
 primary-color='#000000'
 show-desktop-icons=false
 
-# Start disabled by Cody
-#[org.gnome.desktop.default-applications.office.calendar]
-#exec='maya-calendar'
-#needs-term=false
-
-#[org.gnome.desktop.default-applications.terminal]
-#exec='pantheon-terminal'
-#exec-arg='-e'
-# End disabled by Cody
-
 [org.gnome.desktop.interface]
 cursor-theme='DMZ-Black'
 document-font-name='Open Sans 10'
