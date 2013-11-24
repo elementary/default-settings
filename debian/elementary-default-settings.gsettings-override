@@ -5,14 +5,6 @@ show-date=true
 show-day=true
 show-events=false
 
-# Start disabled by Cody
-#[com.canonical.indicator.session]
-#show-real-name-on-panel=false
-
-#[desktop.Wallpaper]
-#picture-path='/usr/share/backgrounds/elementaryos-default'
-# End disabled by Cody
-
 [org.gnome.desktop.background]
 draw-background=true
 picture-options='zoom'
@@ -27,9 +19,6 @@ font-name='Droid Sans 9'
 gtk-theme='elementary'
 icon-theme='elementary'
 monospace-font-name='Droid Sans Mono 10'
-# Start disabled by Cody
-#show-input-method-menu=false
-# End disabled by Cody
 show-unicode-menu=false
 toolbar-style='icons'
 
@@ -104,12 +93,6 @@ active=false
 
 [org.gnome.settings-daemon.plugins.media-keys]
 screensaver='<Super>l'
-
-# Start disabled by Cody
-# Special note: THIS BREAKS GALA AUTOSTART OMFG
-#[org.pantheon.cerbere]
-#monitored-processes=['wingpanel', 'plank', 'slingshot-launcher --silent', 'pantheon-wallpaper']
-# End disabled by Cody
 
 [org.pantheon.noise.settings]
 copy-imported-music=true
