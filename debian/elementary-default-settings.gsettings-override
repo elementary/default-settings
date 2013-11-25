@@ -94,6 +94,9 @@ active=false
 [org.gnome.settings-daemon.plugins.media-keys]
 screensaver='<Super>l'
 
+[org.gnome.settings-daemon.plugins.power]
+idle-dim=false
+
 [org.pantheon.noise.settings]
 copy-imported-music=true
 update-folder-hierarchy=true
