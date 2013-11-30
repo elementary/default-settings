@@ -104,4 +104,5 @@ write-metadata-to-file=true
 
 [org.pantheon.scratch.settings]
 highlight-matching-brackets=true
+show-line-numbers=true
 style-scheme='solarizedlight'
