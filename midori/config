@@ -6,6 +6,7 @@ text-editor=gnome-text-editor %F
 show-statusbar=false
 close-buttons-left=true
 toolbar-items=Back,Forward,ReloadStop,BookmarkAdd,Location,CompactMenu,
+toolbar-style=MIDORI_TOOLBAR_ICONS
 
 [extensions]
 libformhistory.so=true
