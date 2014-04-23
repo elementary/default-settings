@@ -99,6 +99,10 @@ screensaver='<Super>l'
 [org.gnome.settings-daemon.plugins.power]
 idle-dim=false
 
+[org.gnome.settings-daemon.plugins.xsettings]
+antialiasing='rgba'
+hinting='slight'
+
 [org.pantheon.noise.settings]
 copy-imported-music=true
 update-folder-hierarchy=true
