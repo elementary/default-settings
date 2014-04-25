@@ -14,3 +14,9 @@ Enhances: midori, midori-gtk3, midori-granite, plank
 Description: elementary default settings
  This package contains various system defaults for elementary OS.
  Installing this package won't affect existing users on your system.
+
+Package: elementary-live-settings
+Architecture: all
+Depends: ${misc:Depends}, elementary-default-settings
+Description: configuration for the elementary OS live cd
+ This package contains live cd customizations used by elementary OS.
