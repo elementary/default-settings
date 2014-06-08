@@ -41,8 +41,9 @@ panel-main-menu=['<Super>space','<Alt>F2']
 panel-run-dialog=[]
 # Gala shows workspaces overview instead of desktop
 show-desktop=['<Super>Down','<Super>s']
-switch-input-source=['<Control><Shift>']
-switch-input-source-backward=['<Control><Super><Shift>']
+# See lp:1291788 for details about switch-input-source*
+switch-input-source=['']
+switch-input-source-backward=['']
 switch-to-workspace-left=['<Super>Left']
 switch-to-workspace-right=['<Super>Right']
 switch-to-workspace-up=[]
