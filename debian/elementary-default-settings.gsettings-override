@@ -1,7 +1,7 @@
 [com.canonical.indicator.datetime]
 show-calendar=true
 show-clock=true
-show-date=true
+dcshow-date=true
 show-day=true
 show-events=false
 
@@ -79,6 +79,7 @@ delay=3
 
 [org.gnome.mutter]
 overlay-key=''
+center-new-windows=true
 
 [org.gnome.mutter.keybindings]
 toggle-tiled-left=['<Control><Super>Left']
