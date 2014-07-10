@@ -1,7 +1,7 @@
 [com.canonical.indicator.datetime]
 show-calendar=true
 show-clock=true
-dcshow-date=true
+show-date=true
 show-day=true
 show-events=false
 
