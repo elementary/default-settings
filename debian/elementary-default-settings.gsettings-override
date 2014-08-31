@@ -99,6 +99,7 @@ active=false
 
 [org.gnome.settings-daemon.plugins.media-keys]
 screensaver='<Super>l'
+terminal='<Super>t'
 
 [org.gnome.settings-daemon.plugins.power]
 idle-dim=false
