@@ -12,6 +12,9 @@ picture-uri='file:///usr/share/backgrounds/elementaryos-default'
 primary-color='#000000'
 show-desktop-icons=false
 
+[org.gnome.desktop.default-applications.terminal]
+exec='pantheon-terminal'
+
 [org.gnome.desktop.interface]
 cursor-theme='DMZ-Black'
 document-font-name='Open Sans 10'
@@ -99,6 +102,7 @@ active=false
 
 [org.gnome.settings-daemon.plugins.media-keys]
 screensaver='<Super>l'
+terminal='<Super>t'
 
 [org.gnome.settings-daemon.plugins.power]
 idle-dim=false
