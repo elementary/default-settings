@@ -1,6 +1,7 @@
 [settings]
 default-font-family=Droid Sans
 enable-spell-checking=true
+enable-webgl=true
 homepage=http://start.elementaryos.org/
 text-editor=gnome-text-editor %F
 show-statusbar=false
