@@ -11,7 +11,7 @@ UnhideDelay=0
 #The monitor number for the dock. Use -1 to keep on the primary monitor.
 Monitor=-1
 #List of *.dockitem files on this dock. DO NOT MODIFY
-DockItems=midori.dockitem;;geary.dockitem;;empathy.dockitem;;maya-calendar.dockitem;;noise.dockitem;;audience.dockitem;;shotwell.dockitem;;switchboard.dockitem;;softwarecenter.dockitem
+DockItems=gala-multitaskingview.dockitem;;midori.dockitem;;geary.dockitem;;empathy.dockitem;;maya-calendar.dockitem;;noise.dockitem;;audience.dockitem;;shotwell.dockitem;;switchboard.dockitem;;softwarecenter.dockitem
 #The position for the dock on the monitor.
 Position=3
 #The dock's position offset from center (in percent).
