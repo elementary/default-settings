@@ -107,6 +107,10 @@ terminal='<Super>t'
 [org.gnome.settings-daemon.plugins.power]
 idle-dim=false
 
+[org.gnome.settings-daemon.plugins.screensaver-proxy]
+# Allows light-locker to accept DBus
+active=false
+
 [org.gnome.settings-daemon.plugins.xsettings]
 antialiasing='rgba'
 hinting='slight'
