@@ -10,6 +10,7 @@ toolbar-items=Back,Forward,ReloadStop,BookmarkAdd,Location,CompactMenu,
 toolbar-style=MIDORI_TOOLBAR_ICONS
 last-window-width=1000
 last-window-height=680
+location-entry-search=https://www.google.com/search?q=%s
 
 [extensions]
 libformhistory.so=true
