@@ -17,7 +17,7 @@ Position=3
 #The dock's position offset from center (in percent).
 Offset=0
 #The name of the dock's theme to use.
-Theme=Pantheon
+Theme=Gtk+
 #The alignment for the dock on the monitor's edge.
 Alignment=3
 #The alignment of the items in this dock.
