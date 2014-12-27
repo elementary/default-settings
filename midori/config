@@ -6,6 +6,7 @@ homepage=http://start.elementaryos.org/
 text-editor=gnome-text-editor %F
 show-statusbar=false
 close-buttons-left=true
+first-party-cookies-only=false
 toolbar-items=Back,Forward,ReloadStop,BookmarkAdd,Location,CompactMenu,
 toolbar-style=MIDORI_TOOLBAR_ICONS
 last-window-width=1000
