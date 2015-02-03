@@ -2,7 +2,9 @@ Source: elementary-default-settings
 Section: gnome
 Priority: optional
 Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
-Build-Depends: debhelper (>= 8.1.3~)
+Build-Depends: cmake (>= 2.8),
+               debhelper (>= 8.1.3~),
+               libglib2.0-dev
 Standards-Version: 3.9.2
 
 Package: elementary-default-settings
@@ -14,6 +16,14 @@ Enhances: midori, midori-gtk3, midori-granite, plank
 Description: elementary default settings
  This package contains various system defaults for elementary OS.
  Installing this package won't affect existing users on your system.
+
+Package: elementary-dpms-helper
+Architecture: all
+Depends: ${misc:Depends}, x11-xserver-utils
+Description: script and settings for X DPMS
+ Basic script and GSettings for managing
+ X Display Power Management Signaling when
+ GNOME Settings Daemon's Power plugin should not.
 
 Package: elementary-live-settings
 Architecture: all
