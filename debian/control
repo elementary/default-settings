@@ -9,7 +9,7 @@ Standards-Version: 3.9.2
 
 Package: elementary-default-settings
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, elementary-icon-theme
 Recommends: pantheon-terminal, noise, plank-theme-pantheon
 Replaces: midori, midori-gtk3, midori-granite, libgtk-3-0
 Enhances: midori, midori-gtk3, midori-granite, plank
