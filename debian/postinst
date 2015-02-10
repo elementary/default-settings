@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ "$1" = "configure" ]; then
-    update-alternatives --set x-cursor-theme /usr/share/icons/DMZ-Black/cursor.theme
+    update-alternatives --set x-cursor-theme /usr/share/icons/elementary/cursor.theme
 fi
 
 #DEBHELPER#
