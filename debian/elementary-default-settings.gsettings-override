@@ -16,7 +16,7 @@ show-desktop-icons=false
 exec='pantheon-terminal'
 
 [org.gnome.desktop.interface]
-cursor-theme='DMZ-Black'
+cursor-theme='elementary'
 document-font-name='Open Sans 10'
 font-name='Droid Sans 9'
 gtk-theme='elementary'
