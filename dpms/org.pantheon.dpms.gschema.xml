@@ -3,19 +3,19 @@
   <schema path="/org/pantheon/dpms/"
   id="org.pantheon.dpms"
   gettext-domain="dpms">
-    <key name="standby-time" type="u">
+    <key name="standby-time" type="i">
       <default>900</default>
       <range min="0" max="7200" />
       <summary>Timeout to lock the screen.</summary>
       <description>Seconds of inactivity until the screen is locked. 0 disables this.</description>
     </key>
-    <key name="suspend-time" type="u">
+    <key name="suspend-time" type="i">
       <default>0</default>
       <range min="0" max="7200" />
       <summary>Timeout to lock the screen.</summary>
       <description>Seconds of inactivity until the screen is locked. 0 disables this.</description>
     </key>
-    <key name="off-time" type="u">
+    <key name="off-time" type="i">
       <default>0</default>
       <range min="0" max="7200" />
       <summary>Timeout to lock the screen.</summary>
