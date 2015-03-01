@@ -119,6 +119,9 @@ active=false
 antialiasing='rgba'
 hinting='slight'
 
+[org.pantheon.desktop.gala.notifications]
+apps=['NetworkManager:show,on', 'Power:show,on']
+
 [org.pantheon.noise.settings]
 copy-imported-music=true
 update-folder-hierarchy=true
