@@ -123,7 +123,6 @@ hinting='slight'
 apps=['NetworkManager:show,on', 'Power:show,on']
 
 [org.pantheon.noise.settings]
-copy-imported-music=true
 update-folder-hierarchy=true
 write-metadata-to-file=true
 
