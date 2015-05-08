@@ -22,3 +22,7 @@ Theme=Gtk+
 Alignment=3
 #The alignment of the items in this dock.
 ItemsAlignment=3
+#Whether to automatically pin an application if it seems useful to do.
+AutoPinning=true
+#Whether to show the item for the dock itself.
+ShowDockItem=false
