@@ -4,3 +4,4 @@ plank/dock1 /etc/skel/.config/plank/
 settings.ini /etc/gtk-3.0/
 brightness.conf /etc/init/
 profile.d/*.sh /etc/profile.d/
+native-origins.d/* /etc/apport/native-origins.d/
