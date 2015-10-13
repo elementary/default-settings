@@ -25,6 +25,9 @@ monospace-font-name='Droid Sans Mono 10'
 show-unicode-menu=false
 toolbar-style='icons'
 
+[org.gnome.desktop.peripherals.touchpad]
+natural-scroll=true
+
 [org.gnome.desktop.screensaver]
 lock-enabled=false
 
