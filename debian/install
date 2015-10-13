@@ -1,4 +1,3 @@
-99-libinput.conf /usr/share/X11/xorg.conf.d/
 midori/config /etc/xdg/midori/
 policykit.desktop /usr/share/applications/
 plank/dock1 /etc/skel/.config/plank/
