@@ -122,9 +122,6 @@ active=false
 antialiasing='rgba'
 hinting='slight'
 
-[org.pantheon.desktop.gala.notifications]
-apps=['NetworkManager:show,on', 'Power:show,on']
-
 [org.pantheon.noise.settings]
 update-folder-hierarchy=true
 write-metadata-to-file=true
