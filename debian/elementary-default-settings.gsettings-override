@@ -76,10 +76,6 @@ theme='elementary'
 titlebar-font='Droid Sans Bold 9'
 titlebar-uses-system-font=false
 
-[org.gnome.Empathy.ui]
-show-offline=false
-events-notify-area=false
-
 [org.gnome.gnome-screenshot]
 delay=3
 
