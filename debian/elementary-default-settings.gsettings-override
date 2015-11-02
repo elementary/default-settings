@@ -1,10 +1,3 @@
-[com.canonical.indicator.datetime]
-show-calendar=true
-show-clock=true
-show-date=true
-show-day=true
-show-events=false
-
 [org.gnome.desktop.background]
 draw-background=true
 picture-options='zoom'
