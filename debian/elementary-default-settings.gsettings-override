@@ -76,9 +76,6 @@ theme='elementary'
 titlebar-font='Droid Sans Bold 9'
 titlebar-uses-system-font=false
 
-[org.gnome.gnome-screenshot]
-delay=3
-
 [org.gnome.mutter]
 overlay-key=''
 center-new-windows=true
