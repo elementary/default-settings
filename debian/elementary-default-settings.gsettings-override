@@ -1,4 +1,5 @@
 [net.launchpad.plank.docks.dock1]
+dock-items=['gala-multitaskingview.dockitem','midori.dockitem','geary.dockitem','maya-calendar.dockitem','noise.dockitem','audience.dockitem','shotwell.dockitem','switchboard.dockitem','softwarecenter.dockitem']
 hide-mode=dodge-maximized
 show-dock-item=false
 theme=Gtk+
