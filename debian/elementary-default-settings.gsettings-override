@@ -1,3 +1,8 @@
+[net.launchpad.plank.docks.dock1]
+hide-mode=dodge-maximized
+show-dock-item=false
+theme=Gtk+
+
 [org.gnome.desktop.background]
 draw-background=true
 picture-options='zoom'
