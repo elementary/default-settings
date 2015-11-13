@@ -76,6 +76,7 @@ titlebar-font='Droid Sans Bold 9'
 titlebar-uses-system-font=false
 
 [org.gnome.mutter]
+auto-maximize=false
 overlay-key=''
 center-new-windows=true
 workspaces-only-on-primary=true
