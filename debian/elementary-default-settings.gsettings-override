@@ -4,6 +4,9 @@ hide-mode=dodge-maximized
 show-dock-item=false
 theme=Gtk+
 
+[org.gnome.desktop.a11y.mouse]
+secondary-click-enabled=true
+
 [org.gnome.desktop.background]
 draw-background=true
 picture-options='zoom'
