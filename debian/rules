@@ -3,9 +3,5 @@
 %:
 	dh $@
 
-override_dh_gconf:
-	cat debian/gconf-defaults.commented | grep -v '#' | grep '/' > debian/gconf-defaults
-	dh_gconf --priority=95
-
 override_dh_installgsettings:
 	dh_installgsettings --priority=25
