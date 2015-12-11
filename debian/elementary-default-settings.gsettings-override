@@ -108,6 +108,7 @@ screensaver='<Super>l'
 terminal='<Super>t'
 
 [org.gnome.settings-daemon.plugins.power]
+ambient-enabled=false
 idle-dim=false
 
 [org.gnome.settings-daemon.plugins.screensaver-proxy]
