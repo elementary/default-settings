@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Sessioninstaller Dialog
+Exec=session-installer
+Icon=system-software-install
+Terminal=false
+Type=Application
+StartupNotify=false
+NoDisplay=true
