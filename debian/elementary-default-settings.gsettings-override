@@ -118,6 +118,7 @@ active=false
 [org.gnome.settings-daemon.plugins.xsettings]
 antialiasing='rgba'
 hinting='slight'
+overrides={'Gtk/DialogsUseHeader': <0>}
 
 [org.pantheon.noise.settings]
 update-folder-hierarchy=true
