@@ -31,12 +31,6 @@ Depends: ${misc:Depends}, elementary-default-settings
 Description: configuration for the elementary OS live cd
  This package contains live cd customizations used by elementary OS.
 
-Package: elementary-plymouth-theme
-Architecture: all
-Depends: ${misc:Depends}, plymouth, plymouth-label
-Provides: plymouth-theme
-Description: changes the plymouth theme to elementary OS
-
 Package: elementary-printer-test-page
 Architecture: all
 Depends: ${misc:Depends}
@@ -44,3 +38,14 @@ Conflicts: print-test-page-elementary
 Replaces: cups-filters, print-test-page-elementary
 Description: printer test page for elementary
  Printer test page for elementary OS.
+
+Package: plymouth-theme-elementary
+Architecture: all
+Depends: ${misc:Depends}, plymouth, plymouth-label
+Provides: plymouth-theme
+Description: changes the plymouth theme to elementary OS
+
+Package: plymouth-theme-elementary-text
+Architecture: all
+Depends: plymouth-theme-elementary
+Description: Dummy transitional package
