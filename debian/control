@@ -51,3 +51,5 @@ Priority: extra
 Architecture: all
 Depends: plymouth-theme-elementary
 Description: Dummy transitional package
+ This package is transitional to plymouth-theme-elementary.
+ It can be safely removed after upgrade to elementary OS 0.4 Freya.
