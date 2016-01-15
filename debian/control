@@ -44,6 +44,7 @@ Architecture: all
 Depends: ${misc:Depends}, plymouth, plymouth-label
 Provides: plymouth-theme
 Description: changes the plymouth theme to elementary OS
+ Changes the plymouth theme to the official elementary OS theme.
 
 Package: plymouth-theme-elementary-text
 Section: oldlibs
