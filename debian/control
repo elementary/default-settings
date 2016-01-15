@@ -46,6 +46,8 @@ Provides: plymouth-theme
 Description: changes the plymouth theme to elementary OS
 
 Package: plymouth-theme-elementary-text
+Section: oldlibs
+Priority: extra
 Architecture: all
 Depends: plymouth-theme-elementary
 Description: Dummy transitional package
