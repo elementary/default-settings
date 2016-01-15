@@ -1,8 +1,8 @@
-[net.launchpad.plank.docks.dock1]
-dock-items=['gala-multitaskingview.dockitem','midori.dockitem','geary.dockitem','maya-calendar.dockitem','noise.dockitem','audience.dockitem','shotwell.dockitem','switchboard.dockitem','softwarecenter.dockitem']
-hide-mode=dodge-maximized
+[net.launchpad.plank.dock.settings]
+dock-items=['gala-multitaskingview.dockitem','midori.dockitem','pantheon-mail.dockitem','maya-calendar.dockitem','noise.dockitem','audience.dockitem','pantheon-photos.dockitem','switchboard.dockitem','appcenter.dockitem']
+hide-mode='window-dodge'
 show-dock-item=false
-theme=Gtk+
+theme='Gtk+'
 
 [org.gnome.desktop.a11y.mouse]
 secondary-click-enabled=true
