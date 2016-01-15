@@ -38,3 +38,19 @@ Conflicts: print-test-page-elementary
 Replaces: cups-filters, print-test-page-elementary
 Description: printer test page for elementary
  Printer test page for elementary OS.
+
+Package: plymouth-theme-elementary
+Architecture: all
+Depends: ${misc:Depends}, plymouth, plymouth-label
+Provides: plymouth-theme
+Description: changes the plymouth theme to elementary OS
+ Changes the plymouth theme to the official elementary OS theme.
+
+Package: plymouth-theme-elementary-text
+Section: oldlibs
+Priority: extra
+Architecture: all
+Depends: plymouth-theme-elementary
+Description: Dummy transitional package
+ This package is transitional to plymouth-theme-elementary.
+ It can be safely removed after upgrade to elementary OS 0.4 Freya.
