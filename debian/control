@@ -1,7 +1,7 @@
 Source: elementary-default-settings
 Section: gnome
 Priority: optional
-Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Maintainer: Cody Garver <cody@elementary.io>
 Build-Depends: cmake (>= 2.8),
                debhelper (>= 8.1.3~),
                libglib2.0-dev
