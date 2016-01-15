@@ -50,7 +50,7 @@ Package: plymouth-theme-elementary-text
 Section: oldlibs
 Priority: extra
 Architecture: all
-Depends: plymouth-theme-elementary
+Depends: ${misc:Depends}
 Description: Dummy transitional package
  This package is transitional to plymouth-theme-elementary.
  It can be safely removed after upgrade to elementary OS 0.4 Freya.
