@@ -11,6 +11,7 @@ toolbar-items=Back,Forward,ReloadStop,Homepage,Location,BookmarkAdd,CompactMenu,
 toolbar-style=MIDORI_TOOLBAR_ICONS
 last-window-width=1000
 last-window-height=680
+load-on-startup=MIDORI_STARTUP_BLANK_PAGE
 location-entry-search=https://www.google.com/search?q=%s
 
 [extensions]
