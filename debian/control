@@ -54,3 +54,13 @@ Depends: ${misc:Depends}
 Description: Dummy transitional package
  This package is transitional to plymouth-theme-elementary.
  It can be safely removed after upgrade to elementary OS 0.4 Freya.
+
+Package: ubiquity-slideshow-elementary
+Architecture: all
+Provides: ubiquity-slideshow
+Conflicts: ubiquity-slideshow
+Replaces: ubiquity-slideshow
+Depends: ${misc:Depends}
+Description: Ubiquity slideshow for elementary
+ A basic slideshow intended for the Ubiquity installer, designed as a quick
+ workaround for Ubiquity bugs that occur without a theme present.
