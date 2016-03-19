@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Rename imagemagick's undesirable display-im6.desktop and display-im6.q16.desktop
+if [ "$1" = install ] || [ "$1" = upgrade ] ; then
+	dpkg-divert --add --rename --package elementary-default-settings --divert /usr/share/applications/display-im6.desktop.distrib /usr/share/applications/display-im6.desktop
+	dpkg-divert --add --rename --package elementary-default-settings --divert /usr/share/applications/display-im6.q16.desktop.distrib /usr/share/applications/display-im6.q16.desktop
+fi
