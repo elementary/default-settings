@@ -17,10 +17,10 @@ exec='pantheon-terminal'
 [org.gnome.desktop.interface]
 cursor-theme='elementary'
 document-font-name='Open Sans 10'
-font-name='Droid Sans 9'
+font-name='Open Sans 9'
 gtk-theme='elementary'
 icon-theme='elementary'
-monospace-font-name='Droid Sans Mono 10'
+monospace-font-name='Roboto Mono 10'
 show-unicode-menu=false
 toolbar-style='icons'
 
@@ -72,7 +72,7 @@ button-layout='close:maximize'
 mouse-button-modifier='<Super>'
 resize-with-right-button=true
 theme='elementary'
-titlebar-font='Droid Sans Bold 9'
+titlebar-font='Open Sans Bold 9'
 titlebar-uses-system-font=false
 
 [org.gnome.mutter]
