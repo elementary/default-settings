@@ -11,7 +11,8 @@ Package: elementary-default-settings
 Architecture: all
 Depends: ${misc:Depends}, elementary-icon-theme
 Recommends: pantheon-terminal, noise
-Replaces: midori, midori-gtk3, midori-granite, libgtk-3-0
+Conflicts: elementary-live-settings
+Replaces: elementary-live-settings, midori, midori-gtk3, midori-granite, libgtk-3-0
 Enhances: midori, midori-gtk3, midori-granite, plank
 Description: elementary default settings
  This package contains various system defaults for elementary OS.
@@ -24,12 +25,6 @@ Description: script and settings for X DPMS
  Basic script and GSettings for managing
  X Display Power Management Signaling when
  GNOME Settings Daemon's Power plugin should not.
-
-Package: elementary-live-settings
-Architecture: all
-Depends: ${misc:Depends}, elementary-default-settings
-Description: configuration for the elementary OS live cd
- This package contains live cd customizations used by elementary OS.
 
 Package: elementary-printer-test-page
 Architecture: all
