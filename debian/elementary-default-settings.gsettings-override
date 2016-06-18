@@ -128,7 +128,7 @@ active=false
 [org.gnome.settings-daemon.plugins.xsettings]
 antialiasing='rgba'
 hinting='slight'
-overrides={'Gtk/DialogsUseHeader': <0>}
+overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'close:menu,maximize'>}
 
 [org.pantheon.desktop.gala.behavior]
 panel-main-menu-action='wingpanel --toggle-indicator=app-launcher'
