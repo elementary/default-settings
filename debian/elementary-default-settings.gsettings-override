@@ -15,6 +15,9 @@ show-desktop-icons=false
 [org.gnome.desktop.default-applications.terminal]
 exec='pantheon-terminal'
 
+[org.gnome.desktop.input-sources]
+xkb-options=['grp:alt_space_toggle']
+
 [org.gnome.desktop.interface]
 cursor-theme='elementary'
 document-font-name='Open Sans 10'
