@@ -16,7 +16,7 @@ show-desktop-icons=false
 exec='pantheon-terminal'
 
 [org.gnome.desktop.input-sources]
-xkb-options=['grp:alt_space_toggle']
+xkb-options=['grp:alt_shift_toggle']
 
 [org.gnome.desktop.interface]
 cursor-theme='elementary'
