@@ -103,6 +103,10 @@ workspaces-only-on-primary=true
 toggle-tiled-left=['<Control><Super>Left']
 toggle-tiled-right=['<Control><Super>Right']
 
+[org.gnome.nm-applet]
+disable-connected-notifications=true
+show-applet=false
+
 [org.gnome.settings-daemon.peripherals.keyboard]
 numlock-state='off'
 
