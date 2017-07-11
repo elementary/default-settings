@@ -1,5 +1,5 @@
 [net.launchpad.plank.dock.settings]
-dock-items=['gala-multitaskingview.dockitem','epiphany.dockitem','org.pantheon.mail.dockitem','org.pantheon.maya.dockitem','org.pantheon.noise.dockitem','org.pantheon.audience.dockitem','org.pantheon.photos.dockitem','org.pantheon.switchboard.dockitem','io.elementary.appcenter.dockitem']
+dock-items=['gala-multitaskingview.dockitem','epiphany.dockitem','org.pantheon.mail.dockitem','maya-calendar.dockitem','org.pantheon.noise.dockitem','org.pantheon.audience.dockitem','org.pantheon.photos.dockitem','org.pantheon.switchboard.dockitem','io.elementary.appcenter.dockitem']
 hide-delay=250
 hide-mode='window-dodge'
 show-dock-item=false
