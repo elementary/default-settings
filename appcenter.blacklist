@@ -1,0 +1,48 @@
+# This file is a list of AppStream component ID's that
+# AppCenter will not load at it's initialization.
+#
+# Each line of this file corresponds to a single AppStream component ID,
+# see the <id> tag here: https://www.freedesktop.org/software/appstream/docs/chap-CollectionData.html for more information.
+# Lines beggining with "#" will be ignored.
+#
+# An example of a configuration that will block "id1.desktop" and "id2.desktop"
+# would look like this:
+#   id1.desktop
+#   id2.desktop
+#
+# End of example file.
+#
+active-addons.desktop
+debian-uxterm.desktop
+display-im6.desktop # imagemagick
+display-im6.q16.desktop # imagemagick
+fusion-icon.desktop
+gnome-control-center.desktop
+gnome-user-share-properties.desktop
+gstreamer1.0-plugins-bad.desktop
+gstreamer1.0-plugins-good.desktop
+gstreamer1.0-plugins-ugly.desktop
+gtk-theme-config.desktop # gtk2 theme color config
+ibus-setup.desktop
+ibus-setup.desktop
+im-config.desktop
+lightdm-gtk-greeter-settings.desktop
+lxqt-admin-time.desktop
+lxqt-lockscreen.desktop
+mate-accountsdialog.desktop
+menueditor.desktop # edubuntu menu editor
+nm-connection-editor.desktop
+onboard.desktop
+orca.desktop
+panel-preferences.desktop # xfce4 panel preferences
+plank.desktop
+qhavedate.desktop
+system-config-printer.desktop
+ubiquity-kdeui.desktop
+ubiquity.desktop
+unity-info-panel.desktop
+vim.desktop
+xfce-wm-settings.desktop
+xfce4-power-manager-settings.desktop
+xfce4-session-logout.desktop
+xfpanel-switch.desktop
