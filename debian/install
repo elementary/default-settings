@@ -3,6 +3,5 @@ plank/dock1 /etc/skel/.config/plank/
 sessioninstaller.desktop /usr/share/applications/
 settings.ini /etc/gtk-3.0/
 profile.d/*.sh /etc/profile.d/
-native-origins.d/* /etc/apport/native-origins.d/
 wingpanel.d/* /etc/wingpanel.d/
 sudoers.d/* /etc/sudoers.d/
