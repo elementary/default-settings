@@ -1,3 +1,4 @@
+appcenter.blacklist /etc/appcenter/
 policykit.desktop /usr/share/applications/
 plank/dock1 /etc/skel/.config/plank/
 sessioninstaller.desktop /usr/share/applications/
