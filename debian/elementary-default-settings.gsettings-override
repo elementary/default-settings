@@ -13,7 +13,7 @@ primary-color='#000000'
 show-desktop-icons=false
 
 [org.gnome.desktop.default-applications.terminal]
-exec='pantheon-terminal'
+exec='io.elementary.terminal'
 
 [org.gnome.desktop.input-sources]
 xkb-options=['grp:alt_shift_toggle']
