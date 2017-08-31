@@ -26,6 +26,12 @@ Description: script and settings for X DPMS
  X Display Power Management Signaling when
  GNOME Settings Daemon's Power plugin should not.
 
+Package: elementary-live-settings
+Architecture: all
+Depends: ${misc:Depends}
+Description: elementary live session settings
+ This package contains defaults for elementary OS live session.
+
 Package: elementary-printer-test-page
 Architecture: all
 Depends: ${misc:Depends}
