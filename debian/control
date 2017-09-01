@@ -11,8 +11,7 @@ Package: elementary-default-settings
 Architecture: all
 Depends: ${misc:Depends}, elementary-icon-theme
 Recommends: pantheon-terminal, noise
-Conflicts: elementary-live-settings
-Replaces: elementary-live-settings, libgtk-3-0
+Replaces: libgtk-3-0
 Enhances: plank
 Description: elementary default settings
  This package contains various system defaults for elementary OS.
@@ -28,7 +27,7 @@ Description: script and settings for X DPMS
 
 Package: elementary-live-settings
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, elementary-default-settings, io.elementary.installer-session, lightdm
 Description: elementary live session settings
  This package contains defaults for elementary OS live session.
 
