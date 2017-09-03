@@ -1,1 +1,1 @@
-lightdm.conf /etc/lightdm/lightdm.conf.d/
+lightdm.conf /etc/lightdm/
