@@ -12,6 +12,9 @@ picture-uri='file:///usr/share/backgrounds/elementaryos-default'
 primary-color='#000000'
 show-desktop-icons=false
 
+[org.gnome.desktop.datetime]
+automatic-timezone=true
+
 [org.gnome.desktop.default-applications.terminal]
 exec='io.elementary.terminal'
 
