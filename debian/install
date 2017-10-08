@@ -1,8 +1,8 @@
 appcenter.blacklist /etc/appcenter/
-policykit.desktop /usr/share/applications/
 plank/dock1 /etc/skel/.config/plank/
+policykit.desktop /usr/share/applications/
+profile.d/*.sh /etc/profile.d/
 sessioninstaller.desktop /usr/share/applications/
 settings.ini /etc/gtk-3.0/
-profile.d/*.sh /etc/profile.d/
-wingpanel.d/* /etc/wingpanel.d/
 sudoers.d/* /etc/sudoers.d/
+wingpanel.d/* /etc/wingpanel.d/

@@ -2,15 +2,13 @@ Source: elementary-default-settings
 Section: gnome
 Priority: optional
 Maintainer: Cody Garver <cody@elementary.io>
-Build-Depends: cmake (>= 2.8),
-               debhelper (>= 8.1.3~),
-               libglib2.0-dev
-Standards-Version: 3.9.2
+Build-Depends: cmake (>= 2.8), debhelper (>= 9), libglib2.0-dev
+Standards-Version: 3.9.6
 
 Package: elementary-default-settings
 Architecture: all
-Depends: ${misc:Depends}, elementary-icon-theme
-Recommends: pantheon-terminal, noise
+Depends: elementary-icon-theme, ${misc:Depends}
+Recommends: noise, pantheon-terminal
 Replaces: libgtk-3-0
 Enhances: plank
 Description: elementary default settings
@@ -19,7 +17,7 @@ Description: elementary default settings
 
 Package: elementary-dpms-helper
 Architecture: all
-Depends: ${misc:Depends}, x11-xserver-utils
+Depends: x11-xserver-utils, ${misc:Depends}
 Description: script and settings for X DPMS
  Basic script and GSettings for managing
  X Display Power Management Signaling when
@@ -27,7 +25,10 @@ Description: script and settings for X DPMS
 
 Package: elementary-live-settings
 Architecture: all
-Depends: ${misc:Depends}, elementary-default-settings, io.elementary.installer-session, lightdm
+Depends: elementary-default-settings,
+         io.elementary.installer-session,
+         lightdm,
+         ${misc:Depends}
 Description: elementary live session settings
  This package contains defaults for elementary OS live session.
 
@@ -41,7 +42,7 @@ Description: printer test page for elementary
 
 Package: plymouth-theme-elementary
 Architecture: all
-Depends: ${misc:Depends}, plymouth, plymouth-label
+Depends: plymouth, plymouth-label, ${misc:Depends}
 Provides: plymouth-theme
 Description: changes the plymouth theme to elementary OS
  Changes the plymouth theme to the official elementary OS theme.
