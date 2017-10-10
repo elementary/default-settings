@@ -2,7 +2,7 @@ Source: elementary-default-settings
 Section: gnome
 Priority: optional
 Maintainer: Cody Garver <cody@elementary.io>
-Build-Depends: cmake (>= 2.8), debhelper (>= 9), libglib2.0-dev
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 
 Package: elementary-default-settings
@@ -14,14 +14,6 @@ Enhances: plank
 Description: Default settings for elementary OS
  This package contains various system defaults for elementary OS.
  Installing this package won't affect existing users on your system.
-
-Package: elementary-dpms-helper
-Architecture: all
-Depends: x11-xserver-utils, ${misc:Depends}
-Description: script and settings for X DPMS
- Basic script and GSettings for managing
- X Display Power Management Signaling when
- GNOME Settings Daemon's Power plugin should not.
 
 Package: elementary-live-settings
 Architecture: all
