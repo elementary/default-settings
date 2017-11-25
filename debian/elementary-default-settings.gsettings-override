@@ -102,7 +102,7 @@ enable-adblock=false
 
 [org.gnome.mutter]
 auto-maximize=false
-overlay-key=''
+overlay-key='Super_L'
 center-new-windows=true
 workspaces-only-on-primary=true
 
@@ -150,6 +150,7 @@ overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/EnablePrimaryPaste': <0>, 'Gtk/Shel
 sort-directories-first=true
 
 [org.pantheon.desktop.gala.behavior]
+overlay-action 'wingpanel --toggle-indicator=app-launcher'
 panel-main-menu-action='wingpanel --toggle-indicator=app-launcher'
 
 [org.pantheon.noise.settings]
