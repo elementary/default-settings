@@ -158,7 +158,3 @@ panel-main-menu-action='wingpanel --toggle-indicator=app-launcher'
 [org.pantheon.noise.settings]
 update-folder-hierarchy=true
 write-metadata-to-file=true
-
-[org.pantheon.scratch.settings]
-highlight-matching-brackets=true
-style-scheme='solarized-light'
