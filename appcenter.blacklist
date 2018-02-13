@@ -34,12 +34,14 @@ menueditor.desktop # edubuntu menu editor
 nm-connection-editor.desktop
 onboard.desktop
 orca.desktop
+org.gnome.Pomodoro.desktop
 panel-preferences.desktop # xfce4 panel preferences
 plank.desktop
 qhavedate.desktop
 system-config-printer.desktop
 ubiquity-kdeui.desktop
 ubiquity.desktop
+ubuntu-online-tour.desktop
 unity-info-panel.desktop
 vim.desktop
 xfce-wm-settings.desktop
