@@ -93,6 +93,7 @@ enable-smooth-scrolling=true
 keyword-search-url='https://google.com/search?q=%s'
 
 [org.gnome.Epiphany.ui]
+expand-tabs-bar=false
 tabs-bar-visibility-policy='always'
 
 [org.gnome.Epiphany.web]
