@@ -38,6 +38,9 @@ tap-to-click=true
 [org.gnome.desktop.screensaver]
 lock-enabled=false
 
+[org.gnome.desktop.sound]
+theme-name='elementary'
+
 [org.gnome.desktop.wm.keybindings]
 # defaults to <Super>Up, replaced by toggle below, so we need to clear it here
 maximize=[]
