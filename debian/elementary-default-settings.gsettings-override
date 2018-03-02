@@ -150,7 +150,6 @@ overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/EnablePrimaryPaste': <0>, 'Gtk/Shel
 sort-directories-first=true
 
 [org.pantheon.desktop.gala.behavior]
-overlay-action 'wingpanel --toggle-indicator=app-launcher'
 panel-main-menu-action='wingpanel --toggle-indicator=app-launcher'
 
 [org.pantheon.noise.settings]
