@@ -103,7 +103,7 @@ enable-adblock=false
 
 [org.gnome.mutter]
 auto-maximize=false
-overlay-key=''
+overlay-key='Super_L'
 center-new-windows=true
 workspaces-only-on-primary=true
 
