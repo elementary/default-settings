@@ -158,7 +158,3 @@ sort-directories-first=true
 
 [org.pantheon.desktop.gala.behavior]
 panel-main-menu-action='wingpanel --toggle-indicator=app-launcher'
-
-[org.pantheon.noise.settings]
-update-folder-hierarchy=true
-write-metadata-to-file=true
