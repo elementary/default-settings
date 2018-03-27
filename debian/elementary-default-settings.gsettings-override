@@ -144,6 +144,9 @@ terminal='<Super>t'
 ambient-enabled=false
 idle-dim=false
 
+[org.gnome.settings-daemon.plugins.print-notifications]
+active=false
+
 [org.gnome.settings-daemon.plugins.screensaver-proxy]
 # Allows light-locker to accept DBus
 active=false
