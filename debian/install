@@ -1,6 +1,5 @@
 appcenter.blacklist /etc/appcenter/
 plank/dock1 /etc/skel/.config/plank/
-policykit.desktop /usr/share/applications/
 profile.d/*.sh /etc/profile.d/
 sessioninstaller.desktop /usr/share/applications/
 settings.ini /etc/gtk-3.0/

@@ -1,5 +1,5 @@
 [net.launchpad.plank.dock.settings]
-dock-items=['gala-multitaskingview.dockitem','epiphany.dockitem','org.pantheon.mail.dockitem','org.pantheon.maya.dockitem','org.pantheon.noise.dockitem','org.pantheon.audience.dockitem','org.pantheon.photos.dockitem','org.pantheon.switchboard.dockitem','io.elementary.appcenter.dockitem']
+dock-items=['gala-multitaskingview.dockitem','epiphany.dockitem','org.pantheon.mail.dockitem','io.elementary.calendar.dockitem','org.pantheon.noise.dockitem','io.elementary.videos.dockitem','org.pantheon.photos.dockitem','org.pantheon.switchboard.dockitem','io.elementary.appcenter.dockitem']
 hide-delay=250
 hide-mode='window-dodge'
 show-dock-item=false
@@ -37,6 +37,9 @@ tap-to-click=true
 
 [org.gnome.desktop.screensaver]
 lock-enabled=false
+
+[org.gnome.desktop.sound]
+theme-name='elementary'
 
 [org.gnome.desktop.wm.keybindings]
 # defaults to <Super>Up, replaced by toggle below, so we need to clear it here
@@ -93,6 +96,7 @@ enable-smooth-scrolling=true
 keyword-search-url='https://google.com/search?q=%s'
 
 [org.gnome.Epiphany.ui]
+expand-tabs-bar=false
 tabs-bar-visibility-policy='always'
 
 [org.gnome.Epiphany.web]
@@ -102,7 +106,7 @@ enable-adblock=false
 
 [org.gnome.mutter]
 auto-maximize=false
-overlay-key=''
+overlay-key='Super_L'
 center-new-windows=true
 workspaces-only-on-primary=true
 
@@ -124,6 +128,9 @@ scroll-method='two-finger-scrolling'
 
 [org.gnome.settings-daemon.plugins.background]
 active=false
+
+[org.gnome.settings-daemon.plugins.color]
+night-light-temperature=4500
 
 [org.gnome.settings-daemon.plugins.cursor]
 # Workaround upstream gnome-settings-daemon bug (https://bugzilla.gnome.org/show_bug.cgi?id=694758) as tracked by elementary (https://bugs.launchpad.net/elementaryos/+bug/1248747)
@@ -150,17 +157,10 @@ overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/EnablePrimaryPaste': <0>, 'Gtk/Shel
 sort-directories-first=true
 
 [org.pantheon.desktop.gala.behavior]
+overlay-action='io.elementary.shortcut-overlay'
 panel-main-menu-action='wingpanel --toggle-indicator=app-launcher'
 
 [org.pantheon.desktop.gala.notifications.applications.gala-other]
 bubbles=false
 remember=false
 sounds=false
-
-[org.pantheon.noise.settings]
-update-folder-hierarchy=true
-write-metadata-to-file=true
-
-[org.pantheon.scratch.settings]
-highlight-matching-brackets=true
-style-scheme='solarized-light'

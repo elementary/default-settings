@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Authentication Dialog
-Exec=/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
-Icon=dialog-password
-Terminal=false
-Type=Application
-StartupNotify=false
-NoDisplay=true
