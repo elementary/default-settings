@@ -93,7 +93,7 @@ titlebar-uses-system-font=false
 
 [org.gnome.Epiphany]
 enable-smooth-scrolling=true
-keyword-search-url='https://google.com/search?q=%s'
+default-search-engine='Google'
 
 [org.gnome.Epiphany.ui]
 expand-tabs-bar=false
