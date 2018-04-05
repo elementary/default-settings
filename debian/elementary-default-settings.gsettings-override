@@ -92,7 +92,6 @@ titlebar-font='Open Sans Bold 9'
 titlebar-uses-system-font=false
 
 [org.gnome.Epiphany]
-enable-smooth-scrolling=true
 keyword-search-url='https://google.com/search?q=%s'
 
 [org.gnome.Epiphany.ui]
@@ -103,6 +102,7 @@ tabs-bar-visibility-policy='always'
 cookies-policy='always'
 do-not-track=false
 enable-adblock=false
+enable-smooth-scrolling=true
 
 [org.gnome.mutter]
 auto-maximize=false
