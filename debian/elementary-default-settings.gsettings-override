@@ -153,7 +153,7 @@ antialiasing='rgba'
 hinting='slight'
 overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/EnablePrimaryPaste': <0>, 'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'close:menu,maximize'>}
 
-[org.gtk.settings.file-chooser]
+[org.gtk.Settings.FileChooser]
 sort-directories-first=true
 
 [org.pantheon.desktop.gala.behavior]
