@@ -49,7 +49,7 @@ Description: changes the plymouth theme to elementary OS
 
 Package: plymouth-theme-elementary-text
 Section: oldlibs
-Priority: extra
+Priority: optional
 Architecture: all
 Depends: ${misc:Depends}
 Description: Dummy transitional package
