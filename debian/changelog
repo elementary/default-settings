@@ -1,3 +1,9 @@
+elementary-default-settings (0.4.3.1) UNRELEASED; urgency=medium
+
+  * Un-released version bump.
+
+ -- Cody Garver <cody@elementary.io>  Tue, 24 Apr 2018 21:34:10 -0500
+
 elementary-default-settings (0.4.3) oneiric; urgency=low
 
   * Set pantheon-terminal as default terminal
