@@ -11,7 +11,7 @@ Depends: elementary-icon-theme, ${misc:Depends}
 Recommends: noise, pantheon-terminal
 Replaces: libgtk-3-0
 Enhances: plank
-Description: elementary default settings
+Description: Default settings for elementary OS
  This package contains various system defaults for elementary OS.
  Installing this package won't affect existing users on your system.
 
