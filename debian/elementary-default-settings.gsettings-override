@@ -159,3 +159,8 @@ sort-directories-first=true
 [org.pantheon.desktop.gala.behavior]
 overlay-action='io.elementary.shortcut-overlay'
 panel-main-menu-action='wingpanel --toggle-indicator=app-launcher'
+
+[org.pantheon.desktop.gala.notifications.applications.gala-other]
+bubbles=false
+remember=false
+sounds=false
