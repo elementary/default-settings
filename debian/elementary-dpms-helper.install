@@ -1,3 +1,0 @@
-dpms/elementary-dpms-helper usr/bin
-dpms/elementary-dpms-helper.desktop etc/xdg/autostart
-usr/share/glib-2.0/schemas/org.pantheon.dpms.gschema.xml
