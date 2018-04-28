@@ -48,3 +48,6 @@ xfce-wm-settings.desktop
 xfce4-power-manager-settings.desktop
 xfce4-session-logout.desktop
 xfpanel-switch.desktop
+gpk-update-viewer.desktop
+update-manager.desktop
+
