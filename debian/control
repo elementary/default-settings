@@ -15,15 +15,6 @@ Description: Default settings for elementary OS
  This package contains various system defaults for elementary OS.
  Installing this package won't affect existing users on your system.
 
-Package: elementary-live-settings
-Architecture: all
-Depends: elementary-default-settings,
-         io.elementary.installer-session,
-         lightdm,
-         ${misc:Depends}
-Description: elementary live session settings
- This package contains defaults for elementary OS live session.
-
 Package: elementary-printer-test-page
 Architecture: all
 Depends: ${misc:Depends}
