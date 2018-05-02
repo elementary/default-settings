@@ -91,14 +91,14 @@ theme='elementary'
 titlebar-font='Open Sans Bold 9'
 titlebar-uses-system-font=false
 
-[org.gnome.epiphany]
+[org.gnome.Epiphany]
 default-search-engine='Google'
 
-[org.gnome.epiphany.ui]
+[org.gnome.Epiphany.ui]
 expand-tabs-bar=false
 tabs-bar-visibility-policy='always'
 
-[org.gnome.epiphany.web]
+[org.gnome.Epiphany.web]
 cookies-policy='always'
 do-not-track=false
 enable-adblock=false
