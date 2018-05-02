@@ -12,39 +12,75 @@
 #
 # End of example file.
 #
-active-addons.desktop
+alltray.desktop # Doesn't work in Pantheon
+ccsm.desktop # CompizConfig
 debian-uxterm.desktop
-display-im6.desktop # imagemagick
-display-im6.q16.desktop # imagemagick
-fusion-icon.desktop
 gnome-control-center.desktop
-gnome-user-share-properties.desktop
-gstreamer1.0-plugins-bad.desktop
-gstreamer1.0-plugins-good.desktop
-gstreamer1.0-plugins-ugly.desktop
-gtk-theme-config.desktop # gtk2 theme color config
-ibus-setup.desktop
+gstreamer1.0-plugins-base
+gstreamer1.0-plugins-bad
+gstreamer1.0-plugins-good
+gstreamer1.0-plugins-ugly
 ibus-setup.desktop
 im-config.desktop
 lightdm-gtk-greeter-settings.desktop
-lxqt-admin-time.desktop
-lxqt-lockscreen.desktop
-mate-accountsdialog.desktop
-menueditor.desktop # edubuntu menu editor
+mail-notification.desktop # Uses old systray API
 nm-connection-editor.desktop
 onboard.desktop
-orca.desktop
-org.gnome.Pomodoro.desktop
-panel-preferences.desktop # xfce4 panel preferences
 plank.desktop
-qhavedate.desktop
+profilemanager.desktop
+qhandjoob.desktop
 system-config-printer.desktop
 ubiquity-kdeui.desktop
 ubiquity.desktop
 ubuntu-online-tour.desktop
-unity-info-panel.desktop
+unity-tweak-tool.desktop
 vim.desktop
-xfce-wm-settings.desktop
-xfce4-power-manager-settings.desktop
+
+# Requires Budgie
+budgie-desktop-settings.desktop
+budgie-plank-prefs.desktop
+budgie-themes.desktop
+
+# Requires GNOME
+org.gnome.Pomodoro
+
+# Requires KDE
+kdesystemsettings.desktop
+kdocker.desktop
+org.kde.Help.desktop
+org.kde.plasmashell
+
+# Requires LXQT/LXDE
+lxappearance.desktop
+lxqt-admin-user.desktop
+lxqt-config-brightness.desktop
+lxqt-config-notificationd.desktop
+lxqt-config-powermanagement.desktop
+lxqt-config-globalkeyshortcuts.desktop
+lxqt-suspend.desktop
+lxqt-admin-user.desktop
+lxqt-xfwmtweaks-settings.desktop
+
+# Requires MATE
+mate-user-guide.desktop
+mate-tweak.desktop
+mate-notification-properties.desktop
+mate-power-preferences.desktop
+mate-screensaver-preferences.desktop
+mate-volume-control.desktop
+mate-session-properties.desktop
+
+# Requires XFCE
+exo-preferred-applications.desktop
+globaltime.desktop
+panel-preferences.desktop
+xfce4-about.desktop
+xfce4-accessibility-settings.desktop
+xfce-backdrop-settings.desktop
 xfce4-session-logout.desktop
+xfce4-notifyd-config.desktop
+xfce4-power-manager-settings.desktop
+xfce4-run.desktop
+xfce-wm-settings.desktop
+xfdashboard-settings.desktop
 xfpanel-switch.desktop
