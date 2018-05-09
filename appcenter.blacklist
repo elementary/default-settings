@@ -15,6 +15,7 @@
 alltray.desktop # Doesn't work in Pantheon
 ccsm.desktop # CompizConfig
 debian-uxterm.desktop
+edubuntu-about.desktop
 gnome-control-center.desktop
 gstreamer1.0-plugins-base
 gstreamer1.0-plugins-bad
