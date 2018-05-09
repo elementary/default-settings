@@ -13,6 +13,7 @@
 # End of example file.
 #
 alltray.desktop # Doesn't work in Pantheon
+calamares.desktop
 ccsm.desktop # CompizConfig
 debian-uxterm.desktop
 gnome-control-center.desktop
