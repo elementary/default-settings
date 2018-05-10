@@ -37,9 +37,12 @@ unity-tweak-tool.desktop
 vim.desktop
 
 # Requires Budgie
+budgie-applets.desktop
+budgie-complete.desktop
 budgie-desktop-settings.desktop
 budgie-plank-prefs.desktop
 budgie-themes.desktop
+budgie-welcome.desktop
 
 # Requires GNOME
 org.gnome.Pomodoro
