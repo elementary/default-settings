@@ -24,6 +24,7 @@ gstreamer1.0-plugins-ugly
 ibus-setup.desktop
 im-config.desktop
 lightdm-gtk-greeter-settings.desktop
+menueditor.desktop # Edubuntu Menu Editor
 mail-notification.desktop # Uses old systray API
 miral-shell.desktop
 nm-connection-editor.desktop
