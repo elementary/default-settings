@@ -25,6 +25,7 @@ ibus-setup.desktop
 im-config.desktop
 lightdm-gtk-greeter-settings.desktop
 mail-notification.desktop # Uses old systray API
+miral-shell.desktop
 nm-connection-editor.desktop
 onboard.desktop
 plank.desktop
