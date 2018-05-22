@@ -30,6 +30,7 @@ icon-theme='elementary'
 monospace-font-name='Roboto Mono 10'
 show-unicode-menu=false
 toolbar-style='icons'
+clock-show-date=true
 
 [org.gnome.desktop.peripherals.touchpad]
 natural-scroll=true
