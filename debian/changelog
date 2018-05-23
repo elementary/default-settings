@@ -1,8 +1,8 @@
-elementary-default-settings (0.4.3.1) UNRELEASED; urgency=medium
+elementary-default-settings (5.0) bionic; urgency=medium
 
-  * Un-released version bump.
+  * New upstream release.
 
- -- Cody Garver <cody@elementary.io>  Tue, 24 Apr 2018 21:34:10 -0500
+ -- Cody Garver <cody@elementary.io>  Wed, 23 May 2018 08:44:56 -0500
 
 elementary-default-settings (0.4.3) oneiric; urgency=low
 
