@@ -5,6 +5,9 @@ hide-mode='window-dodge'
 show-dock-item=false
 theme='Gtk+'
 
+[org.freedesktop.ibus.general.hotkey]
+triggers=['<Control>space']
+
 [org.gnome.desktop.background]
 draw-background=true
 picture-options='zoom'
