@@ -7,7 +7,7 @@ Standards-Version: 4.1.1
 
 Package: elementary-default-settings
 Architecture: all
-Depends: elementary-icon-theme, ${misc:Depends}
+Depends: adwaita-qt, elementary-icon-theme, ${misc:Depends}
 Recommends: noise, pantheon-terminal
 Replaces: libgtk-3-0
 Enhances: plank
