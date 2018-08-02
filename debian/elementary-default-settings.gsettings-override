@@ -25,6 +25,7 @@ exec='io.elementary.terminal'
 xkb-options=['grp:alt_shift_toggle']
 
 [org.gnome.desktop.interface]
+clock-show-date=true
 cursor-theme='elementary'
 document-font-name='Open Sans 10'
 font-name='Open Sans 9'
