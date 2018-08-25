@@ -18,6 +18,7 @@ ccsm.desktop # CompizConfig
 debian-uxterm.desktop
 edubuntu-about.desktop
 gnome-control-center.desktop
+gnome-session-properties.desktop
 gstreamer1.0-alsa
 gstreamer1.0-gl
 gstreamer1.0-libav
