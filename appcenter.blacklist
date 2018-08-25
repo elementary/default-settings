@@ -45,6 +45,7 @@ ubiquity.desktop
 ubuntu-online-tour.desktop
 unity-tweak-tool.desktop
 vim.desktop
+yelp.desktop
 
 # Requires Budgie
 budgie-applets.desktop
