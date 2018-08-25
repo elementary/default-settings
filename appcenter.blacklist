@@ -36,6 +36,7 @@ menueditor.desktop # Edubuntu Menu Editor
 mail-notification.desktop # Uses old systray API
 miral-shell.desktop
 network-manager-openvpn
+network-manager-pptp
 nm-connection-editor.desktop
 onboard.desktop
 org.a11y.brltty
