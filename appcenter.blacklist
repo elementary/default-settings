@@ -37,6 +37,7 @@ mail-notification.desktop # Uses old systray API
 miral-shell.desktop
 nm-connection-editor.desktop
 onboard.desktop
+org.a11y.brltty
 plank.desktop
 profilemanager.desktop
 qhandjoob.desktop
