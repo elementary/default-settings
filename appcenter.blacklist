@@ -35,6 +35,7 @@ lightdm-gtk-greeter-settings.desktop
 menueditor.desktop # Edubuntu Menu Editor
 mail-notification.desktop # Uses old systray API
 miral-shell.desktop
+network-manager-openvpn
 nm-connection-editor.desktop
 onboard.desktop
 org.a11y.brltty
