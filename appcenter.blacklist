@@ -12,9 +12,11 @@
 #
 # End of example file.
 #
-alltray.desktop # Doesn't work in Pantheon
+# alltray.desktop doesn't work in Pantheon:
+alltray.desktop
 calamares.desktop
-ccsm.desktop # CompizConfig
+# CompizConfig:
+ccsm.desktop
 debian-uxterm.desktop
 edubuntu-about.desktop
 gnome-control-center.desktop
@@ -32,8 +34,10 @@ ibus-setup.desktop
 im-config.desktop
 libpinyin.xml
 lightdm-gtk-greeter-settings.desktop
-menueditor.desktop # Edubuntu Menu Editor
-mail-notification.desktop # Uses old systray API
+# Edubuntu Menu Editor:
+menueditor.desktop
+# mail-notification.desktop uses old systray API
+mail-notification.desktop
 miral-shell.desktop
 network-manager-openvpn
 network-manager-pptp
