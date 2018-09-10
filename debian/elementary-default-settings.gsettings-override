@@ -160,6 +160,9 @@ overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/EnablePrimaryPaste': <0>, 'Gtk/Shel
 [org.gtk.Settings.FileChooser]
 sort-directories-first=true
 
+[org.onboard]
+theme='/usr/share/onboard/themes/Nightshade.theme'
+
 [org.pantheon.desktop.gala.behavior]
 overlay-action='io.elementary.shortcut-overlay'
 panel-main-menu-action='wingpanel --toggle-indicator=app-launcher'
