@@ -43,6 +43,7 @@ network-manager-openvpn
 network-manager-pptp
 nm-connection-editor.desktop
 onboard.desktop
+onboard-settings.desktop
 org.a11y.brltty
 org.gnome.PowerStats.desktop
 plank.desktop
