@@ -95,6 +95,14 @@ mate-screensaver-preferences.desktop
 mate-volume-control.desktop
 mate-session-properties.desktop
 
+# Requires UKUI
+peony-file-management-properties.desktop
+ukui-power-preferences.desktop
+ukui-power-statistics.desktop
+ukui-screensaver-preferences.desktop
+ukui-session-properties.desktop
+ukui-volume-control.desktop
+
 # Requires XFCE
 exo-preferred-applications.desktop
 globaltime.desktop
