@@ -1,30 +1,30 @@
-[net.launchpad.plank.dock.settings]
+[net.launchpad.plank.dock.settings:pantheon]
 dock-items=['gala-multitaskingview.dockitem','org.gnome.Epiphany.dockitem','org.pantheon.mail.dockitem','io.elementary.calendar.dockitem','io.elementary.music.dockitem','io.elementary.videos.dockitem','io.elementary.photos.dockitem','io.elementary.switchboard.dockitem','io.elementary.appcenter.dockitem']
 hide-delay=250
 hide-mode='window-dodge'
 show-dock-item=false
 theme='Gtk+'
 
-[org.freedesktop.ibus.general.hotkey]
+[org.freedesktop.ibus.general.hotkey:pantheon]
 triggers=['<Control>space']
 
-[org.gnome.desktop.background]
+[org.gnome.desktop.background:pantheon]
 draw-background=true
 picture-options='zoom'
 picture-uri='file:///usr/share/backgrounds/elementaryos-default'
 primary-color='#000000'
 show-desktop-icons=false
 
-[org.gnome.desktop.datetime]
+[org.gnome.desktop.datetime:pantheon]
 automatic-timezone=true
 
-[org.gnome.desktop.default-applications.terminal]
+[org.gnome.desktop.default-applications.terminal:pantheon]
 exec='io.elementary.terminal'
 
-[org.gnome.desktop.input-sources]
+[org.gnome.desktop.input-sources:pantheon]
 xkb-options=['grp:alt_shift_toggle']
 
-[org.gnome.desktop.interface]
+[org.gnome.desktop.interface:pantheon]
 clock-show-date=true
 cursor-theme='elementary'
 document-font-name='Open Sans 10'
@@ -35,17 +35,17 @@ monospace-font-name='Roboto Mono 10'
 show-unicode-menu=false
 toolbar-style='icons'
 
-[org.gnome.desktop.peripherals.touchpad]
+[org.gnome.desktop.peripherals.touchpad:pantheon]
 natural-scroll=true
 tap-to-click=true
 
-[org.gnome.desktop.screensaver]
+[org.gnome.desktop.screensaver:pantheon]
 lock-enabled=false
 
-[org.gnome.desktop.sound]
+[org.gnome.desktop.sound:pantheon]
 theme-name='elementary'
 
-[org.gnome.desktop.wm.keybindings]
+[org.gnome.desktop.wm.keybindings:pantheon]
 # defaults to <Super>Up, replaced by toggle below, so we need to clear it here
 maximize=[]
 move-to-workspace-1=['<Super><Shift>1','<Super><Alt>1']
@@ -87,7 +87,7 @@ toggle-maximized=['<Super>Up']
 # defaults to <Super>Down used above, so we need to override it
 unmaximize=['<Alt>F5']
 
-[org.gnome.desktop.wm.preferences]
+[org.gnome.desktop.wm.preferences:pantheon]
 button-layout='close:maximize'
 mouse-button-modifier='<Super>'
 resize-with-right-button=true
@@ -95,79 +95,79 @@ theme='elementary'
 titlebar-font='Open Sans Bold 9'
 titlebar-uses-system-font=false
 
-[org.gnome.Epiphany]
+[org.gnome.Epiphany:pantheon]
 default-search-engine='Google'
 
-[org.gnome.Epiphany.ui]
+[org.gnome.Epiphany.ui:pantheon]
 expand-tabs-bar=false
 tabs-bar-visibility-policy='always'
 
-[org.gnome.Epiphany.web]
+[org.gnome.Epiphany.web:pantheon]
 cookies-policy='always'
 do-not-track=false
 enable-adblock=false
 enable-smooth-scrolling=true
 
-[org.gnome.mutter]
+[org.gnome.mutter:pantheon]
 auto-maximize=false
 overlay-key='Super_L'
 center-new-windows=true
 workspaces-only-on-primary=true
 
-[org.gnome.mutter.keybindings]
+[org.gnome.mutter.keybindings:pantheon]
 toggle-tiled-left=['<Control><Super>Left']
 toggle-tiled-right=['<Control><Super>Right']
 
-[org.gnome.nm-applet]
+[org.gnome.nm-applet:pantheon]
 disable-connected-notifications=true
 show-applet=false
 
-[org.gnome.settings-daemon.peripherals.keyboard]
+[org.gnome.settings-daemon.peripherals.keyboard:pantheon]
 numlock-state='off'
 
-[org.gnome.settings-daemon.peripherals.touchpad]
+[org.gnome.settings-daemon.peripherals.touchpad:pantheon]
 horiz-scroll-enabled=true
 natural-scroll=true
 scroll-method='two-finger-scrolling'
 
-[org.gnome.settings-daemon.plugins.background]
+[org.gnome.settings-daemon.plugins.background:pantheon]
 active=false
 
-[org.gnome.settings-daemon.plugins.color]
+[org.gnome.settings-daemon.plugins.color:pantheon]
 night-light-temperature=4500
 
-[org.gnome.settings-daemon.plugins.cursor]
+[org.gnome.settings-daemon.plugins.cursor:pantheon]
 # Workaround upstream gnome-settings-daemon bug (https://bugzilla.gnome.org/show_bug.cgi?id=694758) as tracked by elementary (https://bugs.launchpad.net/elementaryos/+bug/1248747)
 active=false
 
-[org.gnome.settings-daemon.plugins.media-keys]
+[org.gnome.settings-daemon.plugins.media-keys:pantheon]
 screensaver='<Super>l'
 terminal='<Super>t'
 
-[org.gnome.settings-daemon.plugins.power]
+[org.gnome.settings-daemon.plugins.power:pantheon]
 ambient-enabled=false
 idle-dim=false
 
-[org.gnome.settings-daemon.plugins.screensaver-proxy]
+[org.gnome.settings-daemon.plugins.screensaver-proxy:pantheon]
 # Allows light-locker to accept DBus
 active=false
 
-[org.gnome.settings-daemon.plugins.xsettings]
+[org.gnome.settings-daemon.plugins.xsettings:pantheon]
 antialiasing='rgba'
 hinting='slight'
 overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/EnablePrimaryPaste': <0>, 'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'close:menu,maximize'>}
 
-[org.gtk.Settings.FileChooser]
+[org.gtk.Settings.FileChooser:pantheon]
 sort-directories-first=true
 
-[org.onboard]
+[org.onboard:pantheon]
 theme='/usr/share/onboard/themes/Nightshade.theme'
 
-[org.pantheon.desktop.gala.behavior]
+[org.pantheon.desktop.gala.behavior:pantheon]
 overlay-action='io.elementary.shortcut-overlay'
 panel-main-menu-action='wingpanel --toggle-indicator=app-launcher'
 
-[org.pantheon.desktop.gala.notifications.applications.gala-other]
+[org.pantheon.desktop.gala.notifications.applications.gala-other:pantheon]
 bubbles=false
 remember=false
 sounds=false
