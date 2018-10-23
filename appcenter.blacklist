@@ -124,3 +124,8 @@ io.elementary.switchboard-plug-bluetooth
 io.elementary.switchboard-plug-notifications
 io.elementary.switchboard-plug-locale
 io.elementary.switchboard-plug-pantheon-shell
+
+# Conflict with AppCenter
+gtk-update-viewer.desktop
+update-manager.desktop
+org.gnome.Software.desktop
