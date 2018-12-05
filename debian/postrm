@@ -2,8 +2,7 @@
 set -e
 
 case "$1" in
-  configure|upgrade)
-    update-alternatives --set x-cursor-theme /usr/share/icons/elementary/cursor.theme
+  remove|purge)
     /usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas/
   ;;
 esac

@@ -5,3 +5,4 @@ sessioninstaller.desktop /usr/share/applications/
 settings.ini /etc/gtk-3.0/
 sudoers.d/* /etc/sudoers.d/
 wingpanel.d/* /etc/wingpanel.d/
+overrides/*.gschema.override /usr/share/glib-2.0/schemas
