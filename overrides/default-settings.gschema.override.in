@@ -1,5 +1,4 @@
 [net.launchpad.plank.dock.settings]
-dock-items=['gala-multitaskingview.dockitem','org.gnome.Epiphany.dockitem','org.pantheon.mail.dockitem','io.elementary.calendar.dockitem','io.elementary.music.dockitem','io.elementary.videos.dockitem','io.elementary.photos.dockitem','io.elementary.switchboard.dockitem','io.elementary.appcenter.dockitem']
 hide-delay=250
 hide-mode='window-dodge'
 show-dock-item=false
@@ -13,7 +12,7 @@ show=1
 
 [org.gnome.desktop.background]
 picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/elementaryos-default'
+picture-uri='file://@DEFAULT_WALLPAPER@'
 primary-color='#000000'
 
 [org.gnome.desktop.datetime]
