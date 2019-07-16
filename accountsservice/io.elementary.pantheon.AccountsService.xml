@@ -1,16 +1,16 @@
 <node>
-  <interface name="io.elementary.greeter.AccountsService">
+  <interface name="io.elementary.pantheon.AccountsService">
 
     <annotation name="org.freedesktop.Accounts.VendorExtension" value="true"/>
 
     <annotation name="org.freedesktop.Accounts.Authentication.ChangeOwn"
-                value="io.elementary.greeter.AccountsService.ModifyOwn"/>
+                value="io.elementary.pantheon.AccountsService.ModifyOwn"/>
 
     <annotation name="org.freedesktop.Accounts.Authentication.ReadAny"
-                value="io.elementary.greeter.AccountsService.ReadAny"/>
+                value="io.elementary.pantheon.AccountsService.ReadAny"/>
 
     <annotation name="org.freedesktop.Accounts.Authentication.ChangeAny"
-                value="io.elementary.greeter.AccountsService.ModifyAny"/>
+                value="io.elementary.pantheon.AccountsService.ModifyAny"/>
 
     <property name="TimeFormat" type="s" access="readwrite">
       <annotation name="org.freedesktop.Accounts.DefaultValue.String" value="24h"/>
