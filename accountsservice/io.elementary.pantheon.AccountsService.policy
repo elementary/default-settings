@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policyconfig>
   <action id="io.elementary.pantheon.AccountsService.ModifyOwn">
-    <description gettext-domain="io.elementary.pantheon">Set properties of own user</description>
-    <message gettext-domain="io.elementary.pantheon">Authentication is required to set one's own desktop settings.</message>
+    <description>Set properties of own user</description>
+    <message>Authentication is required to set one's own desktop settings.</message>
     <defaults>
       <allow_any>yes</allow_any>
       <allow_inactive>yes</allow_inactive>
@@ -11,8 +11,8 @@
   </action>
 
   <action id="io.elementary.pantheon.AccountsService.ReadAny">
-    <description gettext-domain="io.elementary.pantheon">Get properties of any user</description>
-    <message gettext-domain="io.elementary.pantheon">Authentication is required to get another user's desktop settings.</message>
+    <description>Get properties of any user</description>
+    <message>Authentication is required to get another user's desktop settings.</message>
     <defaults>
       <allow_any>yes</allow_any>
       <allow_inactive>yes</allow_inactive>
@@ -21,8 +21,8 @@
   </action>
 
   <action id="io.elementary.pantheon.AccountsService.ModifyAny">
-    <description gettext-domain="io.elementary.pantheon">Set properties of any user</description>
-    <message gettext-domain="io.elementary.pantheon">Authentication is required to set another user's desktop settings.</message>
+    <description>Set properties of any user</description>
+    <message>Authentication is required to set another user's desktop settings.</message>
     <defaults>
       <allow_any>no</allow_any>
       <allow_inactive>no</allow_inactive>
