@@ -100,7 +100,7 @@ default-search-engine='Google'
 
 [org.gnome.Epiphany.ui]
 expand-tabs-bar=false
-tabs-bar-visibility-policy='always'
+tabs-bar-visibility-policy='no-third-party'
 
 [org.gnome.Epiphany.web]
 cookies-policy='always'
