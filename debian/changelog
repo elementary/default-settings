@@ -1,3 +1,9 @@
+elementary-default-settings (5.1.1) bionic; urgency=medium
+
+  * New upstream release.
+
+ -- Cody Garver <codygarver@gmail.com>  Tue, 13 Aug 2019 20:53:51 -0500
+
 elementary-default-settings (5.1.0) bionic; urgency=medium
 
   * New upstream release.
