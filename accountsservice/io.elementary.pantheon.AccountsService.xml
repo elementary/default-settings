@@ -16,5 +16,21 @@
       <annotation name="org.freedesktop.Accounts.DefaultValue.String" value="24h"/>
     </property>
 
+    <property name="SleepInactiveACTimeout" type="i" access="readwrite">
+      <annotation name="org.freedesktop.Accounts.DefaultValue" value="1200"/>
+    </property>
+
+    <property name="SleepInactiveACType" type="i" access="readwrite">
+      <annotation name="org.freedesktop.Accounts.DefaultValue" value="1"/>
+    </property>
+
+    <property name="SleepInactiveBatteryTimeout" type="i" access="readwrite">
+      <annotation name="org.freedesktop.Accounts.DefaultValue" value="1200"/>
+    </property>
+
+    <property name="SleepInactiveBatteryType" type="i" access="readwrite">
+      <annotation name="org.freedesktop.Accounts.DefaultValue" value="1"/>
+    </property>
+
   </interface>
 </node>
