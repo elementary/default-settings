@@ -16,5 +16,8 @@
       <annotation name="org.freedesktop.Accounts.DefaultValue.String" value="24h"/>
     </property>
 
+    <property name="PrefersColorScheme" type="s" access="readwrite">
+      <annotation name="org.freedesktop.Accounts.DefaultValue.String" value="no-preference"/>
+    </property>
   </interface>
 </node>
