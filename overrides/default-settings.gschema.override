@@ -103,7 +103,7 @@ expand-tabs-bar=false
 tabs-bar-visibility-policy='always'
 
 [org.gnome.Epiphany.web]
-cookies-policy='always'
+cookies-policy='no-third-party'
 do-not-track=false
 enable-adblock=false
 enable-smooth-scrolling=true
