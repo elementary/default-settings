@@ -105,7 +105,7 @@ tabs-bar-visibility-policy='always'
 [org.gnome.Epiphany.web]
 cookies-policy='no-third-party'
 do-not-track=false
-enable-adblock=false
+enable-adblock=true
 enable-smooth-scrolling=true
 
 [org.gnome.mutter]
