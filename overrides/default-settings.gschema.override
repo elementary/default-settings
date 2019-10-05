@@ -109,7 +109,6 @@ enable-adblock=false
 enable-smooth-scrolling=true
 
 [org.gnome.mutter]
-auto-maximize=false
 overlay-key='Super_L'
 center-new-windows=true
 workspaces-only-on-primary=true
@@ -136,17 +135,9 @@ active=false
 [org.gnome.settings-daemon.plugins.color]
 night-light-temperature=4500
 
-[org.gnome.settings-daemon.plugins.cursor]
-# Workaround upstream gnome-settings-daemon bug (https://bugzilla.gnome.org/show_bug.cgi?id=694758) as tracked by elementary (https://bugs.launchpad.net/elementaryos/+bug/1248747)
-active=false
-
 [org.gnome.settings-daemon.plugins.media-keys]
 screensaver='<Super>l'
 terminal='<Super>t'
-
-[org.gnome.settings-daemon.plugins.power]
-ambient-enabled=false
-idle-dim=false
 
 [org.gnome.settings-daemon.plugins.screensaver-proxy]
 # Allows light-locker to accept DBus
