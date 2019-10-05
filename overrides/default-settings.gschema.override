@@ -144,10 +144,6 @@ active=false
 screensaver='<Super>l'
 terminal='<Super>t'
 
-[org.gnome.settings-daemon.plugins.power]
-ambient-enabled=false
-idle-dim=false
-
 [org.gnome.settings-daemon.plugins.screensaver-proxy]
 # Allows light-locker to accept DBus
 active=false
