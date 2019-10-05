@@ -9,7 +9,6 @@ theme='Gtk+'
 triggers=['<Control>space']
 
 [org.gnome.desktop.background]
-draw-background=true
 picture-options='zoom'
 picture-uri='file:///usr/share/backgrounds/elementaryos-default'
 primary-color='#000000'
