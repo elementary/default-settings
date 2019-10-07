@@ -94,9 +94,6 @@ theme='elementary'
 titlebar-font='Open Sans Bold 9'
 titlebar-uses-system-font=false
 
-[org.gnome.Epiphany]
-default-search-engine='Google'
-
 [org.gnome.Epiphany.ui]
 expand-tabs-bar=false
 tabs-bar-visibility-policy='always'
