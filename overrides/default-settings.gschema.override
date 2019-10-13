@@ -8,6 +8,9 @@ theme='Gtk+'
 [org.freedesktop.ibus.general.hotkey]
 triggers=['<Control>space']
 
+[org.freedesktop.ibus.panel]
+show=1
+
 [org.gnome.desktop.background]
 picture-options='zoom'
 picture-uri='file:///usr/share/backgrounds/elementaryos-default'
