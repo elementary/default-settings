@@ -1,7 +1,0 @@
-language: generic
-
-services:
- - docker
-
-script:
- - docker run -v "$PWD":/tmp/build-dir elementary/docker:juno-unstable /bin/sh -c "apt-get update && apt-get -y install devscripts equivs && cd /tmp/build-dir && mk-build-deps && dpkg -i *.deb ; apt-get -y -f install && debuild -us -uc"
