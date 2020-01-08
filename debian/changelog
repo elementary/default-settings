@@ -1,4 +1,4 @@
-elementary-default-settings (5.1.2) bionic; urgency=medium
+elementary-default-settings (5.2.0) bionic; urgency=medium
 
   * profile.d: use GTK3_MODULES over GTK_MODULES
   * Remove switchboard plugs from blacklist
