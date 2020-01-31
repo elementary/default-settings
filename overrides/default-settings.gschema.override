@@ -27,7 +27,6 @@ exec='io.elementary.terminal'
 xkb-options=['grp:alt_shift_toggle']
 
 [org.gnome.desktop.interface]
-clock-show-date=true
 cursor-theme='elementary'
 document-font-name='Open Sans 10'
 font-name='Open Sans 9'
@@ -35,7 +34,6 @@ gtk-theme='elementary'
 icon-theme='elementary'
 monospace-font-name='Roboto Mono 10'
 show-unicode-menu=false
-toolbar-style='icons'
 
 [org.gnome.desktop.peripherals.touchpad]
 natural-scroll=true
