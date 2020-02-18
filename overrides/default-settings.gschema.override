@@ -28,7 +28,7 @@ xkb-options=['grp:alt_shift_toggle']
 [org.gnome.desktop.interface]
 cursor-theme='elementary'
 document-font-name='Open Sans 10'
-font-name='Open Sans 9'
+font-name='Inter 9'
 gtk-theme='elementary'
 icon-theme='elementary'
 monospace-font-name='Roboto Mono 10'
