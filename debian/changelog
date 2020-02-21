@@ -1,3 +1,16 @@
+elementary-default-settings (5.1.2) bionic; urgency=medium
+
+  * profile.d: use GTK3_MODULES over GTK_MODULES
+  * Remove switchboard plugs from blacklist
+  * Automatically show & hide the property panel of IBus
+  * Make default search engine DuckDuckGo
+  * Activate g-s-d cursor plugin
+  * Removed deprecated draw-background override
+  * Add AccountsService interfaces for greeter power settings
+  * Accept only first party cookies for enhanced privacy
+
+ -- Daniel Foré <daniel@elementary.io>  Wed, 08 Jan 2020 08:56:41 -0800
+
 elementary-default-settings (5.1.1) bionic; urgency=medium
 
   * New upstream release.

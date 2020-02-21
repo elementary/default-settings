@@ -117,10 +117,3 @@ xfce4-run.desktop
 xfce-wm-settings.desktop
 xfdashboard-settings.desktop
 xfpanel-switch.desktop
-
-# Switchboard plugs
-io.elementary.switchboard-plug-applications
-io.elementary.switchboard-plug-bluetooth
-io.elementary.switchboard-plug-notifications
-io.elementary.switchboard-plug-locale
-io.elementary.switchboard-plug-pantheon-shell

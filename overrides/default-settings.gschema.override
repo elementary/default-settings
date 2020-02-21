@@ -8,12 +8,13 @@ theme='Gtk+'
 [org.freedesktop.ibus.general.hotkey]
 triggers=['<Control>space']
 
+[org.freedesktop.ibus.panel]
+show=1
+
 [org.gnome.desktop.background]
-draw-background=true
 picture-options='zoom'
 picture-uri='file:///usr/share/backgrounds/elementaryos-default'
 primary-color='#000000'
-show-desktop-icons=false
 
 [org.gnome.desktop.datetime]
 automatic-timezone=true
@@ -25,15 +26,13 @@ exec='io.elementary.terminal'
 xkb-options=['grp:alt_shift_toggle']
 
 [org.gnome.desktop.interface]
-clock-show-date=true
 cursor-theme='elementary'
 document-font-name='Open Sans 10'
-font-name='Open Sans 9'
+font-name='Inter 9'
 gtk-theme='elementary'
 icon-theme='elementary'
 monospace-font-name='Roboto Mono 10'
 show-unicode-menu=false
-toolbar-style='icons'
 
 [org.gnome.desktop.peripherals.touchpad]
 natural-scroll=true
@@ -92,11 +91,6 @@ button-layout='close:maximize'
 mouse-button-modifier='<Super>'
 resize-with-right-button=true
 theme='elementary'
-titlebar-font='Open Sans Bold 9'
-titlebar-uses-system-font=false
-
-[org.gnome.Epiphany]
-default-search-engine='Google'
 
 [org.gnome.Epiphany.ui]
 expand-tabs-bar=false
@@ -136,16 +130,11 @@ active=false
 [org.gnome.settings-daemon.plugins.color]
 night-light-temperature=4500
 
-[org.gnome.settings-daemon.plugins.cursor]
-# Workaround upstream gnome-settings-daemon bug (https://bugzilla.gnome.org/show_bug.cgi?id=694758) as tracked by elementary (https://bugs.launchpad.net/elementaryos/+bug/1248747)
-active=false
-
 [org.gnome.settings-daemon.plugins.media-keys]
 screensaver='<Super>l'
 terminal='<Super>t'
 
 [org.gnome.settings-daemon.plugins.power]
-ambient-enabled=false
 idle-dim=false
 
 [org.gnome.settings-daemon.plugins.screensaver-proxy]
