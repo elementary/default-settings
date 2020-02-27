@@ -156,6 +156,7 @@ theme='/usr/share/onboard/themes/Nightshade.theme'
 [org.pantheon.desktop.gala.behavior]
 overlay-action='io.elementary.shortcut-overlay'
 panel-main-menu-action='wingpanel --toggle-indicator=app-launcher'
+use-new-notifications=true
 
 [org.pantheon.desktop.gala.notifications.applications.gala-other]
 bubbles=false
