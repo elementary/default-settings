@@ -131,8 +131,7 @@ active=false
 night-light-temperature=4500
 
 [org.gnome.settings-daemon.plugins.media-keys]
-screensaver='<Super>l'
-terminal='<Super>t'
+terminal=['<Super>t']
 
 [org.gnome.settings-daemon.plugins.power]
 idle-dim=false
