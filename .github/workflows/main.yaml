@@ -18,7 +18,7 @@ jobs:
         apt install -y meson libaccountsservice-dev dbus libpolkit-gobject-1-dev python3 libglib2.0-bin
     - name: Build
       env:
-        DESTDIR: out
+        DESTDIR: ${{ env.PWD }}/build/out
       run: |
         meson build
         ninja -C build
