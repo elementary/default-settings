@@ -1,1 +1,1 @@
-export GTK_MODULES="$GTK_MODULES:pantheon-filechooser-module"
+export GTK3_MODULES="${GTK3_MODULES:-}${GTK3_MODULES:+:}pantheon-filechooser-module"
