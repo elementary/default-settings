@@ -130,8 +130,7 @@ active=false
 night-light-temperature=4500
 
 [org.gnome.settings-daemon.plugins.media-keys]
-screensaver='<Super>l'
-terminal='<Super>t'
+terminal=['<Super>t']
 
 [org.gnome.settings-daemon.plugins.power]
 idle-dim=false
@@ -154,6 +153,7 @@ theme='/usr/share/onboard/themes/Nightshade.theme'
 [org.pantheon.desktop.gala.behavior]
 overlay-action='io.elementary.shortcut-overlay'
 panel-main-menu-action='wingpanel --toggle-indicator=app-launcher'
+use-new-notifications=true
 
 [org.pantheon.desktop.gala.notifications.applications.gala-other]
 bubbles=false

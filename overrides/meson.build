@@ -8,7 +8,7 @@ if get_option('default-gsettings-overrides')
         input: 'default-settings.gschema.override.in',
         output: '@BASENAME@',
         configuration: wallpaper_configuration,
-        install_dir: join_paths(datadir, 'glib-2.0', 'schemas')
+        install_dir: join_paths(schemadir)
     )
 endif
 
@@ -16,6 +16,6 @@ endif
 if get_option('plank-dockitems')
     install_data(
         'plank-dockitems.gschema.override',
-        install_dir: join_paths(datadir, 'glib-2.0', 'schemas')
+        install_dir: join_paths(schemadir)
     )
 endif

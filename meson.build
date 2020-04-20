@@ -1,22 +1,15 @@
 project(
     'elementary-default-settings',
-    version: '5.1.0',
-    default_options: 'sysconfdir=/etc',
+    version: '5.1.2',
 )
 
 prefix = get_option('prefix')
 datadir = join_paths(prefix, get_option('datadir'))
 sysconfdir = get_option('sysconfdir')
 
-meson.add_install_script('meson/post_install.py', datadir)
+schemadir = join_paths(datadir, 'glib-2.0', 'schemas')
 
-# Planks Default DockItems
-if get_option('plank-dockitems')
-    install_subdir(
-        'plank',
-        install_dir: join_paths(sysconfdir, 'skel', '.config')
-    )
-endif
+meson.add_install_script('meson/post_install.py', schemadir)
 
 # Setup system wide global environment for applications
 install_subdir(
@@ -66,14 +59,11 @@ install_data(
     install_dir: join_paths(sysconfdir, 'appcenter')
 )
 
-# Configuration file of GNU readline
-install_data(
-    'inputrc/.inputrc',
-    install_dir: join_paths(sysconfdir, 'skel')
-)
-
 # Default gsettings overrides
 subdir('overrides')
 
 # AccountsService extension for Greeter.
 subdir('accountsservice')
+
+# System skeleton
+subdir('skel')
