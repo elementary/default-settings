@@ -6,7 +6,6 @@ project(
 prefix = get_option('prefix')
 datadir = join_paths(prefix, get_option('datadir'))
 sysconfdir = get_option('sysconfdir')
-
 schemadir = join_paths(datadir, 'glib-2.0', 'schemas')
 
 meson.add_install_script('meson/post_install.py', schemadir)
