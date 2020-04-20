@@ -17,7 +17,7 @@
     </property>
 
     <property name="PrefersColorScheme" type="i" access="readwrite">
-      <annotation name="org.freedesktop.Accounts.DefaultValue.String" value="0"/>
+      <annotation name="org.freedesktop.Accounts.DefaultValue.String" value="2"/>
     </property>
 
     <property name="SleepInactiveACTimeout" type="i" access="readwrite">
