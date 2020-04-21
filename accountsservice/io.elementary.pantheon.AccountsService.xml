@@ -16,8 +16,15 @@
       <annotation name="org.freedesktop.Accounts.DefaultValue.String" value="24h"/>
     </property>
 
-    <property name="PrefersColorScheme" type="s" access="readwrite">
-      <annotation name="org.freedesktop.Accounts.DefaultValue.String" value="no-preference"/>
+    <!--
+      PrefersColorScheme:
+
+      What color scheme the user prefers for the UI.
+      Valid preferences: 0 = No Preference, 1 = Prefer Dark, 2 = Prefer Light.
+      Unrecognized preferences should be considered equal to No Preference.
+    -->
+    <property name="PrefersColorScheme" type="u" access="readwrite">
+      <annotation name="org.freedesktop.Accounts.DefaultValue" value="0"/>
     </property>
 
     <property name="SleepInactiveACTimeout" type="i" access="readwrite">
