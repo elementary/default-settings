@@ -24,7 +24,7 @@
       Unrecognized statuses should be considered equal to No Preference.
     -->
     <property name="PrefersColorScheme" type="u" access="readwrite">
-      <annotation name="org.freedesktop.Accounts.DefaultValue.String" value="0"/>
+      <annotation name="org.freedesktop.Accounts.DefaultValue" value="0"/>
     </property>
 
     <property name="SleepInactiveACTimeout" type="i" access="readwrite">
