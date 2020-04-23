@@ -15,7 +15,7 @@ install_data(
 )
 
 act_dep = dependency('accountsservice')
-act_interfacesdir = act_dep.get_pkgconfig_variable('interfacesdir', define_variable: ['datadir', datadir])
+act_interfacesdir = act_dep.get_pkgconfig_variable('interfacesdir', define_variable: ['datadir', datadir], default: datadir /'accountsservice' / 'interfaces')
 
 meson.add_install_script(
     symlink,
