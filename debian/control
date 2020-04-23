@@ -5,6 +5,8 @@ Maintainer: Cody Garver <cody@elementary.io>
 Build-Depends: debhelper (>= 10.5.1),
                libaccountsservice-dev,
                libdbus-1-dev,
+               libpolkit-gobject-1-dev,
+               python3,
                meson
 Standards-Version: 4.1.1
 
