@@ -10,7 +10,7 @@ schemadir = join_paths(datadir, 'glib-2.0', 'schemas')
 
 meson.add_install_script('meson/post_install.py', schemadir)
 
-symlink = join_paths(meson.current_source_dir (), 'meson', 'create-symlink.py')
+symlink = join_paths(meson.current_source_dir (), 'meson', 'create-symlink.sh')
 
 # Setup system wide global environment for applications
 install_subdir(
