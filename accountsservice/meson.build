@@ -18,7 +18,7 @@ act_dep = dependency('accountsservice')
 act_interfacesdir = act_dep.get_pkgconfig_variable('interfacesdir', define_variable: ['datadir', datadir], default: datadir /'accountsservice' / 'interfaces')
 
 meson.add_install_script(
-    'create-symlink.py',
+    symlink,
     join_paths(dbus_interfaces_dir, 'io.elementary.pantheon.AccountsService.xml'),
     join_paths(act_interfacesdir, 'io.elementary.pantheon.AccountsService.xml'),
 )
