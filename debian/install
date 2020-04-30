@@ -8,3 +8,5 @@ gtk/settings.ini /etc/gtk-3.0/
 sudoers.d/* /etc/sudoers.d/
 overrides/*.gschema.override /usr/share/glib-2.0/schemas
 skel/.inputrc /etc/skel/
+usr/share/accountsservice/interfaces/
+usr/share/glib-2.0/schemas
