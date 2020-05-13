@@ -28,7 +28,7 @@ xkb-options=['grp:alt_shift_toggle']
 cursor-theme='elementary'
 document-font-name='Open Sans 10'
 font-name='Inter 9'
-gtk-theme='elementary'
+gtk-theme='io.elementary.stylesheet.blueberry'
 icon-theme='elementary'
 monospace-font-name='Roboto Mono 10'
 show-unicode-menu=false
@@ -89,7 +89,6 @@ unmaximize=['<Alt>F5']
 button-layout='close:maximize'
 mouse-button-modifier='<Super>'
 resize-with-right-button=true
-theme='elementary'
 
 [org.gnome.Epiphany.ui]
 expand-tabs-bar=false
