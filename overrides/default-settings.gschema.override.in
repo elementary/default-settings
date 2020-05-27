@@ -37,9 +37,6 @@ show-unicode-menu=false
 natural-scroll=true
 tap-to-click=true
 
-[org.gnome.desktop.screensaver]
-lock-enabled=false
-
 [org.gnome.desktop.sound]
 theme-name='elementary'
 
