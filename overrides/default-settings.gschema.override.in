@@ -1,5 +1,4 @@
 [net.launchpad.plank.dock.settings]
-dock-items=['gala-multitaskingview.dockitem','org.gnome.Epiphany.dockitem','org.pantheon.mail.dockitem','io.elementary.calendar.dockitem','io.elementary.music.dockitem','io.elementary.videos.dockitem','io.elementary.photos.dockitem','io.elementary.switchboard.dockitem','io.elementary.appcenter.dockitem']
 hide-delay=250
 hide-mode='window-dodge'
 show-dock-item=false
@@ -13,7 +12,7 @@ show=1
 
 [org.gnome.desktop.background]
 picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/elementaryos-default'
+picture-uri='file://@DEFAULT_WALLPAPER@'
 primary-color='#000000'
 
 [org.gnome.desktop.datetime]
@@ -29,7 +28,7 @@ xkb-options=['grp:alt_shift_toggle']
 cursor-theme='elementary'
 document-font-name='Open Sans 10'
 font-name='Inter 9'
-gtk-theme='elementary'
+gtk-theme='io.elementary.stylesheet.blueberry'
 icon-theme='elementary'
 monospace-font-name='Roboto Mono 10'
 show-unicode-menu=false
@@ -37,9 +36,6 @@ show-unicode-menu=false
 [org.gnome.desktop.peripherals.touchpad]
 natural-scroll=true
 tap-to-click=true
-
-[org.gnome.desktop.screensaver]
-lock-enabled=false
 
 [org.gnome.desktop.sound]
 theme-name='elementary'
@@ -90,7 +86,6 @@ unmaximize=['<Alt>F5']
 button-layout='close:maximize'
 mouse-button-modifier='<Super>'
 resize-with-right-button=true
-theme='elementary'
 
 [org.gnome.Epiphany.ui]
 expand-tabs-bar=false
@@ -131,8 +126,7 @@ active=false
 night-light-temperature=4500
 
 [org.gnome.settings-daemon.plugins.media-keys]
-screensaver='<Super>l'
-terminal='<Super>t'
+terminal=['<Super>t']
 
 [org.gnome.settings-daemon.plugins.power]
 idle-dim=false
@@ -155,6 +149,7 @@ theme='/usr/share/onboard/themes/Nightshade.theme'
 [org.pantheon.desktop.gala.behavior]
 overlay-action='io.elementary.shortcut-overlay'
 panel-main-menu-action='wingpanel --toggle-indicator=app-launcher'
+use-new-notifications=true
 
 [org.pantheon.desktop.gala.notifications.applications.gala-other]
 bubbles=false

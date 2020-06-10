@@ -2,7 +2,11 @@ Source: elementary-default-settings
 Section: gnome
 Priority: optional
 Maintainer: Cody Garver <cody@elementary.io>
-Build-Depends: debhelper (>= 10.5.1)
+Build-Depends: debhelper (>= 10.5.1),
+               libaccountsservice-dev,
+               libdbus-1-dev,
+               libpolkit-gobject-1-dev,
+               meson
 Standards-Version: 4.1.1
 
 Package: elementary-default-settings
