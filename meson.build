@@ -54,10 +54,10 @@ install_data(
     install_dir: join_paths(datadir, 'applications')
 )
 
-# Default Appcenter Blacklist
+# Default Appcenter hidden apps list
 install_data(
-    'appcenter/appcenter.blacklist',
-    install_dir: join_paths(sysconfdir, 'appcenter')
+    'appcenter/appcenter.hiddenapps',
+    install_dir: join_paths(sysconfdir, 'io.elementary.appcenter')
 )
 
 # Default gsettings overrides
