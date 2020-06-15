@@ -93,7 +93,6 @@ tabs-bar-visibility-policy='always'
 
 [org.gnome.Epiphany.web]
 cookies-policy='no-third-party'
-do-not-track=false
 enable-adblock=false
 enable-smooth-scrolling=true
 
@@ -110,9 +109,6 @@ toggle-tiled-right=['<Control><Super>Right']
 [org.gnome.nm-applet]
 disable-connected-notifications=true
 show-applet=false
-
-[org.gnome.settings-daemon.peripherals.keyboard]
-numlock-state='off'
 
 [org.gnome.settings-daemon.peripherals.touchpad]
 horiz-scroll-enabled=true
@@ -149,7 +145,6 @@ theme='/usr/share/onboard/themes/Nightshade.theme'
 [org.pantheon.desktop.gala.behavior]
 overlay-action='io.elementary.shortcut-overlay'
 panel-main-menu-action='wingpanel --toggle-indicator=app-launcher'
-use-new-notifications=true
 
 [org.pantheon.desktop.gala.notifications.applications.gala-other]
 bubbles=false
