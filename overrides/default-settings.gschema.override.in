@@ -37,6 +37,10 @@ show-unicode-menu=false
 natural-scroll=true
 tap-to-click=true
 
+[org.gnome.desktop.privacy]
+remove-old-temp-files=true
+remove-old-trash-files=true
+
 [org.gnome.desktop.sound]
 theme-name='elementary'
 
