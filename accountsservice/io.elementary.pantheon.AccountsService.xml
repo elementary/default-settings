@@ -43,5 +43,13 @@
       <annotation name="org.freedesktop.Accounts.DefaultValue" value="1"/>
     </property>
 
+    <property name="KeyboardLayouts" type="a(ss)" access="readwrite">
+      <annotation name="org.freedesktop.Accounts.DefaultValue" value="[]"/>
+    </property>
+
+    <property name="ActiveKeyboardLayout" type="u" access="readwrite">
+      <annotation name="org.freedesktop.Accounts.DefaultValue" value="0"/>
+    </property>
+
   </interface>
 </node>
