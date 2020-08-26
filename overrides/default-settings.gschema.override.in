@@ -44,6 +44,9 @@ remove-old-trash-files=true
 [org.gnome.desktop.sound:Pantheon]
 theme-name='elementary'
 
+[org.gnome.desktop.session:Pantheon]
+idle-delay=900
+
 [org.gnome.desktop.wm.keybindings:Pantheon]
 # defaults to <Super>Up, replaced by toggle below, so we need to clear it here
 maximize=[]
