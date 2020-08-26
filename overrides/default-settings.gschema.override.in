@@ -41,6 +41,9 @@ tap-to-click=true
 remove-old-temp-files=true
 remove-old-trash-files=true
 
+[org.gnome.desktop.session]
+idle-delay=900
+
 [org.gnome.desktop.sound]
 theme-name='elementary'
 
