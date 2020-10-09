@@ -17,6 +17,21 @@
     </property>
 
     <!--
+      PrefersAccentColor:
+
+      What accent color the user prefers for the UI.
+
+      Valid preferences: 0 = No Preference (currently assumes Blueberry), 
+      1 = Strawberry, 2 = Orange, 3 = Banana, 4 = Lime, 5 = Blueberry, 6 = Mint, 
+      7 = Grape, 8 = Bubblegum, 9 = Cocoa, 10 = Slate.
+
+      Unrecognized preferences should be considered equal to No Preference.
+    -->
+    <property name="PrefersAccentColor" type="i" access="readwrite">
+      <annotation name="org.freedesktop.Accounts.DefaultValue" value="0"/>
+    </property>
+
+    <!--
       PrefersColorScheme:
 
       What color scheme the user prefers for the UI.
