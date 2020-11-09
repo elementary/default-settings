@@ -21,9 +21,18 @@
 
       What accent color the user prefers for the UI.
 
-      Valid preferences: 0 = No Preference (currently assumes Blue), 1 = Red, 
-      2 = Orange, 3 = Yellow, 4 = Green, 6 = Mint, 6 = Blue, 7 = Purple, 
-      8 = Pink, 9 = Brown, 10 = Gray.
+      Valid preferences: 
+        0 = No Preference (currently assumes Blue)
+        1 = Red
+        2 = Orange
+        3 = Yellow
+        4 = Green
+        5 = Mint
+        6 = Blue
+        7 = Purple
+        8 = Pink
+        9 = Brown
+        10 = Gray
 
       Unrecognized preferences should be considered equal to No Preference.
     -->
