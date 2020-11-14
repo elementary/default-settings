@@ -139,7 +139,7 @@ idle-dim=false
 active=false
 
 [org.gnome.settings-daemon.plugins.xsettings]
-antialiasing='rgba'
+antialiasing='grayscale'
 hinting='slight'
 overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/EnablePrimaryPaste': <0>, 'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'close:menu,maximize'>}
 
