@@ -37,6 +37,13 @@ show-unicode-menu=false
 natural-scroll=true
 tap-to-click=true
 
+[org.gnome.desktop.privacy]
+remove-old-temp-files=true
+remove-old-trash-files=true
+
+[org.gnome.desktop.session]
+idle-delay=900
+
 [org.gnome.desktop.sound]
 theme-name='elementary'
 
@@ -93,7 +100,6 @@ tabs-bar-visibility-policy='always'
 
 [org.gnome.Epiphany.web]
 cookies-policy='no-third-party'
-do-not-track=false
 enable-adblock=false
 enable-smooth-scrolling=true
 
@@ -110,9 +116,6 @@ toggle-tiled-right=['<Control><Super>Right']
 [org.gnome.nm-applet]
 disable-connected-notifications=true
 show-applet=false
-
-[org.gnome.settings-daemon.peripherals.keyboard]
-numlock-state='off'
 
 [org.gnome.settings-daemon.peripherals.touchpad]
 horiz-scroll-enabled=true
@@ -136,7 +139,7 @@ idle-dim=false
 active=false
 
 [org.gnome.settings-daemon.plugins.xsettings]
-antialiasing='rgba'
+antialiasing='grayscale'
 hinting='slight'
 overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/EnablePrimaryPaste': <0>, 'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'close:menu,maximize'>}
 
@@ -149,7 +152,6 @@ theme='/usr/share/onboard/themes/Nightshade.theme'
 [org.pantheon.desktop.gala.behavior]
 overlay-action='io.elementary.shortcut-overlay'
 panel-main-menu-action='wingpanel --toggle-indicator=app-launcher'
-use-new-notifications=true
 
 [org.pantheon.desktop.gala.notifications.applications.gala-other]
 bubbles=false
