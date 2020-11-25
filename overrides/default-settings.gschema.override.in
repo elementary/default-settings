@@ -33,6 +33,9 @@ icon-theme='elementary'
 monospace-font-name='Roboto Mono 10'
 show-unicode-menu=false
 
+[org.gnome.desktop.peripherals.mouse]
+accel-profile='flat'
+
 [org.gnome.desktop.peripherals.touchpad]
 natural-scroll=true
 tap-to-click=true
