@@ -63,8 +63,5 @@ install_data(
 # Default gsettings overrides
 subdir('overrides')
 
-# AccountsService extension for Greeter.
-subdir('accountsservice')
-
 # System skeleton
 subdir('skel')
