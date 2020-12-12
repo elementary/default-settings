@@ -19,17 +19,6 @@ install_subdir(
     strip_directory : true
 )
 
-# elementary Plymouth Theme
-install_subdir(
-    'plymouth/elementary',
-    install_dir: join_paths(datadir, 'plymouth', 'themes')
-)
-
-install_data(
-    'plymouth/ubuntu-text.plymouth',
-    install_dir: join_paths(datadir, 'plymouth', 'themes')
-)
-
 # Sudo password feedback in terminals
 install_data(
     'sudoers.d/pwfeedback',
