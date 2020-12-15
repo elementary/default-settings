@@ -1,3 +1,18 @@
+elementary-default-settings (5.9.0) focal; urgency=medium
+
+  * Set Inter 9 as default key
+  * Use the new notification daemon
+  * Adapt the GSettings overrides to focal
+  * Use meson build system
+  * Enable housekeeping by default
+  * Use Gala screensaver
+  * Add keyboard layout settings to accountsservice
+  * Add accent color to accountsservice
+  * Update applications desktop name for the dock
+  * Add Tasks to the dock
+
+ -- elementary, Inc. <builds@elementary.io>  Sat, 12 Dec 2020 11:11:11 +0100
+
 elementary-default-settings (5.1.2) bionic; urgency=medium
 
   * profile.d: use GTK3_MODULES over GTK_MODULES
