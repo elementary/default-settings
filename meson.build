@@ -49,6 +49,12 @@ install_data(
     install_dir: join_paths(sysconfdir, 'io.elementary.appcenter')
 )
 
+# Touchégg config
+install_data(
+    'touchegg/touchegg.conf',
+    install_dir: join_paths(datadir, 'touchegg')
+)
+
 # Default gsettings overrides
 subdir('overrides')
 
