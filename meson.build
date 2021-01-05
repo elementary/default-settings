@@ -19,17 +19,6 @@ install_subdir(
     strip_directory : true
 )
 
-# elementary Plymouth Theme
-install_subdir(
-    'plymouth/elementary',
-    install_dir: join_paths(datadir, 'plymouth', 'themes')
-)
-
-install_data(
-    'plymouth/ubuntu-text.plymouth',
-    install_dir: join_paths(datadir, 'plymouth', 'themes')
-)
-
 # Sudo password feedback in terminals
 install_data(
     'sudoers.d/pwfeedback',
@@ -58,6 +47,12 @@ install_data(
 install_data(
     'appcenter/appcenter.hiddenapps',
     install_dir: join_paths(sysconfdir, 'io.elementary.appcenter')
+)
+
+# Touchégg config
+install_data(
+    'touchegg/touchegg.conf',
+    install_dir: join_paths(datadir, 'touchegg')
 )
 
 # Default gsettings overrides
