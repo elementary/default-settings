@@ -1,10 +1,4 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@
-
-override_dh_install:
-	dh_install --fail-missing
-
-override_dh_installgsettings:
-	dh_installgsettings --priority=25
+	dh $@ --buildsystem=meson

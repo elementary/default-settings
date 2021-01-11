@@ -1,7 +1,12 @@
-appcenter.blacklist /etc/io.elementary.appcenter/
-plank/dock1 /etc/skel/.config/plank/
+accountsservice/io.elementary.pantheon.AccountsService.xml /usr/share/dbus-1/interfaces/
+accountsservice/io.elementary.pantheon.AccountsService.policy /usr/share/polkit-1/actions/
+etc/io.elementary.appcenter/
+skel/plank/dock1 /etc/skel/.config/plank/
 profile.d/*.sh /etc/profile.d/
-sessioninstaller.desktop /usr/share/applications/
-settings.ini /etc/gtk-3.0/
+sessioninstaller/sessioninstaller.desktop /usr/share/applications/
+gtk/settings.ini /etc/gtk-3.0/
 sudoers.d/* /etc/sudoers.d/
-wingpanel.d/* /etc/wingpanel.d/
+overrides/*.gschema.override /usr/share/glib-2.0/schemas
+skel/.inputrc /etc/skel/
+usr/share/accountsservice/interfaces/
+usr/share/glib-2.0/schemas

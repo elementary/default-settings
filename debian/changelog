@@ -1,3 +1,43 @@
+elementary-default-settings (5.9.0) focal; urgency=medium
+
+  * Set Inter 9 as default key
+  * Use the new notification daemon
+  * Adapt the GSettings overrides to focal
+  * Use meson build system
+  * Enable housekeeping by default
+  * Use Gala screensaver
+  * Add keyboard layout settings to accountsservice
+  * Add accent color to accountsservice
+  * Update applications desktop name for the dock
+  * Add Tasks to the dock
+
+ -- elementary, Inc. <builds@elementary.io>  Sat, 12 Dec 2020 11:11:11 +0100
+
+elementary-default-settings (5.1.2) bionic; urgency=medium
+
+  * profile.d: use GTK3_MODULES over GTK_MODULES
+  * Remove switchboard plugs from blacklist
+  * Automatically show & hide the property panel of IBus
+  * Make default search engine DuckDuckGo
+  * Activate g-s-d cursor plugin
+  * Removed deprecated draw-background override
+  * Add AccountsService interfaces for greeter power settings
+  * Accept only first party cookies for enhanced privacy
+
+ -- Daniel Foré <daniel@elementary.io>  Wed, 08 Jan 2020 08:56:41 -0800
+
+elementary-default-settings (5.1.1) bionic; urgency=medium
+
+  * New upstream release.
+
+ -- Cody Garver <codygarver@gmail.com>  Tue, 13 Aug 2019 20:53:51 -0500
+
+elementary-default-settings (5.1.0) bionic; urgency=medium
+
+  * New upstream release.
+
+ -- Cody Garver <codygarver@gmail.com>  Tue, 19 Mar 2019 15:24:37 -0500
+
 elementary-default-settings (5.0) bionic; urgency=medium
 
   * New upstream release.
