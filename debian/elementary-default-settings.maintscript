@@ -1,0 +1,2 @@
+rm_conffile /etc/profile.d/gtk-csd.sh 6.0.0~
+rm_conffile /etc/profile.d/gtk-filechooser-native.sh 6.0.0~
