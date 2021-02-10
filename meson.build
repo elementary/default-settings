@@ -31,6 +31,12 @@ install_data(
     install_dir: join_paths(datadir, 'cups', 'data')
 )
 
+# GeoClue Settings
+install_data(
+    'geoclue/geoclue.conf',
+    install_dir: join_paths(sysconfdir, 'geoclue')
+)
+
 # GTK3 Settings
 install_data(
     'gtk/settings.ini',
