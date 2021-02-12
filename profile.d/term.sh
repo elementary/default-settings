@@ -1,1 +1,1 @@
-export TERM=io.elementary.terminal
+export TERM="io.elementary.terminal"
