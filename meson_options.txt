@@ -3,7 +3,6 @@ option('appcenter-flatpak',
        value: true,
        description: 'Install configuration files for the AppCenter flatpak remote')
 
-
 option('default-wallpaper',
        type: 'string',
        value: '/usr/share/backgrounds/elementaryos-default',
