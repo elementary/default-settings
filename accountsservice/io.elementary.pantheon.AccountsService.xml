@@ -37,7 +37,7 @@
       Unrecognized preferences should be considered equal to No Preference.
     -->
     <property name="PrefersAccentColor" type="i" access="readwrite">
-      <annotation name="org.freedesktop.Accounts.DefaultValue" value="0"/>
+      <annotation name="org.freedesktop.Accounts.DefaultValue" value="6"/>
     </property>
 
     <!--
