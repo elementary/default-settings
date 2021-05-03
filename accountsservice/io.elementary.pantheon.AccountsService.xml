@@ -22,7 +22,7 @@
       What accent color the user prefers for the UI.
 
       Valid preferences: 
-        0 = No Preference (currently assumes Blue)
+        0 = No Preference (based on wallpaper)
         1 = Red
         2 = Orange
         3 = Yellow
