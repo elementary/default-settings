@@ -22,7 +22,7 @@ install_subdir(
 # Install apparmor profiles
 install_subdir(
     'apparmor.d',
-    install_dir: sysconfdir / 'apparmor.d'),
+    install_dir: sysconfdir / 'apparmor.d',
     strip_directory : true
 )
 
