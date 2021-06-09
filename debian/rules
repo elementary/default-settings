@@ -2,3 +2,7 @@
 
 %:
 	dh $@ --buildsystem=meson
+
+override_dh_install:
+	dh_install
+	dh_apparmor --profile-name=io.elementary.lightdm-guest-session

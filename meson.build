@@ -19,6 +19,13 @@ install_subdir(
     strip_directory : true
 )
 
+# Install apparmor profiles
+install_subdir(
+    'apparmor.d',
+    install_dir: sysconfdir / 'apparmor.d'),
+    strip_directory : true
+)
+
 # Sudo password feedback in terminals
 install_data(
     'sudoers.d/pwfeedback',

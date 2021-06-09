@@ -1,0 +1,33 @@
+# vim:syntax=apparmor
+# Profile for restricting lightdm guest session
+
+#include <tunables/global>
+
+/usr/lib/lightdm/lightdm-guest-session {
+  # Most applications are confined via the main abstraction
+  #include <abstractions/lightdm>
+
+  # Prevent ICEauthority error in e.g. MATE
+  owner /{,var/}run/user/[0-9]*/ICEauthority* l,
+
+  # chromium-browser needs special confinement due to its sandboxing
+  #include <abstractions/lightdm_chromium-browser>
+
+  # fcitx and friends needs special treatment due to C/S design
+  /usr/bin/fcitx ix,
+  /tmp/fcitx-socket-* rwl,
+  /dev/shm/* rwl,
+  /usr/bin/fcitx-qimpanel ix,
+  /usr/bin/sogou-qimpanel-watchdog ix,
+  /usr/bin/sogou-sys-notify ix,
+  /tmp/sogou-qimpanel:* rwl,
+
+  # Allow ibus
+  unix (bind, listen) type=stream addr="@tmp/ibus/*",
+
+  # mozc_server needs special treatment due to C/S design
+  unix (bind, listen) type=stream addr="@tmp/.mozc.*",
+
+  # Allow applications-menu to connect to switchboard for settings search
+  unix (bind, listen) type=stream addr="@/tmp/applications-menu*",
+}
