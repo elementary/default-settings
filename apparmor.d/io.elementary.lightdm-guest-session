@@ -10,9 +10,6 @@
   # Prevent ICEauthority error in e.g. MATE
   owner /{,var/}run/user/[0-9]*/ICEauthority* l,
 
-  # chromium-browser needs special confinement due to its sandboxing
-  #include <abstractions/lightdm_chromium-browser>
-
   # fcitx and friends needs special treatment due to C/S design
   /usr/bin/fcitx ix,
   /tmp/fcitx-socket-* rwl,
