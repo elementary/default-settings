@@ -1,9 +1,3 @@
-[net.launchpad.plank.dock.settings:Pantheon]
-hide-delay=250
-hide-mode='window-dodge'
-show-dock-item=false
-theme='Gtk+'
-
 [org.freedesktop.ibus.general.hotkey:Pantheon]
 triggers=['<Control>space']
 
