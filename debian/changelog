@@ -1,3 +1,9 @@
+elementary-default-settings (6.0.0) focal; urgency=medium
+
+  * New upstream release.
+
+ -- Daniel Foré <daniel@elementary.io>  Thu, 15 Jul 2021 12:58:36 -0700
+
 elementary-default-settings (5.9.0) focal; urgency=medium
 
   * Set Inter 9 as default key
