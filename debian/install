@@ -1,6 +1,7 @@
 accountsservice/io.elementary.pantheon.AccountsService.xml /usr/share/dbus-1/interfaces/
 accountsservice/io.elementary.pantheon.AccountsService.policy /usr/share/polkit-1/actions/
 etc/io.elementary.appcenter/
+skel/flatpak/repo /etc/skel/.local/share/flatpak/
 skel/plank/dock1 /etc/skel/.config/plank/
 profile.d/*.sh /etc/profile.d/
 sessioninstaller/sessioninstaller.desktop /usr/share/applications/
