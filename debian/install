@@ -1,4 +1,5 @@
 appcenter.blacklist /etc/io.elementary.appcenter/
+flatpak/repo /etc/skel/.local/share/flatpak/
 plank/dock1 /etc/skel/.config/plank/
 profile.d/*.sh /etc/profile.d/
 sessioninstaller.desktop /usr/share/applications/
