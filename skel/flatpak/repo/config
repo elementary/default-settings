@@ -11,4 +11,4 @@ gpg-verify-summary=true
 xa.comment=The open source, pay-what-you-want app store from elementary
 xa.description=Reviewed and curated by elementary to ensure a native, privacy-respecting, and secure experience
 xa.icon=https://flatpak.elementary.io/icon.svg
-xa.homepage=https://appcenter.elementary.io/
+xa.homepage=https://elementary.io/
