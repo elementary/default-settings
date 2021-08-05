@@ -1,6 +1,6 @@
-skel/flatpak/repo/extensions
-skel/flatpak/repo/objects
-skel/flatpak/repo/refs/heads
-skel/flatpak/repo/refs/mirrors
-skel/flatpak/repo/refs/remotes
-skel/flatpak/repo/state
+etc/skel/flatpak/repo/extensions
+etc/skel/flatpak/repo/objects
+etc/skel/flatpak/repo/refs/heads
+etc/skel/flatpak/repo/refs/mirrors
+etc/skel/flatpak/repo/refs/remotes
+etc/skel/flatpak/repo/state
