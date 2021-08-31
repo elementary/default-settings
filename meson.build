@@ -1,6 +1,6 @@
 project(
     'elementary-default-settings',
-    version: '5.1.2',
+    version: '6.0.1',
 )
 
 prefix = get_option('prefix')
