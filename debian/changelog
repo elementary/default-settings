@@ -1,3 +1,9 @@
+elementary-default-settings (6.0.01) focal; urgency=medium
+
+  * Change Tasks launcher path to usr/share
+
+ -- Daniel Fore <daniel@elementary.io>  Tue, 31 Aug 2021 12:14:16 -0700
+
 elementary-default-settings (6.0.0) focal; urgency=medium
 
   * New upstream release.
