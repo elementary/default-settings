@@ -95,7 +95,6 @@ tabs-bar-visibility-policy='always'
 
 [org.gnome.Epiphany.web:Pantheon]
 enable-adblock=false
-enable-smooth-scrolling=true
 
 [org.gnome.mutter:Pantheon]
 auto-maximize=false
