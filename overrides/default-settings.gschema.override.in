@@ -94,7 +94,6 @@ expand-tabs-bar=false
 tabs-bar-visibility-policy='always'
 
 [org.gnome.Epiphany.web:Pantheon]
-cookies-policy='no-third-party'
 enable-adblock=false
 enable-smooth-scrolling=true
 
