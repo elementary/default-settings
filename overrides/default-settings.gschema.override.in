@@ -21,11 +21,12 @@ xkb-options=['grp:alt_shift_toggle']
 [org.gnome.desktop.interface:Pantheon]
 cursor-theme='elementary'
 document-font-name='Open Sans 10'
+font-antialiasing='grayscale'
+font-hinting='slight'
 font-name='Inter 9'
 gtk-theme='io.elementary.stylesheet.blueberry'
 icon-theme='elementary'
 monospace-font-name='Roboto Mono 10'
-show-unicode-menu=false
 
 [org.gnome.desktop.peripherals.touchpad:Pantheon]
 natural-scroll=true
@@ -133,9 +134,7 @@ idle-dim=false
 active=false
 
 [org.gnome.settings-daemon.plugins.xsettings:Pantheon]
-antialiasing='grayscale'
-hinting='slight'
-overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/EnablePrimaryPaste': <0>, 'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'close:menu,maximize'>}
+overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/EnablePrimaryPaste': <0>, 'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'close:menu,maximize'>,'Gtk/ShowUnicodeMenu': <0>}
 
 [org.gtk.Settings.FileChooser:Pantheon]
 sort-directories-first=true
