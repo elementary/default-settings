@@ -1,3 +1,11 @@
+elementary-default-settings (7.0.0) jammy; urgency=medium
+
+  * Add Files to the dock
+  * Remove unused AppCenter blocklist
+  * Update gsettings overrides to new schema paths
+
+ -- Danielle Foré <danielle@elementary.io>  Fri, 14 Oct 2022 11:02:53 -0700
+
 elementary-default-settings (6.0.2) focal; urgency=medium
 
   * Change Videos launcher path to var
