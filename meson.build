@@ -1,6 +1,6 @@
 project(
     'elementary-default-settings',
-    version: '5.1.2',
+    version: '6.0.2',
 )
 
 prefix = get_option('prefix')
@@ -41,12 +41,6 @@ install_data(
 install_data(
     'sessioninstaller/sessioninstaller.desktop',
     install_dir: join_paths(datadir, 'applications')
-)
-
-# Default Appcenter hidden apps list
-install_data(
-    'appcenter/appcenter.hiddenapps',
-    install_dir: join_paths(sysconfdir, 'io.elementary.appcenter')
 )
 
 # Default gsettings overrides

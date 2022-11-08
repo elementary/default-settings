@@ -1,3 +1,16 @@
+elementary-default-settings (6.0.2) focal; urgency=medium
+
+  * Change Videos launcher path to var
+  * Update settings.ini values for font and stylesheet
+
+ -- Danielle Foré <danielle@elementary.io>  Sat, 30 Oct 2021 14:05:51 -0700
+
+elementary-default-settings (6.0.01) focal; urgency=medium
+
+  * Change Tasks launcher path to usr/share
+
+ -- Daniel Fore <daniel@elementary.io>  Tue, 31 Aug 2021 12:14:16 -0700
+
 elementary-default-settings (6.0.0) focal; urgency=medium
 
   * New upstream release.
