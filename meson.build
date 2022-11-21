@@ -29,7 +29,7 @@ install_data(
 install_data(
     'cups/default-testpage.pdf',
     'cups/sudoku-testpage.pdf',
-    'cups/sudoku-testprint'
+    'cups/sudoku-testprint',
     install_dir: join_paths(datadir, 'cups', 'data')
 )
 
