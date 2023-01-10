@@ -4,22 +4,21 @@ on: [push, pull_request]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     container:
       image: elementary/docker:odin-unstable
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Install Dependencies
-      run: |
-        apt update
-        apt install -y meson libaccountsservice-dev dbus libpolkit-gobject-1-dev python3 libglib2.0-bin
-    - name: Build
-      env:
-        DESTDIR: ${{ env.PWD }}/build/out
-      run: |
-        meson build
-        ninja -C build
-        ninja -C build install
+      - uses: actions/checkout@v3
+      - name: Install Dependencies
+        run: |
+          apt update
+          apt install -y meson libaccountsservice-dev dbus libpolkit-gobject-1-dev python3 libglib2.0-bin
+      - name: Build
+        env:
+          DESTDIR: ${{ env.PWD }}/build/out
+        run: |
+          meson build
+          ninja -C build
+          ninja -C build install
