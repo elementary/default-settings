@@ -134,6 +134,9 @@ active=false
 [org.gnome.settings-daemon.plugins.xsettings:Pantheon]
 overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/EnablePrimaryPaste': <0>, 'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'close:menu,maximize'>,'Gtk/ShowUnicodeMenu': <0>}
 
+[org.gnome.system.location:Pantheon]
+enabled=true
+
 [org.gtk.Settings.FileChooser:Pantheon]
 sort-directories-first=true
 
