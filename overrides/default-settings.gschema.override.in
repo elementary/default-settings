@@ -58,8 +58,8 @@ move-to-workspace-left=['<Super><Alt>Left']
 move-to-workspace-right=['<Super><Alt>Right']
 panel-main-menu=['<Super>space','<Alt>F2']
 panel-run-dialog=[]
-# Gala shows workspaces overview instead of desktop
-show-desktop=['<Super>Down','<Super>s']
+# Gala shows multitasking view instead of desktop
+show-desktop=['<Super>S']
 switch-applications=[]
 switch-applications-backward=[]
 # See lp:1291788 for details about switch-input-source*
