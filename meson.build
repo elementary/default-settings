@@ -43,6 +43,13 @@ install_data(
     install_dir: join_paths(datadir, 'applications')
 )
 
+# Setup flatpak configuration
+install_subdir(
+    'flatpak',
+    install_dir: join_paths(sysconfdir, 'flatpak'),
+    strip_directory : true
+)
+
 # Default gsettings overrides
 subdir('overrides')
 

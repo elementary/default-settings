@@ -1,0 +1,3 @@
+# Only allow FreeDesktop extensions
+deny *
+allow runtime/org.freedesktop.*
