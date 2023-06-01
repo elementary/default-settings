@@ -1,3 +1,9 @@
+elementary-default-settings (7.0.2) jammy; urgency=medium
+
+  * Overrides: set location services enabled by default
+
+ -- Danielle Foré <danielle@elementary.io>  Wed, 31 May 2023 17:23:51 -0700
+
 elementary-default-settings (7.0.1) jammy; urgency=medium
 
   * Fix Music dock item
