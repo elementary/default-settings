@@ -19,7 +19,7 @@ Package: elementary-printer-test-page
 Architecture: all
 Depends: ${misc:Depends}
 Conflicts: print-test-page-elementary
-Replaces: cups-filters, print-test-page-elementary
+Replaces: print-test-page-elementary
 Description: printer test page for elementary
  Printer test page for elementary OS.
 
