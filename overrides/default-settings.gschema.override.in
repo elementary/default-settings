@@ -7,6 +7,7 @@ show=1
 [org.gnome.desktop.background:Pantheon]
 picture-options='zoom'
 picture-uri='file://@DEFAULT_WALLPAPER@'
+picture-uri-dark='file://@DEFAULT_WALLPAPER_DARK@'
 primary-color='#000000'
 
 [org.gnome.desktop.datetime:Pantheon]
