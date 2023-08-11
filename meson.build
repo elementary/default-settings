@@ -1,16 +1,16 @@
 project(
     'elementary-default-settings',
     version: '7.0.2',
+    meson_version: '>= 0.61.0',
 )
 
+gnome = import('gnome')
 prefix = get_option('prefix')
 datadir = join_paths(prefix, get_option('datadir'))
 sysconfdir = get_option('sysconfdir')
 schemadir = join_paths(datadir, 'glib-2.0', 'schemas')
 
-meson.add_install_script('meson/post_install.py', schemadir)
-
-symlink = join_paths(meson.current_source_dir (), 'meson', 'create-symlink.sh')
+gnome.post_install(glib_compile_schemas: true)
 
 # Setup system wide global environment for applications
 install_subdir(
