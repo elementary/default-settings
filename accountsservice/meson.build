@@ -21,8 +21,9 @@ act_interfacesdir = act_dep.get_variable(
     default_value: datadir /'accountsservice' / 'interfaces'
 )
 
-install_symlink(
-    'io.elementary.pantheon.AccountsService.xml',
-    install_dir: act_interfacesdir,
-    pointing_to: dbus_interfaces_dir / 'io.elementary.pantheon.AccountsService.xml'
+symlink = join_paths(meson.current_source_dir (), 'meson', 'create-symlink.sh')
+meson.add_install_script(
+    symlink,
+    dbus_interfaces_dir / 'io.elementary.pantheon.AccountsService.xml',
+    act_interfacesdir / 'io.elementary.pantheon.AccountsService.xml',
 )
