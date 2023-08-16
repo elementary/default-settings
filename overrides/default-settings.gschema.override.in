@@ -63,6 +63,8 @@ panel-run-dialog=[]
 show-desktop=['<Super>Down','<Super>s']
 switch-applications=[]
 switch-applications-backward=[]
+switch-group=['<Super>grave']
+switch-group-backward=['<Shift><Super>grave']
 # See lp:1291788 for details about switch-input-source*
 switch-input-source=[]
 switch-input-source-backward=[]
