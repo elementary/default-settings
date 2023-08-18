@@ -1,10 +1,10 @@
-skeldir = join_paths(sysconfdir, 'skel')
+skeldir = sysconfdir / 'skel'
 
 # Planks Default DockItems
 if get_option('plank-dockitems')
     install_subdir(
         'plank',
-        install_dir: join_paths(skeldir, '.config')
+        install_dir: skeldir / '.config'
     )
 endif
 
@@ -12,7 +12,7 @@ endif
 if get_option('appcenter-flatpak')
     install_subdir(
         'flatpak',
-        install_dir: join_paths(skeldir, '.local', 'share')
+        install_dir: skeldir / '.local' / 'share'
     )
 endif
 
