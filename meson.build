@@ -1,7 +1,7 @@
 project(
     'elementary-default-settings',
-    version: '7.0.2',
-    meson_version: '>= 0.58.0',
+    version: '7.1.0',
+    meson_version: '>= 0.58.0'
 )
 
 gnome = import('gnome')
