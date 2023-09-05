@@ -109,6 +109,7 @@ toggle-tiled-right=['<Control><Super>Right']
 
 [org.gnome.nm-applet:Pantheon]
 disable-connected-notifications=true
+disable-disconnected-notifications=true
 show-applet=false
 
 [org.gnome.settings-daemon.peripherals.touchpad:Pantheon]
