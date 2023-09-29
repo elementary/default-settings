@@ -45,6 +45,12 @@ install_data(
     install_dir: datadir / 'applications'
 )
 
+# xdg-desktop-portal configuration
+install_data(
+    'xdg-desktop-portal/pantheon-portals.conf',
+    install_dir: datadir / 'xdg-desktop-portal'
+)
+
 # Default gsettings overrides
 subdir('overrides')
 
