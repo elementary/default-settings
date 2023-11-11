@@ -13,9 +13,6 @@ primary-color='#000000'
 [org.gnome.desktop.datetime:Pantheon]
 automatic-timezone=true
 
-[org.gnome.desktop.default-applications.terminal:Pantheon]
-exec='io.elementary.terminal'
-
 [org.gnome.desktop.input-sources:Pantheon]
 xkb-options=['grp:alt_shift_toggle']
 
@@ -57,7 +54,6 @@ move-to-workspace-8=['<Super><Shift>8','<Super><Alt>8']
 move-to-workspace-9=['<Super><Shift>9','<Super><Alt>9']
 move-to-workspace-left=['<Super><Alt>Left']
 move-to-workspace-right=['<Super><Alt>Right']
-panel-main-menu=['<Super>space','<Alt>F2']
 panel-run-dialog=[]
 # Gala shows workspaces overview instead of desktop
 show-desktop=['<Super>Down','<Super>s']
@@ -93,13 +89,6 @@ button-layout='close:maximize'
 mouse-button-modifier='<Super>'
 resize-with-right-button=true
 
-[org.gnome.Epiphany.ui:Pantheon]
-expand-tabs-bar=false
-tabs-bar-visibility-policy='always'
-
-[org.gnome.Epiphany.web:Pantheon]
-enable-adblock=false
-
 [org.gnome.mutter:Pantheon]
 auto-maximize=false
 overlay-key='Super_L'
@@ -114,26 +103,41 @@ toggle-tiled-right=['<Control><Super>Right']
 disable-connected-notifications=true
 show-applet=false
 
-[org.gnome.settings-daemon.peripherals.touchpad:Pantheon]
-horiz-scroll-enabled=true
-natural-scroll=true
-scroll-method='two-finger-scrolling'
-
-[org.gnome.settings-daemon.plugins.background:Pantheon]
-active=false
-
 [org.gnome.settings-daemon.plugins.color:Pantheon]
 night-light-temperature=4500
 
 [org.gnome.settings-daemon.plugins.media-keys:Pantheon]
 terminal=['<Super>t']
+# see https://github.com/elementary/switchboard-plug-keyboard/issues/376#issuecomment-899068830
+email=['XF86Mail']
+email-static=[]  
+home=['XF86Explorer']
+home-static=[]
+media=['XF86AudioMedia']
+media-static=[]
+www=['XF86WWW']
+www-static=[]
+volume-up=['XF86AudioRaiseVolume', '<Ctrl>XF86AudioRaiseVolume']
+volume-up-static=[]
+volume-down=['XF86AudioLowerVolume', '<Ctrl>XF86AudioLowerVolume']
+volume-down-static=[]
+volume-mute=['XF86AudioMute']
+volume-mute-static=[]
+play=['XF86AudioPlay', '<Ctrl>XF86AudioPlay']
+play-static=[]
+pause=['XF86AudioPause']
+pause-static=[]
+stop=['XF86AudioStop']
+stop-static=[]
+previous=['XF86AudioPrev', '<Ctrl>XF86AudioPrev']
+previous-static=[]
+next=['XF86AudioNext', '<Ctrl>XF86AudioNext']
+next-static=[]
+eject=['XF86Eject']
+eject-static=[]
 
 [org.gnome.settings-daemon.plugins.power:Pantheon]
 idle-dim=false
-
-[org.gnome.settings-daemon.plugins.screensaver-proxy:Pantheon]
-# Allows light-locker to accept DBus
-active=false
 
 [org.gnome.settings-daemon.plugins.xsettings:Pantheon]
 overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/EnablePrimaryPaste': <0>, 'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'close:menu,maximize'>,'Gtk/ShowUnicodeMenu': <0>}
