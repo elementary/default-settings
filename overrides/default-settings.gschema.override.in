@@ -4,6 +4,10 @@ triggers=['<Control>space']
 [org.freedesktop.ibus.panel:Pantheon]
 show=1
 
+[org.freedesktop.ibus.panel.emoji:Pantheon]
+hotkey=[]
+unicode-hotkey=[]
+
 [org.gnome.desktop.background:Pantheon]
 picture-options='zoom'
 picture-uri='file://@DEFAULT_WALLPAPER@'
