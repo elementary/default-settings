@@ -13,11 +13,3 @@ if get_option('default-gsettings-overrides')
         install_dir: schemadir
     )
 endif
-
-# Install conditionally because it's dependent on our dockitems being installed
-if get_option('plank-dockitems')
-    install_data(
-        'plank-dockitems.gschema.override',
-        install_dir: schemadir
-    )
-endif
