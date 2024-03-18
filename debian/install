@@ -2,12 +2,10 @@ accountsservice/io.elementary.pantheon.AccountsService.xml /usr/share/dbus-1/int
 accountsservice/io.elementary.pantheon.AccountsService.policy /usr/share/polkit-1/actions/
 skel/flatpak/repo/appcenter.trustedkeys.gpg /etc/skel/.local/share/flatpak/repo/
 skel/flatpak/repo/config /etc/skel/.local/share/flatpak/repo/
-skel/plank/dock1 /etc/skel/.config/plank/
 profile.d/*.sh /etc/profile.d/
 sessioninstaller/sessioninstaller.desktop /usr/share/applications/
 gtk/settings.ini /etc/gtk-3.0/
 sudoers.d/* /etc/sudoers.d/
-overrides/*.gschema.override /usr/share/glib-2.0/schemas
 skel/.inputrc /etc/skel/
 usr/share/accountsservice/interfaces/
 usr/share/glib-2.0/schemas
