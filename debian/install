@@ -2,7 +2,6 @@ accountsservice/io.elementary.pantheon.AccountsService.xml /usr/share/dbus-1/int
 accountsservice/io.elementary.pantheon.AccountsService.policy /usr/share/polkit-1/actions/
 skel/flatpak/repo/appcenter.trustedkeys.gpg /etc/skel/.local/share/flatpak/repo/
 skel/flatpak/repo/config /etc/skel/.local/share/flatpak/repo/
-pantheon-portals.conf /usr/share/xdg-desktop-portal
 profile.d/*.sh /etc/profile.d/
 sessioninstaller/sessioninstaller.desktop /usr/share/applications/
 gtk/settings.ini /etc/gtk-3.0/
@@ -10,3 +9,4 @@ sudoers.d/* /etc/sudoers.d/
 skel/.inputrc /etc/skel/
 usr/share/accountsservice/interfaces/
 usr/share/glib-2.0/schemas
+usr/share/xdg-desktop-portal
