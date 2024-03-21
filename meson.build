@@ -14,13 +14,6 @@ gnome.post_install(glib_compile_schemas: true)
 
 symlink = meson.current_source_dir () / 'meson' / 'create-symlink.sh'
 
-# Setup system wide global environment for applications
-install_subdir(
-    'profile.d',
-    install_dir: sysconfdir / 'profile.d',
-    strip_directory : true
-)
-
 # Sudo password feedback in terminals
 install_data(
     'sudoers.d/pwfeedback',
