@@ -9,3 +9,4 @@ sudoers.d/* /etc/sudoers.d/
 skel/.inputrc /etc/skel/
 usr/share/accountsservice/interfaces/
 usr/share/glib-2.0/schemas
+usr/share/xdg-desktop-portal
