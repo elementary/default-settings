@@ -4,8 +4,8 @@ skel/flatpak/repo/appcenter.trustedkeys.gpg /etc/skel/.local/share/flatpak/repo/
 skel/flatpak/repo/config /etc/skel/.local/share/flatpak/repo/
 profile.d/*.sh /etc/profile.d/
 sessioninstaller/sessioninstaller.desktop /usr/share/applications/
-gtk/settings.ini /etc/gtk-3.0/
 sudoers.d/* /etc/sudoers.d/
 skel/.inputrc /etc/skel/
 usr/share/accountsservice/interfaces/
 usr/share/glib-2.0/schemas
+usr/share/xdg-desktop-portal
