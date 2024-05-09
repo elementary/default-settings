@@ -12,3 +12,13 @@ xa.comment=The open source, pay-what-you-want app store from elementary
 xa.description=Reviewed and curated by elementary to ensure a native, privacy-respecting, and secure experience
 xa.icon=https://flatpak.elementary.io/icon.svg
 xa.homepage=https://appcenter.elementary.io/
+
+[remote "flathub"]
+url=https://dl.flathub.org/repo/
+xa.title=Flathub
+gpg-verify=true
+gpg-verify-summary=true
+xa.comment=Central repository of Flatpak applications
+xa.description=Central repository of Flatpak applications
+xa.icon=https://dl.flathub.org/repo/logo.svg
+xa.homepage=https://flathub.org/
