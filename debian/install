@@ -1,6 +1,7 @@
 accountsservice/io.elementary.pantheon.AccountsService.xml /usr/share/dbus-1/interfaces/
 accountsservice/io.elementary.pantheon.AccountsService.policy /usr/share/polkit-1/actions/
 skel/flatpak/repo/appcenter.trustedkeys.gpg /etc/skel/.local/share/flatpak/repo/
+skel/flatpak/repo/flathub.trustedkeys.gpg /etc/skel/.local/share/flatpak/repo/
 skel/flatpak/repo/config /etc/skel/.local/share/flatpak/repo/
 sessioninstaller/sessioninstaller.desktop /usr/share/applications/
 sudoers.d/* /etc/sudoers.d/
