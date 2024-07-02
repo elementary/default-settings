@@ -3,6 +3,7 @@ accountsservice/io.elementary.pantheon.AccountsService.policy /usr/share/polkit-
 skel/flatpak/repo/appcenter.trustedkeys.gpg /etc/skel/.local/share/flatpak/repo/
 skel/flatpak/repo/flathub.trustedkeys.gpg /etc/skel/.local/share/flatpak/repo/
 skel/flatpak/repo/config /etc/skel/.local/share/flatpak/repo/
+skel/plank/dock1 /etc/skel/.config/plank/
 sessioninstaller/sessioninstaller.desktop /usr/share/applications/
 sudoers.d/* /etc/sudoers.d/
 skel/.inputrc /etc/skel/
