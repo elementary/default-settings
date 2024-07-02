@@ -1,3 +1,16 @@
+elementary-default-settings (8.0.0) noble; urgency=medium
+
+  * Add Flathub to default flatpak config
+  * Drop Qt style overrides
+  * Drop Plank overrides
+  * Fix installing pantheon portals.conf
+  * Change ⌘ key behavior to Applications menu by default
+  * Remove deprecated settings overrides
+  * Disabled offline notifications by default
+  * Remove keyboard shortcut overrides that are handled elsewhere
+
+ -- Danielle Foré <danielle@elementary.io>  Thu, 16 May 2024 09:59:16 -0700
+
 elementary-default-settings (7.1.0) jammy; urgency=medium
 
   * Release 7.1.0
