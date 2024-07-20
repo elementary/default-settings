@@ -1,25 +1,35 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
+    strategy:
+      fail-fast: false
+      matrix:
+        version: [stable, unstable, development-target]
     container:
-      image: elementary/docker:odin-unstable
+      image: ghcr.io/elementary/docker:${{ matrix.version }}
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Install Dependencies
-      run: |
-        apt update
-        apt install -y meson libaccountsservice-dev dbus libpolkit-gobject-1-dev python3 libglib2.0-bin
-    - name: Build
-      env:
-        DESTDIR: ${{ env.PWD }}/build/out
-      run: |
-        meson build
-        ninja -C build
-        ninja -C build install
+      - uses: actions/checkout@v4
+      - name: Install Dependencies
+        run: |
+          apt update
+          apt install -y meson libaccountsservice-dev dbus libpolkit-gobject-1-dev python3 libglib2.0-bin
+      - name: Build
+        env:
+          DESTDIR: ${{ env.PWD }}/build/out
+        run: |
+          meson build
+          ninja -C build
+          ninja -C build install

@@ -1,2 +1,2 @@
 [PlankDockItemPreferences]
-Launcher=file:///usr/share/applications/io.elementary.music.desktop
+Launcher=file:///var/lib/flatpak/exports/share/applications/io.elementary.music.desktop

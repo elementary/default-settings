@@ -11,9 +11,8 @@ Standards-Version: 4.1.1
 
 Package: elementary-default-settings
 Architecture: all
-Depends: libglib2.0-bin, qt5-gtk-platformtheme, adwaita-qt, elementary-icon-theme, ${misc:Depends}
+Depends: libglib2.0-bin, elementary-icon-theme, ${misc:Depends}
 Replaces: libgtk-3-0
-Enhances: plank
 Description: Default settings for elementary OS
  This package contains various system defaults for elementary OS.
  Installing this package won't affect existing users on your system.
@@ -22,6 +21,6 @@ Package: elementary-printer-test-page
 Architecture: all
 Depends: ${misc:Depends}
 Conflicts: print-test-page-elementary
-Replaces: cups-filters, print-test-page-elementary
+Replaces: print-test-page-elementary
 Description: printer test page for elementary
  Printer test page for elementary OS.
