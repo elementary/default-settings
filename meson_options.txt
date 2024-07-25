@@ -13,6 +13,11 @@ option('default-wallpaper-dark',
        value: '',
        description: 'Path to dark wallpaper to use in Pantheon.')
 
+option('plank-dockitems',
+       type: 'boolean',
+       value: true,
+       description: 'Install default Pantheon Plank dockitems')
+
 option('default-gsettings-overrides',
        type: 'boolean',
        value: true,
