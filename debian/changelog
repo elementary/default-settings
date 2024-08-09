@@ -9,7 +9,7 @@ elementary-default-settings (8.0.0) noble; urgency=medium
   * Disabled offline notifications by default
   * Remove keyboard shortcut overrides that are handled elsewhere
 
- -- Danielle Foré <danielle@elementary.io>  Thu, 16 May 2024 09:59:16 -0700
+ -- Danielle Foré <danielle@elementary.io>  Fri, 09 Aug 2024 11:25:21 -0700
 
 elementary-default-settings (7.1.0) jammy; urgency=medium
 
