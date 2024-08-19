@@ -149,6 +149,6 @@ sort-directories-first=true
 [org.onboard:Pantheon]
 theme='/usr/share/onboard/themes/Nightshade.theme'
 
-[org.pantheon.desktop.gala.behavior:Pantheon]
+[io.elementary.desktop.wm.behavior:Pantheon]
 overlay-action='io.elementary.wingpanel --toggle-indicator=app-launcher'
 panel-main-menu-action='io.elementary.wingpanel --toggle-indicator=app-launcher'
