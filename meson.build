@@ -26,12 +26,6 @@ install_data(
     install_dir: datadir / 'cups' / 'data'
 )
 
-# GTK3 Settings
-install_data(
-    'gtk/settings.ini',
-    install_dir: sysconfdir / 'gtk-3.0'
-)
-
 # So SessionInstaller can have an Icon
 install_data(
     'sessioninstaller/sessioninstaller.desktop',
@@ -52,3 +46,6 @@ subdir('accountsservice')
 
 # System skeleton
 subdir('skel')
+
+# GTK settings
+subdir('gtk')
