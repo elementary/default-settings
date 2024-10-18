@@ -46,3 +46,6 @@ subdir('accountsservice')
 
 # System skeleton
 subdir('skel')
+
+# GTK settings
+subdir('gtk')
