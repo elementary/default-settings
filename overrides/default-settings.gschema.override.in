@@ -30,10 +30,6 @@ monospace-font-name='Roboto Mono 10'
 natural-scroll=true
 tap-to-click=true
 
-[org.gnome.desktop.privacy:Pantheon]
-remove-old-temp-files=true
-remove-old-trash-files=true
-
 [org.gnome.desktop.session:Pantheon]
 idle-delay=900
 
