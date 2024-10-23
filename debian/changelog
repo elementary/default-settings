@@ -1,3 +1,10 @@
+elementary-default-settings (8.0.2) noble; urgency=medium
+
+  * Unset GNOME privacy keys
+  * Install gtk-settings.ini
+
+ -- elementary, Inc. <builds@elementary.io>  Tue, 22 Oct 2024 10:40:20 -0700
+
 elementary-default-settings (8.0.1) noble; urgency=medium
 
   * Update Gala WM schema

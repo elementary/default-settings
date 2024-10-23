@@ -1,6 +1,6 @@
 project(
     'elementary-default-settings',
-    version: '8.0.1',
+    version: '8.0.2',
     meson_version: '>= 0.58.0'
 )
 
