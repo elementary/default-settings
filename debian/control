@@ -3,6 +3,7 @@ Section: gnome
 Priority: optional
 Maintainer: elementary, Inc. <builds@elementary.io>
 Build-Depends: debhelper (>= 10.5.1),
+               apparmor-profiles,
                libaccountsservice-dev,
                libdbus-1-dev,
                libpolkit-gobject-1-dev,
