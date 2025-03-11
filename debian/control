@@ -3,7 +3,6 @@ Section: gnome
 Priority: optional
 Maintainer: elementary, Inc. <builds@elementary.io>
 Build-Depends: debhelper (>= 10.5.1),
-               apparmor-profiles,
                libaccountsservice-dev,
                libdbus-1-dev,
                libpolkit-gobject-1-dev,
@@ -12,7 +11,7 @@ Standards-Version: 4.1.1
 
 Package: elementary-default-settings
 Architecture: all
-Depends: libglib2.0-bin, elementary-icon-theme, ${misc:Depends}
+Depends: apparmor-profiles, libglib2.0-bin, elementary-icon-theme, ${misc:Depends}
 Replaces: libgtk-3-0
 Description: Default settings for elementary OS
  This package contains various system defaults for elementary OS.
