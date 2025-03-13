@@ -1,3 +1,10 @@
+elementary-default-settings (8.0.3) noble; urgency=medium
+
+  * Install brwap-userns-restrict apparmor profile
+  * Remove gala overrides
+
+ -- Danielle Foré <danielle@elementary.io>  Mon, 10 Mar 2025 14:00:55 -0700
+
 elementary-default-settings (8.0.2) noble; urgency=medium
 
   * Unset GNOME privacy keys
