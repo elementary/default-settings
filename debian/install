@@ -10,3 +10,5 @@ skel/.inputrc /etc/skel/
 usr/share/accountsservice/interfaces/
 usr/share/glib-2.0/schemas
 usr/share/xdg-desktop-portal
+network/01-network-manager-all.yml /etc/netplan/
+network/10-globally-managed-devices.conf /etc/NetworkManager/conf.d/
