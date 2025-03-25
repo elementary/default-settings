@@ -49,3 +49,6 @@ subdir('skel')
 
 # GTK settings
 subdir('gtk')
+
+# Plymouth HiDPI support
+subdir('plymouth')
