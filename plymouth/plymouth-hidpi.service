@@ -9,6 +9,5 @@ Environment="DISPLAY=:0"
 ExecStart=/usr/local/bin/plymouth-hidpi.sh
 ExecStartPost=/bin/bash -c "systemctl disable plymouth-hidpi.service; rm -f /etc/systemd/system/plymouth-hidpi.service /usr/local/bin/plymouth-hidpi.sh"
 
-
 [Install]
 WantedBy=multi-user.target
