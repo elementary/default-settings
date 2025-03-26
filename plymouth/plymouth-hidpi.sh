@@ -41,7 +41,7 @@ apply_hidpi_setting() {
             create_config
             logger -t plymouth-hidpi "Created new config: '$CONFIG_FILE' with HiDPI setting"
         fi
-        
+
         # Apply the changes
         update-initramfs -u
         logger -t plymouth-hidpi "Updated initramfs after HiDPI change"
