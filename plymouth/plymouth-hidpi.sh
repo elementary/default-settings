@@ -47,7 +47,6 @@ apply_hidpi_setting() {
         logger -t plymouth-hidpi "Updated initramfs after HiDPI change"
     else
         logger -t plymouth-hidpi "Skipped HiDPI settings (DPI: $DPI, Threshold: $HIDPI_THRESHOLD)"
-
     fi
 }
 
