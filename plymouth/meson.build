@@ -9,4 +9,3 @@ install_data(
     'plymouth-hidpi.service',
     install_dir: '/etc/systemd/system'
 )
-
