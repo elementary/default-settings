@@ -10,9 +10,3 @@ install_data(
     install_dir: '/etc/systemd/system'
 )
 
-# Enable the service so it runs once on boot
-meson.add_install_script('systemctl', 'enable', 'plymouth-hidpi.service')
-
-# Reload systemd daemon after installation
-meson.add_install_script('systemctl', 'daemon-reload')
-
