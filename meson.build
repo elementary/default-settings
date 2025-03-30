@@ -51,4 +51,8 @@ subdir('skel')
 subdir('gtk')
 
 # Plymouth HiDPI support
-subdir('plymouth')
+if get_option('enable-plymouth-hidpi')
+    subdir('plymouth')
+else
+    message('Plymouth HiDPI support disabled.')
+endif
