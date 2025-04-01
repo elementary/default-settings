@@ -6,7 +6,6 @@ Requires=graphical.target
 [Service]
 Type=oneshot
 ExecStart="@BINDIR@/plymouth-hidpi.sh"
-ExecStartPost=/bin/bash -c 'if [ $? -eq 0 ]; then systemctl disable plymouth-hidpi.service; rm -f /etc/systemd/system/plymouth-hidpi.service @BINDIR@/plymouth-hidpi.sh; fi'
 
 [Install]
 WantedBy=graphical.target
