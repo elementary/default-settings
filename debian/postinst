@@ -12,3 +12,10 @@ esac
 ln -s /usr/share/apparmor/extra-profiles/bwrap-userns-restrict /etc/apparmor.d/ || true
 
 #DEBHELPER#
+
+# Plymouth HiDPI support
+
+if [ -x /bin/systemctl ] || [ -x /usr/bin/systemctl ]; then
+    systemctl preset plymouth-hidpi.service || true
+    systemctl enable plymouth-hidpi.service || true
+fi

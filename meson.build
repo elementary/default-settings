@@ -52,3 +52,10 @@ subdir('geoclue')
 
 # GTK settings
 subdir('gtk')
+
+# Plymouth HiDPI support
+if get_option('enable-plymouth-hidpi')
+    subdir('plymouth')
+else
+    message('Plymouth HiDPI support disabled.')
+endif
