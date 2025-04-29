@@ -17,3 +17,8 @@ option('default-gsettings-overrides',
        type: 'boolean',
        value: true,
        description: 'Install default Pantheon GSettings Overrides')
+
+option('geoclue',
+       type: 'boolean',
+       value: true,
+       description: 'Install configuration files for GeoClue')
