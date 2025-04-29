@@ -47,5 +47,8 @@ subdir('accountsservice')
 # System skeleton
 subdir('skel')
 
+# Geolocation settings
+subdir('geoclue')
+
 # GTK settings
 subdir('gtk')
