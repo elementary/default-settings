@@ -1,14 +1,17 @@
 Source: elementary-default-settings
 Section: gnome
 Priority: optional
-Maintainer: Cody Garver <cody@elementary.io>
-Build-Depends: debhelper (>= 10.5.1)
+Maintainer: elementary, Inc. <builds@elementary.io>
+Build-Depends: debhelper (>= 10.5.1),
+               libaccountsservice-dev,
+               libdbus-1-dev,
+               libpolkit-gobject-1-dev,
+               meson
 Standards-Version: 4.1.1
 
 Package: elementary-default-settings
 Architecture: all
-Depends: libglib2.0-bin, qt5-gtk-platformtheme, adwaita-qt, elementary-icon-theme, ${misc:Depends}
-Recommends: io.elementary.terminal
+Depends: apparmor-profiles, libglib2.0-bin, elementary-icon-theme, ${misc:Depends}
 Replaces: libgtk-3-0
 Description: Default settings for elementary OS
  This package contains various system defaults for elementary OS.
@@ -21,19 +24,3 @@ Conflicts: print-test-page-elementary
 Replaces: print-test-page-elementary
 Description: printer test page for elementary
  Printer test page for elementary OS.
-
-Package: plymouth-theme-elementary
-Architecture: all
-Depends: plymouth, plymouth-label, ${misc:Depends}
-Provides: plymouth-theme
-Description: changes the plymouth theme to elementary OS
- Changes the plymouth theme to the official elementary OS theme.
-
-Package: plymouth-theme-elementary-text
-Section: oldlibs
-Priority: optional
-Architecture: all
-Depends: ${misc:Depends}
-Description: Dummy transitional package
- This package is transitional to plymouth-theme-elementary.
- It can be safely removed after upgrade to elementary OS 0.4 Freya.
