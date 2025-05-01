@@ -1,4 +1,4 @@
-appcenter.blacklist /etc/io.elementary.appcenter/
+99-beacondb.conf /etc/geoclue/conf.d/
 profile.d/*.sh /etc/profile.d/
 sessioninstaller.desktop /usr/share/applications/
 settings.ini /etc/gtk-3.0/
