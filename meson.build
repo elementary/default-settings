@@ -52,3 +52,6 @@ subdir('geoclue')
 
 # GTK settings
 subdir('gtk')
+
+# Network settings
+subdir('network')
