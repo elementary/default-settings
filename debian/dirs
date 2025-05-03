@@ -1,0 +1,6 @@
+etc/skel/.local/share/flatpak/repo/extensions
+etc/skel/.local/share/flatpak/repo/objects
+etc/skel/.local/share/flatpak/repo/refs/heads
+etc/skel/.local/share/flatpak/repo/refs/mirrors
+etc/skel/.local/share/flatpak/repo/refs/remotes
+etc/skel/.local/share/flatpak/repo/state
