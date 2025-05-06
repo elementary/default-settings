@@ -1,7 +1,13 @@
-99-beacondb.conf /etc/geoclue/conf.d/
-profile.d/*.sh /etc/profile.d/
-sessioninstaller.desktop /usr/share/applications/
-settings.ini /etc/gtk-3.0/
+accountsservice/io.elementary.pantheon.AccountsService.xml /usr/share/dbus-1/interfaces/
+accountsservice/io.elementary.pantheon.AccountsService.policy /usr/share/polkit-1/actions/
+skel/flatpak/repo/appcenter.trustedkeys.gpg /etc/skel/.local/share/flatpak/repo/
+skel/flatpak/repo/flathub.trustedkeys.gpg /etc/skel/.local/share/flatpak/repo/
+skel/flatpak/repo/config /etc/skel/.local/share/flatpak/repo/
+sessioninstaller/sessioninstaller.desktop /usr/share/applications/
+/etc/geoclue/conf.d/
+/etc/gtk-*/
 sudoers.d/* /etc/sudoers.d/
-overrides/*.gschema.override /usr/share/glib-2.0/schemas
-.inputrc /etc/skel/
+skel/.inputrc /etc/skel/
+usr/share/accountsservice/interfaces/
+usr/share/glib-2.0/schemas
+usr/share/xdg-desktop-portal

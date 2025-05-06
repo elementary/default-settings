@@ -1,0 +1,7 @@
+*~
+debian/*debhelper*
+debian/elementary-default-settings/
+debian/elementary-printer-test-page/
+debian/files
+debian/*.substvars
+debian/tmp
