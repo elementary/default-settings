@@ -8,6 +8,7 @@ sessioninstaller/sessioninstaller.desktop /usr/share/applications/
 /etc/gtk-*/
 sudoers.d/* /etc/sudoers.d/
 skel/.inputrc /etc/skel/
+usr/share/apparmor/extra-profiles
 usr/share/accountsservice/interfaces/
 usr/share/glib-2.0/schemas
 usr/share/xdg-desktop-portal
