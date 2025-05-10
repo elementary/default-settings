@@ -8,7 +8,4 @@ case "$1" in
   ;;
 esac
 
-# Fix flatpak updates:
-ln -s /usr/share/apparmor/extra-profiles/bwrap-userns-restrict /etc/apparmor.d/ || true
-
 #DEBHELPER#
