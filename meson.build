@@ -38,6 +38,13 @@ install_data(
     install_dir: datadir / 'xdg-desktop-portal'
 )
 
+# AppArmor Flatpak profile
+install_data(
+    'apparmor/bwrap-userns-restrict',
+    install_dir: datadir / 'apparmor' / 'extra-profiles',
+    rename: 'bwrap-userns-restrict-patched',
+)
+
 # Default gsettings overrides
 subdir('overrides')
 
