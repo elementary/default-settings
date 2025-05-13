@@ -8,4 +8,7 @@ case "$1" in
   ;;
 esac
 
+# Remove old apparmor profile
+rm /etc/apparmor.d/bwrap-userns-restrict || true
+
 #DEBHELPER#
