@@ -1,3 +1,9 @@
+elementary-default-settings (8.1.0) noble; urgency=medium
+
+  * Release 8.1.0
+
+ -- Danielle Foré <danielle@elementary.io>  Tue, 13 May 2025 09:39:23 -0700
+
 elementary-default-settings (8.0.3) noble; urgency=medium
 
   * Install brwap-userns-restrict apparmor profile
