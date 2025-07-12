@@ -1,6 +1,6 @@
 project(
     'elementary-default-settings',
-    version: '8.0.2',
+    version: '8.1.0',
     meson_version: '>= 0.58.0'
 )
 
@@ -38,6 +38,11 @@ install_data(
     install_dir: datadir / 'xdg-desktop-portal'
 )
 
+# AppArmor profiles for bwrap etc
+if get_option('apparmor-profiles')
+    subdir('apparmor')
+endif
+
 # Default gsettings overrides
 subdir('overrides')
 
@@ -46,6 +51,9 @@ subdir('accountsservice')
 
 # System skeleton
 subdir('skel')
+
+# Geolocation settings
+subdir('geoclue')
 
 # GTK settings
 subdir('gtk')

@@ -51,8 +51,7 @@ move-to-workspace-9=['<Super><Alt>9']
 move-to-workspace-left=['<Super><Alt>Left']
 move-to-workspace-right=['<Super><Alt>Right']
 panel-run-dialog=[]
-# Gala shows workspaces overview instead of desktop
-show-desktop=['<Super>Down','<Super>s']
+show-desktop=[]
 switch-applications=[]
 switch-applications-backward=[]
 # FIXME: Remove after https://github.com/elementary/granite/issues/648 is fixed
