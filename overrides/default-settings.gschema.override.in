@@ -75,7 +75,7 @@ switch-to-workspace-8=['<Super><Shift>8']
 switch-to-workspace-9=['<Super><Shift>9']
 switch-windows=['<Alt>Tab']
 switch-windows-backward=['<Alt><Shift>Tab']
-toggle-maximized=['<Super>Up']
+toggle-maximized=['<Ctrl><Super>Up']
 # defaults to <Super>Down used above, so we need to override it
 unmaximize=['<Alt>F5']
 
