@@ -33,6 +33,7 @@
         8 = Pink
         9 = Brown
         10 = Gray
+        11 = Latte
 
       Unrecognized preferences should be considered equal to No Preference.
     -->
