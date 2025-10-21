@@ -1,0 +1,6 @@
+[Environment]
+QT_LINUX_ACCESSIBILITY_ALWAYS=true
+GTK_PATH=/app/lib/gtkmodules
+
+[Session Bus Policy]
+org.a11y.bus=talk
