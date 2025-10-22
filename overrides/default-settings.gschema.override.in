@@ -98,6 +98,7 @@ toggle-tiled-right=['<Control><Super>Right']
 disable-connected-notifications=true
 disable-disconnected-notifications=true
 show-applet=false
+suppress-wireless-networks-available=true
 
 [org.gnome.settings-daemon.plugins.color:Pantheon]
 night-light-temperature=4500
