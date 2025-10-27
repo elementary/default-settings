@@ -1,9 +1,10 @@
 project(
     'elementary-default-settings',
     version: '8.1.0',
-    meson_version: '>= 0.58.0'
+    meson_version: '>= 1.3.0'
 )
 
+fs = import('fs')
 gnome = import('gnome')
 prefix = get_option('prefix')
 datadir = prefix / get_option('datadir')
@@ -11,8 +12,6 @@ sysconfdir = get_option('sysconfdir')
 schemadir = datadir / 'glib-2.0' / 'schemas'
 
 gnome.post_install(glib_compile_schemas: true)
-
-symlink = meson.current_source_dir () / 'meson' / 'create-symlink.sh'
 
 # Sudo password feedback in terminals
 install_data(
