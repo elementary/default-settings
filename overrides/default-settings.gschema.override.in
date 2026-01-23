@@ -84,6 +84,11 @@ button-layout='close:maximize'
 mouse-button-modifier='<Super>'
 resize-with-right-button=true
 
+[org.gnome.evolution-data-server.calendar:Pantheon]
+notify-completed-tasks=false
+notify-enable-audio=false
+notify-enable-display=false
+
 [org.gnome.mutter:Pantheon]
 auto-maximize=false
 overlay-key='Super_L'
