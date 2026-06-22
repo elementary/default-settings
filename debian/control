@@ -1,7 +1,7 @@
 Source: elementary-default-settings
 Section: gnome
 Priority: optional
-Maintainer: elementary, Inc. <builds@elementary.io>
+Maintainer: elementary <builds@elementary.io>
 Build-Depends: debhelper (>= 10.5.1),
                libaccountsservice-dev,
                libdbus-1-dev,
