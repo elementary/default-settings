@@ -59,3 +59,6 @@ subdir('gtk')
 
 # Network settings
 subdir('network')
+
+# Flatpak preinstall files
+subdir('flatpak')
