@@ -108,6 +108,9 @@ suppress-wireless-networks-available=true
 [org.gnome.settings-daemon.plugins.color:Pantheon]
 night-light-temperature=4500
 
+[org.gnome.settings-daemon.plugins.housekeeping:Pantheon]
+donation-reminder-enabled=false
+
 [org.gnome.settings-daemon.plugins.media-keys:Pantheon]
 terminal=['<Super>t']
 # see https://github.com/elementary/switchboard-plug-keyboard/issues/376#issuecomment-899068830
