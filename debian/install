@@ -1,16 +1,16 @@
-accountsservice/io.elementary.pantheon.AccountsService.xml /usr/share/dbus-1/interfaces/
-accountsservice/io.elementary.pantheon.AccountsService.policy /usr/share/polkit-1/actions/
-skel/flatpak/repo/appcenter.trustedkeys.gpg /etc/skel/.local/share/flatpak/repo/
-skel/flatpak/repo/flathub.trustedkeys.gpg /etc/skel/.local/share/flatpak/repo/
-skel/flatpak/repo/config /etc/skel/.local/share/flatpak/repo/
-sessioninstaller/sessioninstaller.desktop /usr/share/applications/
-/etc/geoclue/conf.d/
-/etc/gtk-*/
-sudoers.d/* /etc/sudoers.d/
-skel/.inputrc /etc/skel/
+usr/share/dbus-1/interfaces/io.elementary.pantheon.AccountsService.xml
+usr/share/polkit-1/actions/io.elementary.pantheon.AccountsService.policy
+etc/skel/.local/share/flatpak/repo/appcenter.trustedkeys.gpg
+etc/skel/.local/share/flatpak/repo/flathub.trustedkeys.gpg
+etc/skel/.local/share/flatpak/repo/config
+usr/share/applications/sessioninstaller.desktop
+etc/geoclue/conf.d/
+etc/gtk-*/
+etc/sudoers.d/
+etc/skel/.inputrc
 usr/share/apparmor/extra-profiles
 usr/share/accountsservice/interfaces/
 usr/share/glib-2.0/schemas
 usr/share/xdg-desktop-portal
-network/01-network-manager-all.yml /etc/netplan/
-network/10-globally-managed-devices.conf /etc/NetworkManager/conf.d/
+etc/netplan/01-network-manager-all.yml
+etc/NetworkManager/conf.d/10-globally-managed-devices.conf
