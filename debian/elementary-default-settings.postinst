@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+# Remove the flag file that flatpak-preinstalld.service generates before the DEBHELPER token, where debhelper starts
+# that service, to make sure flatpak preinstall is executed on package update in case we add new default app
+# to the .preinstall file (see "man debhelper" for details about the DEBHELPER token)
+rm -f /var/lib/flatpak/.preinstall-finished
+
+#DEBHELPER#
