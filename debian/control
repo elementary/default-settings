@@ -2,7 +2,7 @@ Source: elementary-default-settings
 Section: gnome
 Priority: optional
 Maintainer: elementary <builds@elementary.io>
-Build-Depends: debhelper (>= 10.5.1),
+Build-Depends: debhelper-compat (= 13),
                libaccountsservice-dev,
                libdbus-1-dev,
                libpolkit-gobject-1-dev,
