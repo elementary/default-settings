@@ -2,3 +2,5 @@
 
 dpkg-divert --package elementary-printer-test-page --add --rename \
     --divert /usr/share/cups/data/default-testpage.pdf.real /usr/share/cups/data/default-testpage.pdf
+
+#DEBHELPER#
