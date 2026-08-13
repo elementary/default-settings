@@ -6,7 +6,7 @@ preinstall_files = [
 foreach file : preinstall_files
     install_data(
         file,
-        install_dir: sysconfdir / 'flatpak' / 'preinstall.d'
+        install_dir: datadir / 'flatpak' / 'preinstall.d'
     )
 endforeach
 
