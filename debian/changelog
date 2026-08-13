@@ -22,13 +22,13 @@ elementary-default-settings (8.0.2) noble; urgency=medium
   * Unset GNOME privacy keys
   * Install gtk-settings.ini
 
- -- elementary, Inc. <builds@elementary.io>  Tue, 22 Oct 2024 10:40:20 -0700
+ -- elementary <builds@elementary.io>  Tue, 22 Oct 2024 10:40:20 -0700
 
 elementary-default-settings (8.0.1) noble; urgency=medium
 
   * Update Gala WM schema
 
- -- elementary, Inc. <builds@elementary.io>  Tue, 17 Sep 2024 10:38:18 -0700
+ -- elementary <builds@elementary.io>  Tue, 17 Sep 2024 10:38:18 -0700
 
 elementary-default-settings (8.0.0) noble; urgency=medium
 
@@ -101,7 +101,7 @@ elementary-default-settings (5.9.0) focal; urgency=medium
   * Update applications desktop name for the dock
   * Add Tasks to the dock
 
- -- elementary, Inc. <builds@elementary.io>  Sat, 12 Dec 2020 11:11:11 +0100
+ -- elementary <builds@elementary.io>  Sat, 12 Dec 2020 11:11:11 +0100
 
 elementary-default-settings (5.1.2) bionic; urgency=medium
 
