@@ -1,13 +1,7 @@
-preinstall_files = [
+install_data(
     'appcenter.preinstall',
-]
-
-foreach file : preinstall_files
-    install_data(
-        file,
-        install_dir: datadir / 'flatpak' / 'preinstall.d'
-    )
-endforeach
+    install_dir: datadir / 'flatpak' / 'preinstall.d'
+)
 
 systemd_system_unit_dir = get_option('systemdsystemunitdir')
 if systemd_system_unit_dir != 'no'
