@@ -1,6 +1,5 @@
 preinstall_files = [
     'appcenter.preinstall',
-    'flathub.preinstall',
 ]
 
 foreach file : preinstall_files
