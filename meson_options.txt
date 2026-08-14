@@ -27,3 +27,8 @@ option('geoclue',
        type: 'boolean',
        value: true,
        description: 'Install configuration files for GeoClue')
+
+option('systemdsystemunitdir',
+       type: 'string',
+       value: '',
+       description: 'Custom directory for systemd system units, or \'no\' to disable')

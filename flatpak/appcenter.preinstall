@@ -1,0 +1,32 @@
+[Flatpak Preinstall io.elementary.calculator]
+Branch=stable
+
+[Flatpak Preinstall io.elementary.camera]
+Branch=stable
+
+[Flatpak Preinstall io.elementary.capnet-assist]
+Branch=stable
+
+[Flatpak Preinstall io.elementary.maps]
+Branch=stable
+
+[Flatpak Preinstall io.elementary.music]
+Branch=stable
+
+[Flatpak Preinstall io.elementary.screenshot]
+Branch=stable
+
+[Flatpak Preinstall io.elementary.videos]
+Branch=stable
+
+[Flatpak Preinstall org.gnome.Epiphany]
+Branch=stable
+
+[Flatpak Preinstall org.gnome.Evince]
+Branch=stable
+
+[Flatpak Preinstall org.gnome.FileRoller]
+Branch=stable
+
+[Flatpak Preinstall org.gnome.font-viewer]
+Branch=stable

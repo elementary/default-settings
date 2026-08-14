@@ -9,6 +9,7 @@ gnome = import('gnome')
 prefix = get_option('prefix')
 datadir = prefix / get_option('datadir')
 sysconfdir = get_option('sysconfdir')
+sharedstatedir = get_option('sharedstatedir')
 schemadir = datadir / 'glib-2.0' / 'schemas'
 
 gnome.post_install(glib_compile_schemas: true)
@@ -59,3 +60,6 @@ subdir('gtk')
 
 # Network settings
 subdir('network')
+
+# Flatpak preinstall files
+subdir('flatpak')

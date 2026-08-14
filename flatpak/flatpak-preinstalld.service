@@ -1,0 +1,22 @@
+[Unit]
+Description=Preinstall Flatpaks
+After=network-online.target
+Wants=network-online.target
+ConditionPathExists=/usr/bin/flatpak
+ConditionPathExists=!/var/lib/flatpak/.preinstall-finished
+Documentation=man:flatpak-preinstall(1)
+StartLimitIntervalSec=600
+
+[Service]
+Type=oneshot
+ExecStart=mkdir -p /var/lib/flatpak/
+ExecStart=/usr/bin/flatpak preinstall -y
+ExecStart=touch /var/lib/flatpak/.preinstall-finished
+RemainAfterExit=true
+Restart=on-failure
+RestartSec=30
+
+StartLimitBurst=3
+
+[Install]
+WantedBy=multi-user.target
