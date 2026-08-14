@@ -1,3 +1,5 @@
+subdir('remotes.d')
+
 install_data(
     'appcenter.preinstall',
     install_dir: datadir / 'flatpak' / 'preinstall.d'
