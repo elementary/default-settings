@@ -25,7 +25,7 @@ jobs:
       - name: Install Dependencies
         run: |
           apt update
-          apt install -y meson libaccountsservice-dev dbus libpolkit-gobject-1-dev python3 libglib2.0-bin libsystemd-dev
+          apt install -y meson libaccountsservice-dev dbus libpolkit-gobject-1-dev python3 libglib2.0-bin systemd-dev
       - name: Build
         env:
           DESTDIR: ${{ env.PWD }}/build/out
