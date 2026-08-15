@@ -1,0 +1,7 @@
+# This is for org.gnome.Epiphany and io.elementary.capnet-assist.
+# Flatpak won't install the GL runtime alongside these apps because they're published
+# in different repositories (see https://github.com/flatpak/flatpak/issues/3094 for details).
+# So explicitly install here.
+[Flatpak Preinstall org.freedesktop.Platform.GL.default]
+Branch=24.08
+IsRuntime=true

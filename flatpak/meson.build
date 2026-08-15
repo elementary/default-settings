@@ -1,9 +1,16 @@
 subdir('remotes.d')
 
-install_data(
+preinstall_files = [
     'appcenter.preinstall',
-    install_dir: datadir / 'flatpak' / 'preinstall.d'
-)
+    'flathub.preinstall',
+]
+
+foreach file : preinstall_files
+    install_data(
+        file,
+        install_dir: datadir / 'flatpak' / 'preinstall.d'
+    )
+endforeach
 
 systemd_system_unit_dir = get_option('systemdsystemunitdir')
 if systemd_system_unit_dir != 'no'
