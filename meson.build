@@ -23,6 +23,8 @@ install_data(
 # CUPS Printing testpage
 install_data(
     'cups/default-testpage.pdf',
+    'cups/sudoku-testpage.pdf',
+    'cups/sudoku-testprint',
     install_dir: datadir / 'cups' / 'data'
 )
 
