@@ -3,5 +3,5 @@
 # in different repositories (see https://github.com/flatpak/flatpak/issues/3094 for details).
 # So explicitly install here.
 [Flatpak Preinstall org.freedesktop.Platform.GL.default]
-Branch=24.08
+Branch=25.08
 IsRuntime=true
