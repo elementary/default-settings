@@ -22,7 +22,7 @@ Branch=stable
 [Flatpak Preinstall org.gnome.Epiphany]
 Branch=stable
 
-[Flatpak Preinstall org.gnome.Evince]
+[Flatpak Preinstall org.gnome.Papers]
 Branch=stable
 
 [Flatpak Preinstall org.gnome.FileRoller]
